@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <metadata
+     id="metadata1976">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <marker
+       viewBox="0 0 10 10"
+       refY="5"
+       refX="10"
+       orient="auto"
+       markerWidth="4"
+       markerUnits="strokeWidth"
+       markerHeight="3"
+       id="ArrowStart">
+      <path
+         id="path2111"
+         d="M 10,0 0,5 10,10 Z" />
+    </marker>
+    <marker
+       viewBox="0 0 10 10"
+       refY="5"
+       refX="0"
+       orient="auto"
+       markerWidth="4"
+       markerUnits="strokeWidth"
+       markerHeight="3"
+       id="ArrowEnd">
+      <path
+         id="path2108"
+         d="M 0,0 10,5 0,10 Z" />
+    </marker>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <g
+     id="g2117"
+     transform="matrix(1.1975036,0,0,1.1975036,80.128205,-417.42417)"
+     style="fill:#000000">
+    <g
+       id="g2119"
+       style="fill:#000000">
+      <g
+         id="g2121"
+         style="fill:#000000">
+        <path
+           id="path2125"
+           style="fill:#000000;stroke:none"
+           d="" />
+      </g>
+      <g
+         id="g2127"
+         style="fill:#000000">
+        <path
+           id="path2131"
+           style="fill:#000000;stroke:none"
+           d="" />
+      </g>
+    </g>
+  </g>
+  <path
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.99995565px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 125.03954,64 c 0,33.67975 -27.359785,61.03955 -61.039535,61.03955 -33.67975,0 -61.03955,-27.3598 -61.03955,-61.03955 0,-33.67975 27.3598,-61.03955 61.03955,-61.03955 33.67975,0 61.039535,27.3598 61.039535,61.03955 z"
+     id="path854" />
+  <path
+     style="fill:#0092da;fill-opacity:1;stroke:none;stroke-width:0.17466512"
+     d="m 63.637045,18.500001 c 0.11814,0 0.24087,0.0045 0.36025,0.0054 0.12019,-8.73e-4 0.24129,-0.0054 0.36024,-0.0054 z m 0.36025,0.0054 c -8.38827,0.06646 -19.753196,2.42834 -24.496788,4.404836 -4.811565,2.00482 -8.02024,4.010603 -9.022546,9.022545 l -3.607926,27.788187 v 38.284412 h 6.216987 v 6.004109 c 0,7.32068 10.709155,7.32068 10.709155,0 v -6.004109 h 19.780828 0.06 20.56136 v 6.004109 c 0,7.32068 10.71461,7.32068 10.71461,0 v -6.004109 h 6.216995 V 59.720969 L 97.522035,31.93284 c -1.0023,-5.011942 -4.21098,-7.017727 -9.02254,-9.022545 -4.74406,-1.976689 -16.11374,-4.338818 -24.50224,-4.404836 z m -15.27229,7.013905 h 14.91204 15.63799 c 3.00733,0 3.00733,4.508544 0,4.508544 h -15.67074 -14.87929 c -3.007328,0 -3.00733,-4.508544 0,-4.508544 z m -8.111008,9.066212 h 22.990298 23.77629 c 3.17675,0 4.00823,1.612512 4.39392,4.060964 l 2.81101,20.151988 c 0.26187,1.931613 -0.3006,3.848089 -2.9693,3.848091 H 63.637045 36.378368 c -2.6687,0 -3.225719,-1.91648 -2.963849,-3.848091 l 2.811017,-20.151988 c 0.385695,-2.448452 1.211706,-4.060964 4.388461,-4.060964 z m -2.166939,41.139094 c 2.837911,-2e-6 5.136246,2.303793 5.136246,5.141705 0,2.837913 -2.298335,5.136246 -5.136246,5.136246 -2.837912,2e-6 -5.141705,-2.298334 -5.141705,-5.136246 0,-2.83791 2.303793,-5.141705 5.141705,-5.141705 z m 51.105927,0 c 2.83791,0 5.13624,2.303795 5.13624,5.141705 0,2.837912 -2.29833,5.136248 -5.13624,5.136246 -2.83792,0 -5.14171,-2.298333 -5.14171,-5.136246 0,-2.837912 2.3038,-5.141707 5.14171,-5.141705 z"
+     id="path2115" />
+</svg>

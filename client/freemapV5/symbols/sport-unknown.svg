@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       type="text/css"
+       id="style6">
+   
+    .fil0 {fill:#EF7900}
+   
+  </style>
+  </defs>
+  <path
+     style="fill:#1b8389;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:3.03997755px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 21.520312,1.520457 h 84.959378 c 11.11992,0 19.99985,8.87994 19.99985,19.99986 v 84.959373 c 0,11.11992 -8.87993,19.99985 -19.99985,19.99985 H 21.520312 c -11.11992,0 -19.9998525,-8.87993 -19.9998525,-19.99985 V 21.520317 c 0,-11.11992 8.8799325,-19.99986 19.9998525,-19.99986 z"
+     id="path828" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3081131px;line-height:426.54058838px;font-family:sans;-inkscape-font-specification:sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="61.619778"
+     y="107.77996"
+     id="text820"><tspan
+       id="tspan818"
+       x="61.619778"
+       y="107.77996"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans;-inkscape-font-specification:'sans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.46888852px">?</tspan></text>
+</svg>

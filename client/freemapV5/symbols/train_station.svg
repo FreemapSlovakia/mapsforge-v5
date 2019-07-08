@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2"
+   height="128"
+   width="128"
+   version="1.0">
+  <defs
+     id="defs22">
+    <marker
+       id="ArrowStart"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
+       refX="10"
+       refY="5"
+       viewBox="0 0 10 10">
+      <path
+         d="M 10,0 0,5 10,10 Z"
+         id="path3568" />
+    </marker>
+    <marker
+       id="ArrowEnd"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
+       refX="0"
+       refY="5"
+       viewBox="0 0 10 10">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         id="path3565" />
+    </marker>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#0092da;stroke-width:5.99995565px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 125.03955,64.000004 c 0,33.67975 -27.3598,61.039536 -61.03955,61.039536 -33.67975,0 -61.03955,-27.359786 -61.03955,-61.039536 0,-33.679751 27.3598,-61.039548 61.03955,-61.039548 33.67975,0 61.03955,27.359797 61.03955,61.039548 z"
+     id="path852" />
+  <g
+     transform="translate(879.29125,-415.19488)"
+     id="g2319">
+    <path
+       d=""
+       style="fill:#ffffff;stroke:none"
+       id="path2323" />
+  </g>
+  <g
+     transform="translate(879.29125,-415.19488)"
+     id="g2325">
+    <path
+       d=""
+       style="fill:#ffffff;stroke:none"
+       id="path2329" />
+  </g>
+  <g
+     style="fill:#0092da;fill-opacity:1;stroke-width:1.18320656"
+     transform="matrix(0.23363419,0,0,0.23363419,-7.436333,-13.615379)"
+     id="g3574">
+    <g
+       style="fill:#0092da;fill-opacity:1;stroke-width:1.18320656"
+       id="g3576">
+      <path
+         id="path3578"
+         transform="matrix(0.8977168,0,0,0.8977168,40.710583,46.777129)"
+         d="M 295.5625,77.1875 213.03125,77.25 c -38.43866,-1.1e-5 -66.71875,30.86801 -66.71875,64.5 v 238.21875 c 3e-5,32.58264 25.49108,59.30702 51.125,63.4375 l -76.875,115.3125 h 44.375 L 219.90625,478.125 h 75.28125 0.0625 0.0625 75.28125 l 54.96875,80.59375 h 44.375 l -76.875,-115.3125 c 25.63388,-4.1305 51.15625,-30.85484 51.15625,-63.4375 V 141.75 c -4e-5,-33.63196 -28.31137,-64.5 -66.75,-64.5 z M 262.875,91 h 32.3125 0.0625 0.0625 32.3125 c 5.84817,0 10.9375,4.90183 10.9375,10.75 v 18.9375 c 0,5.84817 -4.81084,10.875 -10.9375,10.875 H 295.3125 295.25 295.1875 262.875 c -6.12665,0 -10.9375,-5.02683 -10.9375,-10.875 V 101.75 c 0,-5.84817 5.08932,-10.749997 10.9375,-10.75 z m -47.625,53.40625 h 79.9375 0.125 79.9375 c 21.72176,1e-5 33.25001,15.552 33.25,33.375 v 42.875 c 0.16931,20.60784 -14.87004,33.25 -33.25,33.25 H 295.3125 295.25 295.1875 215.25 c -18.37997,0 -33.41932,-12.64216 -33.25,-33.25 v -42.875 c -1e-5,-17.823 11.52822,-33.375 33.25,-33.375 z m -3.625,205.75 c 16.15766,-3e-5 29.28125,13.09234 29.28125,29.25 0,16.1565 -13.12359,29.25 -29.28125,29.25 -16.15769,-2e-5 -29.25,-13.09346 -29.25,-29.25 -4e-5,-16.1577 13.09234,-29.25 29.25,-29.25 z m 166.5625,0 c 16.15764,-2e-5 29.25,13.09233 29.25,29.25 -2e-5,16.15652 -13.09233,29.25001 -29.25,29.25 -16.15768,-2e-5 -29.25001,-13.09347 -29.25,-29.25 -2e-5,-16.15768 13.09235,-29.25 29.25,-29.25 z"
+         style="fill:#0092da;fill-opacity:1;stroke:none;stroke-width:1.18320656" />
+    </g>
+    <g
+       style="fill:#0092da;fill-opacity:1;stroke-width:1.18320656"
+       id="g3584" />
+  </g>
+</svg>

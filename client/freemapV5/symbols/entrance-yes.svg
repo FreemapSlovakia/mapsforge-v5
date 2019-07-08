@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2"
+   height="128"
+   width="128"
+   version="1.0">
+  <defs
+     id="defs22">
+    <marker
+       id="ArrowStart"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
+       refX="10"
+       refY="5"
+       viewBox="0 0 10 10">
+      <path
+         d="M 10,0 0,5 10,10 Z"
+         id="path3568" />
+    </marker>
+    <marker
+       id="ArrowEnd"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
+       refX="0"
+       refY="5"
+       viewBox="0 0 10 10">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         id="path3565" />
+    </marker>
+    <marker
+       id="marker2959"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
+       refX="10"
+       refY="5"
+       viewBox="0 0 10 10">
+      <path
+         d="M 10,0 0,5 10,10 Z"
+         id="path2626" />
+    </marker>
+    <marker
+       id="marker2956"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
+       refX="0"
+       refY="5"
+       viewBox="0 0 10 10">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         id="path2623" />
+    </marker>
+    <marker
+       id="marker3077"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
+       refX="10"
+       refY="5"
+       viewBox="0 0 10 10">
+      <path
+         d="M 10,0 0,5 10,10 Z"
+         id="path3298" />
+    </marker>
+    <marker
+       id="marker3074"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
+       refX="0"
+       refY="5"
+       viewBox="0 0 10 10">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         id="path3295" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="path828"
+     d="m 21.52031,1.52046 h 84.95938 c 11.11992,0 19.99985,8.87994 19.99985,19.99986 v 84.95937 c 0,11.11992 -8.87993,19.99985 -19.99985,19.99985 H 21.52031 c -11.11992,0 -19.99985,-8.87993 -19.99985,-19.99985 V 21.52032 c 0,-11.11992 8.87993,-19.99986 19.99985,-19.99986 z"
+     style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:3.03997755px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <g
+     transform="translate(879.29125,-415.19488)"
+     id="g2319">
+    <path
+       d=""
+       style="fill:#ffffff;stroke:none"
+       id="path2323" />
+  </g>
+  <g
+     transform="translate(879.29125,-415.19488)"
+     id="g2325">
+    <path
+       d=""
+       style="fill:#ffffff;stroke:none"
+       id="path2329" />
+  </g>
+  <path
+     id="path8372"
+     d="M 62.826377,98.687007 V 32.954704 h 44.917283 v 65.732303"
+     style="fill:none;stroke:#ffffff;stroke-width:8.78578186;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     y="37.499016"
+     x="65.968765"
+     height="60.35302"
+     width="37.989017"
+     id="rect8376"
+     style="opacity:0.1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:9.40232849;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="path8395"
+     d="m 11.984366,65.380413 h 35.323123 l -8.664164,-16.5805"
+     style="fill:none;stroke:#ffffff;stroke-width:9.40232849;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     style="fill:none;stroke:#ffffff;stroke-width:9.40232849;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 11.984366,66.620673 H 47.307489 L 38.643325,83.201172"
+     id="path8397" />
+</svg>

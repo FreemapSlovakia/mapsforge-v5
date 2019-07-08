@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   id="svg2"
+   height="128"
+   width="128"
+   version="1.0">
+  <svg:metadata
+     id="metadata2975">
+    <RDF>
+      <Work
+         about="">
+        <format>image/svg+xml</format>
+        <type
+           resource="http://purl.org/dc/dcmitype/StillImage" />
+        <license
+           resource="http://web.resource.org/cc/PublicDomain" />
+        <language>en</language>
+      </Work>
+    </RDF>
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <svg:defs
+     id="defs4" />
+  <svg:path
+     style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:3.03997755px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 21.520308,1.52046 h 84.959382 c 11.11992,0 19.99985,8.87994 19.99985,19.99986 v 84.95937 c 0,11.11992 -8.87993,19.99985 -19.99985,19.99985 H 21.520308 c -11.119914,0 -19.999846,-8.87993 -19.999846,-19.99985 V 21.52032 c 0,-11.11992 8.879932,-19.99986 19.999846,-19.99986 z"
+     id="path828" />
+  <svg:path
+     id="path2110"
+     style="fill:#ffffff;stroke-width:0.22068965"
+     d="M 44.96,74.725954 C 53.26742,70.87139 59.274814,59.71994 59.274814,46.556687 c 0,-16.356416 -13.646124,-34.261408 -20.711504,-34.261408 -7.065159,0 -20.711723,17.904992 -20.711723,34.261408 0,13.163253 6.007834,24.314703 14.315034,28.169267 l -1.719614,38.961656 h 16.232386 z" />
+  <svg:path
+     id="path2112"
+     style="fill:#ffffff;stroke-width:0.22068965"
+     d="M 94.947531,81.346645 C 103.25473,77.492079 106.28855,72.534948 106.28855,59.371692 L 104.12998,14.61274 c 0,-0.855172 -0.6934,-1.548579 -1.54879,-1.548579 h -1.01672 c -0.85473,0 -1.54836,0.693187 -1.54836,1.548579 l 0.71945,44.758952 H 96.264607 L 95.132028,14.176877 c 0,-0.85517 -0.693407,-1.548577 -1.5488,-1.548577 h -1.323035 c -0.854951,0 -1.548358,0.693407 -1.548358,1.548577 l 0.612413,45.194815 h -5.547475 l 0.612414,-45.194815 c 0,-0.85517 -0.693407,-1.548577 -1.54858,-1.548577 h -1.323255 c -0.855173,0 -1.548359,0.693407 -1.548359,1.548577 l -1.132579,45.194815 h -4.377379 l 0.719448,-44.753433 c 0,-0.855173 -0.693407,-1.54858 -1.548579,-1.54858 h -1.016497 c -0.855173,0 -1.5488,0.693407 -1.5488,1.54858 L 70.81931,59.371692 c 0,13.163256 3.026759,18.120387 11.333739,21.974953 l -1.719394,32.340965 h 16.232607 z" />
+</svg:svg>

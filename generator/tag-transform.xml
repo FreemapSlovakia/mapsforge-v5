@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<translations>
+	<translation>
+		<name>tunnel layer</name>
+		<description>zamen vsetky tunnel layer na layer=0</description>
+		<match type="way" mode="or">
+			<match>
+				<tag k="highway" v=".*"/>
+				<tag k="tunnel" v="yes"/>
+			</match>
+			<match>
+				<tag k="railway" v=".*"/>
+				<tag k="tunnel" v="yes"/>
+			</match>
+			<match>
+				<tag k="waterway" v=".*"/>
+				<!--				<tag k="tunnel" v="yes|culvert"/> -->
+			</match>
+		</match>
+		<output>
+			<copy-all/>
+			<tag k="layer" v="0"/>
+		</output>
+	</translation>
+	<translation>
+		<name>elevation</name>
+		<description>prida do tagu ele na koniec "m" (metre) ale iba ak je tag cislo</description>
+		<match mode="and" type="node">
+			<tag k="ele" v="(^[0-9]*)$" match_id="elevation"/>
+		</match>
+		<output>
+			<copy-all/>
+			<tag k="ele" from_match="elevation" v="{1}m"/>
+		</output>
+	</translation>
+</translations>

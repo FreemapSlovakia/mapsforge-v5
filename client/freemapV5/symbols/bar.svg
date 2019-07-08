@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <svg:metadata
+     id="metadata2975">
+    <RDF>
+      <Work
+         about="">
+        <format>image/svg+xml</format>
+        <type
+           resource="http://purl.org/dc/dcmitype/StillImage" />
+        <license
+           resource="http://web.resource.org/cc/PublicDomain" />
+        <language>en</language>
+      </Work>
+    </RDF>
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <svg:defs
+     id="defs4" />
+  <svg:path
+     style="fill:#aa4400;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:3.03997755px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 21.520309,1.52046 h 84.959381 c 11.11992,0 19.99985,8.87994 19.99985,19.99986 v 84.95937 c 0,11.11992 -8.87993,19.99985 -19.99985,19.99985 H 21.52031 c -11.119917,0 -19.9998495,-8.87993 -19.9998495,-19.99985 V 21.52032 c 0,-11.11992 8.8799325,-19.99986 19.9998485,-19.99986 z"
+     id="path828" />
+  <svg:path
+     d="m 103.33396,21.612134 h -0.0554 c 0.0633,-0.05473 0.0982,-0.109902 0.0982,-0.165517 0,-1.310234 -17.890645,-2.372413 -39.960272,-2.372413 -22.069407,0 -39.960277,1.062179 -39.960277,2.372413 0,0.05561 0.03487,0.110787 0.09843,0.165517 h -0.09843 l 35.414953,32.780138 v 37.091974 l -22.9434,16.401654 h 0.05628 c -0.110346,0.0596 -0.168829,0.12006 -0.168829,0.18119 0,0.90527 12.357739,1.63862 27.601656,1.63862 15.244138,0 27.601655,-0.73335 27.601655,-1.63862 0,-0.0611 -0.0587,-0.12182 -0.168827,-0.18119 h 0.01324 L 67.919669,91.484246 V 54.392494 Z M 64.55658,48.015223 c -0.638897,0.591228 -1.684083,0.591228 -2.32298,0 L 45.122427,32.176768 c -0.638895,-0.591227 -0.449324,-1.075199 0.421298,-1.075199 h 35.702951 c 0.8704,0 1.060193,0.483753 0.421297,1.075199 z"
+     style="fill:#ffffff;stroke-width:0.22068965"
+     id="path2209" />
+</svg:svg>
