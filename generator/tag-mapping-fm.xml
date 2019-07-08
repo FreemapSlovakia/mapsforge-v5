@@ -209,8 +209,8 @@
 	<!-- contours TAGS -->
 	<ways>
 		<osm-tag key="contour_ext" value="elevation_minor" zoom-appear="14" force-polygon-line="true"/>
-		<osm-tag key="contour_ext" value="elevation_medium" zoom-appear="12" force-polygon-line="true"/>
-		<osm-tag key="contour_ext" value="elevation_major" zoom-appear="12" force-polygon-line="true"/>
+		<osm-tag key="contour_ext" value="elevation_medium" zoom-appear="10" force-polygon-line="true"/>
+		<osm-tag key="contour_ext" value="elevation_major" zoom-appear="10" force-polygon-line="true"/>
     <osm-tag key="ele" value="%f" renderable="false" />
 	</ways>
 
@@ -456,17 +456,17 @@
 
 	<!-- SKI SLOPES TAGS -->
 	<ways>
-		<osm-tag key="piste:type" value="downhill" zoom-appear="13" />
-		<osm-tag key="piste:type" value="nordic" zoom-appear="13" />
-		<osm-tag key="piste:type" value="sled" zoom-appear="13" />
-		<osm-tag key="aerialway" value="cable_car" zoom-appear="13" />
-		<osm-tag key="aerialway" value="chair_lift" zoom-appear="13" />
-		<osm-tag key="aerialway" value="drag_lift" zoom-appear="13" />
-		<osm-tag key="aerialway" value="gondola" zoom-appear="13" />
-		<osm-tag key="aerialway" value="magic_carpet" zoom-appear="13" />
-		<osm-tag key="aerialway" value="mixed_lift" zoom-appear="13" />
-		<osm-tag key="aerialway" value="rope_tow" zoom-appear="13" />
-		<osm-tag key="aerialway" value="t-bar" zoom-appear="13" />
+		<osm-tag key="piste:type" value="downhill" zoom-appear="12" />
+		<osm-tag key="piste:type" value="nordic" zoom-appear="12" />
+		<osm-tag key="piste:type" value="sled" zoom-appear="12" />
+		<osm-tag key="aerialway" value="cable_car" zoom-appear="12" />
+		<osm-tag key="aerialway" value="chair_lift" zoom-appear="12" />
+		<osm-tag key="aerialway" value="drag_lift" zoom-appear="12" />
+		<osm-tag key="aerialway" value="gondola" zoom-appear="12" />
+		<osm-tag key="aerialway" value="magic_carpet" zoom-appear="12" />
+		<osm-tag key="aerialway" value="mixed_lift" zoom-appear="12" />
+		<osm-tag key="aerialway" value="rope_tow" zoom-appear="12" />
+		<osm-tag key="aerialway" value="t-bar" zoom-appear="12" />
 	</ways>
 
 	<!-- OTHER TAGS -->

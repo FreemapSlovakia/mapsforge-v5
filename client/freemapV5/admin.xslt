@@ -45,14 +45,14 @@
       <!-- SK -->
       <rule e="way" k="admin_level" v="3" zoom-min="10">
         <line stroke="#50EDC2EC" stroke-width="3" />
-        <line stroke="#9A3996" stroke-width="0.4" stroke-dasharray="15, 10, 5, 10" scale="none"/>
+        <line stroke="#9A3996" stroke-width="1" stroke-dasharray="15, 10, 5, 10" scale="none"/>
       </rule>
       <rule e="way" k="admin_level" v="2">
         <line stroke="#50EDC2EC" stroke-width="4" />
-        <line stroke="#9A3996" stroke-width="0.4" stroke-dasharray="15, 15" scale="none"/>
+        <line stroke="#9A3996" stroke-width="2" stroke-dasharray="10, 10" scale="none"/>
       </rule>
       <rule e="way" k="admin_level" v="1">
-        <line stroke="#9A3996" stroke-width="0.4" stroke-dasharray="15, 5, 5, 5" scale="none"/>
+        <line stroke="#9A3996" stroke-width="2" stroke-dasharray="15, 5, 5, 5" scale="none"/>
       </rule>
     </rule>
   </xsl:template>

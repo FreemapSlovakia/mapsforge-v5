@@ -7,13 +7,13 @@
             <line stroke="#202020" stroke-width="0.4" stroke-linecap="butt"/>
             <line stroke="#202020" stroke-width="3.0" stroke-dasharray="2,70" stroke-linecap="butt"/>
             <rule e="way" k="aerialway" v="cable_car">
-                <lineSymbol src="file:/symbols/cable_car.svg" repeat-start="5" symbol-width="24" repeat-gap="50"/>
+                <lineSymbol src="file:/symbols/cable_car.svg" repeat-start="5" symbol-width="18" repeat-gap="50"/>
             </rule>
             <rule e="way" k="aerialway" v="chair_lift">
-                <lineSymbol src="file:/symbols/chair_lift.svg" repeat-start="5" symbol-width="24" repeat-gap="50"/>
+                <lineSymbol src="file:/symbols/chair_lift.svg" repeat-start="5" symbol-width="18" repeat-gap="50"/>
             </rule>
             <rule e="way" k="aerialway" v="gondola">
-                <lineSymbol src="file:/symbols/gondola.svg" repeat-start="5" symbol-width="24" repeat-gap="50"/>
+                <lineSymbol src="file:/symbols/gondola.svg" repeat-start="5" symbol-width="18" repeat-gap="50"/>
             </rule>
             <rule e="way" k="*" v="*" zoom-min="15">
                 <pathText k="name" font-style="bold" font-size="10" fill="#606060" stroke="#ffffff" stroke-width="3"/>

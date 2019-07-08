@@ -12,20 +12,27 @@
         <rule e="node" k="*" v="*" zoom-min="14">
           <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="10" />
         </rule>
+        <rule e="any" k="*" v="*" zoom-min="12" zoom-max="13">
+          <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="8" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="15" display="ifspace"/>
+        </rule>        
+        <rule e="any" k="*" v="*" zoom-min="14">
+          <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="10" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="15" display="ifspace"/>
+        </rule>
       </rule>
       <rule e="node" k="ele" v="~">
         <rule e="node" k="*" v="*" zoom-min="14">
           <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="10" />
         </rule>
+        <rule e="any" k="*" v="*" zoom-min="14">
+          <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="10" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="15" display="ifspace"/>
+        </rule>        
+
       </rule>    
     </rule>
     <rule e="node" k="name" v="~">
       <rule e="node" k="*" v="*" zoom-min="16">
         <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="8" />
       </rule>
-    </rule>
-    <rule e="any" k="*" v="*" zoom-min="13">
-      <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="10" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="15" display="ifspace"/>
     </rule>
     <rule e="any" k="*" v="*" zoom-min="15">
       <caption k="ele" symbol-id="peak" position="below" font-size="9"  fill="#560000" stroke="#ffffff" stroke-width="3" priority="10"  display="ifspace"/>

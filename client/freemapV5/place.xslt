@@ -8,10 +8,10 @@
       <caption k="name" font-style="bold_italic" font-size="16" fill="#000000" stroke="#ffffff" stroke-width="3" priority="20"/>
     </rule>
     <rule e="node" k="place" v="town" zoom-min="8" zoom-max="10">
-      <caption k="name" font-style="bold" font-size="9" fill="#000000" stroke="#ffffff" stroke-width="2" priority="19"/>
+      <caption k="name" font-style="bold" font-size="9" fill="#000000" stroke="#ffffff" stroke-width="3" priority="19"/>
     </rule>
     <rule e="node" k="place" v="town" zoom-min="11" zoom-max="15">
-      <caption k="name" font-style="bold" font-size="14" fill="#000000" stroke="#ffffff" stroke-width="2" priority="19"/>
+      <caption k="name" font-style="bold" font-size="14" fill="#000000" stroke="#ffffff" stroke-width="3" priority="19"/>
     </rule>
 -    <rule e="node" k="place" v="suburb" zoom-min="13" zoom-max="14">
       <caption k="name" font-style="bold" font-size="10" fill="#B06C6C6C" stroke="#80ffffff" stroke-width="2" priority="17" display="ifspace"/>
@@ -20,10 +20,10 @@
       <caption k="name" font-style="bold" font-size="14" fill="#B06C6C6C" stroke="#80ffffff" stroke-width="2" priority="17" display="ifspace"/>
     </rule>
     <rule e="node" k="place" v="village" zoom-min="12" zoom-max="12">
-      <caption k="name" font-style="normal" font-size="7" fill="#000000" stroke="#ffffff" stroke-width="2" priority="18"/>
+      <caption k="name" font-style="normal" font-size="8" fill="#000000" stroke="#ffffff" stroke-width="3" priority="18"/>
     </rule>
     <rule e="node" k="place" v="village" zoom-min="13" zoom-max="18">
-      <caption k="name" font-style="normal" font-size="12" fill="#000000" stroke="#ffffff" stroke-width="2" priority="18"/>
+      <caption k="name" font-style="normal" font-size="12" fill="#000000" stroke="#ffffff" stroke-width="3" priority="18"/>
     </rule>
     <rule e="node" k="place" v="hamlet" zoom-min="13" zoom-max="18">
       <caption k="name" font-style="normal" font-size="11" fill="#000000" stroke="#ffffff" stroke-width="2" priority="17"/>
