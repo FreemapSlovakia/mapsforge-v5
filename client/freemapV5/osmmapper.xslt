@@ -14,7 +14,7 @@
 
   <rule cat="osmmapper" e="way" k="highway" v="track" zoom-min="13">
     <rule e="way" k="tracktype" v="~">
-      <line stroke="#FCCE24" stroke-width="1" stroke-dasharray="2,2" stroke-linecap="butt" scale="all"/>
+      <line stroke="#FC7E60" stroke-width="3" stroke-dasharray="10,5" stroke-linecap="butt" scale="none"/>
     </rule>
   </rule>
 </xsl:template>
