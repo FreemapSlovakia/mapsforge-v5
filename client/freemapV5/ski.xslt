@@ -7,25 +7,25 @@
 
             <rule e="way" k="piste:type" v="downhill" closed="yes">
                 <rule e="way" k="piste:difficulty" v="novice">
-                    <area fill="#5540ff40" stroke="#5540ff40" stroke-width="2.0"/>
+                    <area fill="#4040ff40" stroke="#8040ff40" stroke-width="2" scale="none"/>
                 </rule>
                 <rule e="way" k="piste:difficulty" v="easy">
-                    <area fill="#554040ff" stroke="#554040ff" stroke-width="2.0"/>
+                    <area fill="#404040ff" stroke="#804040ff" stroke-width="2" scale="none"/>
                 </rule>
                 <rule e="way" k="piste:difficulty" v="intermediate">
-                    <area fill="#55ff4040" stroke="#55ff4040" stroke-width="2.0"/>
+                    <area fill="#40ff4040" stroke="#80ff4040" stroke-width="2" scale="none"/>
                 </rule>
                 <rule e="way" k="piste:difficulty" v="advanced">
-                    <area fill="#55000000" stroke="#55000000" stroke-width="2.0"/>
+                    <area fill="#40000000" stroke="#80000000" stroke-width="2" scale="none"/>
                 </rule>
                 <rule e="way" k="piste:difficulty" v="expert">
-                    <area fill="#55f6800a" stroke="#55f6800a" stroke-width="2.0"/>
+                    <area fill="#40f6800a" stroke="#80f6800a" stroke-width="2" scale="none"/>
                 </rule>
                 <rule e="way" k="piste:difficulty" v="freeride">
-                    <area fill="#55f6dd0a" stroke="#55f6dd0a" stroke-width="2.0"/>
+                    <area fill="#40f6dd0a" stroke="#80f6dd0a" stroke-width="2" scale="none"/>
                 </rule>
                 <rule e="way" k="piste:difficulty" v="~">
-                    <area fill="#55505050" stroke="#55505050" stroke-width="2.0"/>
+                    <area fill="#40505050" stroke="#80505050" stroke-width="2" scale="none"/>
                 </rule>
                 <rule e="way" k="*" v="*" zoom-min="16">
                     <caption k="name" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2.0"/>

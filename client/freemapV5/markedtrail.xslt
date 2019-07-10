@@ -359,7 +359,7 @@
       <xsl:with-param name="offset" select="0"/>
       <xsl:with-param name="dasharray" select="'4,2.5'"/>
     </xsl:call-template>
-    <rule e="way" k="*" v="*" zoom-min="14">
+    <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
       <caption k="fmrelskiref" font-style="bold" font-size="9" fill="#000000" stroke="#FFEEAA" stroke-width="4" display="always" priority="100"/>
     </rule>    
   </rule>

@@ -78,13 +78,26 @@
       <area src="file:/patterns/scrub.svg" symbol-width="48"/>
     </rule>    
   </rule>
-  
+
   <rule e="way" k="building" v="~">
     <rule e="way" k="leisure" v="pitch">
       <area fill="#B0A3D3D9" stroke="#B0A3D3D9" stroke-width="1" scale="none" />
     </rule>  
+    <rule e="way" k="leisure" v="golf_course|miniature_golf">
+      <area fill="#B0A3D3D9" stroke="#B0A3D3D9" stroke-width="1" scale="none" />
+    </rule>
   </rule>
-  
+
+  <rule e="way" k="golf" v="bunker" zoom-min="16">
+    <area fill="#B0F9F7BC" stroke="#B0F9F7BC" stroke-width="1" scale="none" />
+  </rule>
+  <rule e="way" k="golf" v="green" zoom-min="16">
+    <area fill="#B0B5FF99" stroke="#B0B5FF99" stroke-width="1" scale="none" />
+  </rule>
+  <rule e="node" k="golf" v="pin" zoom-min="16">
+    <circle fill="#6FC72B" radius="4" scale-radius="false" />
+  </rule>
+
   <rule e="way" k="natural" v="wetland">
     <rule cat="all" e="way" k="*" v="*">
       <area fill="#8DB0DD"/>

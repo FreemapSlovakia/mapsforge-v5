@@ -17,7 +17,12 @@
                         <line stroke="#000000" stroke-width="0.6" stroke-linecap="butt"/>
                     </rule>
                     <rule e="way" k="railway" v="rail">
-                        <line stroke="#000000" stroke-width="0.8" stroke-linecap="butt"/>
+                        <rule e="way" k="service" v="~">
+                            <line stroke="#000000" stroke-width="0.9" stroke-linecap="butt"/>
+                        </rule>
+                        <rule e="way" k="service" v="*" zoom-min="16">
+                            <line stroke="#000000" stroke-width="0.4" stroke-linecap="butt"/>
+                        </rule>
                     </rule>
                 </rule>
                 <!-- railway casings and cores -->
@@ -71,7 +76,9 @@
                 <line stroke="#880f0f4c" stroke-width="0.25" stroke-dasharray="1,1" stroke-linecap="butt" scale="all"/>
             </rule>
             <rule e="way" k="railway" v="rail">
-                <line stroke="#aa333333" stroke-width="0.4" stroke-dasharray="2,2" stroke-linecap="butt" scale="all"/>
+                <line stroke="#aa000000" stroke-width="0.65" stroke-dasharray="0.5,0.5" stroke-linecap="butt" scale="all"/>
+                <line stroke="#ffffff" stroke-width="0.32" stroke-linecap="butt" />
+                <line stroke="#aa000000" stroke-width="0.32" stroke-dasharray="2,2" stroke-linecap="butt" scale="all"/>
             </rule>
         </rule>
       </rule>  
