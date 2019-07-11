@@ -22,7 +22,7 @@
     <xsl:variable name="markedTrailWidthLow">1.6</xsl:variable>
     <xsl:variable name="markedTrailWidthHigh">0.8</xsl:variable>
 
-    <xsl:variable name="zoomlow">11</xsl:variable>    
+    <xsl:variable name="zoomlow">11</xsl:variable>
     <xsl:variable name="zoomhigh">15</xsl:variable>
 
 <xsl:variable name="zoomlow2"><xsl:value-of select="$zoomhigh - 1"/></xsl:variable>
@@ -490,7 +490,7 @@
     </rule>
     <rule e="way" k="mtb:scale:uphill" v="1">
       <lineSymbol src="file:/symbols/mtbscalehill1.svg" align-center="true" repeat="true" repeat-start="15" repeat-gap="30" symbol-width="7" priority="20" display="always" />   
-    </rule>                                                                                                    
+    </rule>
     <rule e="way" k="mtb:scale:uphill" v="2">
       <lineSymbol src="file:/symbols/mtbscalehill2.svg" align-center="true" repeat="true" repeat-start="15" repeat-gap="30" symbol-width="7" priority="20" display="always" />   
     </rule>

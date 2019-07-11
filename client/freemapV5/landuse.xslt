@@ -59,12 +59,10 @@
       <area src="file:/patterns/military.svg" symbol-width="32"/>
     </rule>
     <rule cat="topo_common" e="way" k="natural" v="scree">
-<!--      <area fill="#d7d6d5" scale="none"/> -->
       <area fill="#E2E2E2" scale="none"/>
       <area src="file:/patterns/scree.svg" symbol-width="32"/>
     </rule>     
     <rule cat="topo_common" e="way" k="natural" v="bare_rock">
-<!--      <area fill="#d7d6d5" scale="none"/> -->
       <area fill="#E2E2E2" scale="none"/>
       <area src="file:/patterns/bare_rock.svg" symbol-width="32"/>
     </rule>

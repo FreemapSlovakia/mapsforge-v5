@@ -4,7 +4,15 @@
 
 <xsl:template name="poi">
   <rule cat="topo_common" e="node" k="natural" v="spring" zoom-min="14">
-    <symbol id="spring" src="file:/symbols/spring.svg" symbol-width="20" priority="30"/>
+    <rule e="node" k="drinking_water" v="~|no">
+        <symbol id="spring" src="file:/symbols/spring.svg" symbol-width="20" priority="30"/>
+    </rule>
+    <rule e="node" k="drinking_water" v="yes">
+        <symbol id="spring" src="file:/symbols/spring-drink.svg" symbol-width="20" priority="30"/>
+    </rule>
+    <rule e="node" k="*" v="*" zoom-min="16">
+        <caption k="name" symbol-id="spring" position="below" font-style="bold" font-size="9" fill="#0092da" stroke="#ffffff" stroke-width="2"/>
+    </rule>
   </rule>
 
   <rule cat="topo_icons" e="node" k="tourism" v="information" zoom-min="16">
@@ -167,24 +175,24 @@
   <rule e="any" k="historic" v="castle" zoom-min="14">
     <rule e="any" k="ruins" v="~">
       <rule e="any" k="castle_type" v="~|defensive|fortress">
-        <symbol id="castle" src="file:/symbols/castle.svg" symbol-width="14" priority="20"/>        
+        <symbol id="castle" src="file:/symbols/castle.svg" symbol-width="14" priority="20"/>
       </rule>
       <rule e="any" k="castle_type" v="stately|palace">
-        <symbol id="castle" src="file:/symbols/stately.svg" symbol-width="14" priority="20"/>        
+        <symbol id="castle" src="file:/symbols/stately.svg" symbol-width="14" priority="20"/>
       </rule>
       <rule e="any" k="castle_type" v="manor">
-        <symbol id="castle" src="file:/symbols/manor.svg" symbol-width="14" priority="20"/>        
+        <symbol id="castle" src="file:/symbols/manor.svg" symbol-width="14" priority="20"/>
       </rule>
       <caption k="name" symbol-id="castle" position="below" font-style="bold" font-size="10" fill="#550000" stroke="#ffffff" stroke-width="2"/>
     </rule>
     <rule e="any" k="ruins" v="yes">
       <symbol id="ruins" src="file:/symbols/ruins.svg" symbol-width="14" priority="20"/>
-      <caption k="name" symbol-id="ruins" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>      
+      <caption k="name" symbol-id="ruins" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
     </rule>
   </rule>
   <rule e="any" k="historic" v="ruins" zoom-min="14">
     <symbol id="ruins" src="file:/symbols/ruins.svg" symbol-width="16" priority="20"/>
-    <caption k="name" symbol-id="ruins" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>      
+    <caption k="name" symbol-id="ruins" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
   </rule>  
   <rule e="any" k="tourism" v="museum" zoom-min="15">
     <symbol id="museum" src="file:/symbols/museum.svg" symbol-width="14"  priority="15"/>
@@ -194,7 +202,7 @@
   </rule>
   <rule e="any" k="tourism" v="zoo" zoom-min="16">
     <symbol id="zoo" src="file:/symbols/zoo.svg" symbol-width="16"/>
-    <caption k="name" symbol-id="zoo" position="below" font-style="bold" font-size="10" fill="#550000" stroke="#ffffff" stroke-width="2"/>      
+    <caption k="name" symbol-id="zoo" position="below" font-style="bold" font-size="10" fill="#550000" stroke="#ffffff" stroke-width="2"/>
   </rule>
   <rule e="node" k="tourism" v="attraction" zoom-min="15">
     <symbol id="attraction" src="file:/symbols/attraction.svg" symbol-width="18" priority="10"/>
@@ -230,7 +238,7 @@
     </rule>
     <rule  e="any" k="*" v="*" zoom-min="17">
       <symbol id="busstop" src="file:/symbols/bus_stop.svg" symbol-width="12" priority="0"/>
-      <caption k="name" symbol-id="busstop" position="below" font-style="normal" font-size="10" fill="#1E4BFF" stroke="#FFFFFF" stroke-width="3" priority="49" display="ifspace"/>  
+      <caption k="name" symbol-id="busstop" position="below" font-style="normal" font-size="10" fill="#1E4BFF" stroke="#FFFFFF" stroke-width="3" priority="49" display="ifspace"/>
     </rule>
   </rule>
 
@@ -294,11 +302,11 @@
 
   <rule cat="sport" e="any" k="leisure" v="golf_course" zoom-min="15">
     <symbol id="golf" src="file:/symbols/golf.svg" symbol-width="14"/>
-    <caption symbol-id="golf" k="name" font-style="normal" font-size="9" fill="#ffffff" stroke="#1b8389" stroke-width="3" display="ifspace"/>    
+    <caption symbol-id="golf" k="name" font-style="normal" font-size="9" fill="#ffffff" stroke="#1b8389" stroke-width="3" display="ifspace"/>
   </rule>
   <rule cat="sport" e="any" k="leisure" v="miniature_golf" zoom-min="16">
     <symbol id="minigolf" src="file:/symbols/minigolf.svg" symbol-width="14"/>
-    <caption symbol-id="minigolf" k="name" font-style="normal" font-size="9" fill="#ffffff" stroke="#1b8389" stroke-width="3" display="ifspace"/>    
+    <caption symbol-id="minigolf" k="name" font-style="normal" font-size="9" fill="#ffffff" stroke="#1b8389" stroke-width="3" display="ifspace"/>
   </rule>
   <rule cat="sport" e="any" k="leisure" v="pitch|sports_centre|stadium" zoom-min="16">
     <rule e="any" k="sport" v="soccer">
