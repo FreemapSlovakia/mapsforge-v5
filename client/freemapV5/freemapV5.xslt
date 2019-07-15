@@ -70,6 +70,7 @@
 
   <xsl:call-template name="skitrails"/>
   <xsl:call-template name="cycletrails"/>
+  <xsl:call-template name="mtbtrails"/>
   <xsl:call-template name="hikinglocaltrails"/>
   <xsl:call-template name="hikingtrails"/>
   <xsl:call-template name="ksttrails"/>  

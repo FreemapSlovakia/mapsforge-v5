@@ -738,23 +738,22 @@
 
 		<osm-tag key="fmrelhikingref" value="%s" renderable="false" />
 
-		<osm-tag key="fmrelbicyclered" value="major" zoom-appear="8" />
-		<osm-tag key="fmrelbicyclegreen" value="major" zoom-appear="8" />
-		<osm-tag key="fmrelbicycleblue" value="major" zoom-appear="8" />
-		<osm-tag key="fmrelbicycleyellow" value="major" zoom-appear="8" />
-		
-		<osm-tag key="fmrelbicycledefault" value="none" zoom-appear="8" />
-		
-		<osm-tag key="fmrelbicyclered" value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelbicyclegreen" value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelbicycleblue" value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelbicycleyellow" value="yes" zoom-appear="8" />
 		<osm-tag key="fmrelbicyclered" value="none" zoom-appear="8" />
 		<osm-tag key="fmrelbicyclegreen" value="none" zoom-appear="8" />
 		<osm-tag key="fmrelbicycleblue" value="none" zoom-appear="8" />
 		<osm-tag key="fmrelbicycleyellow" value="none" zoom-appear="8" />
-		
+		<osm-tag key="fmrelbicycleblack" value="none" zoom-appear="8" />
+		<osm-tag key="fmrelbicycledefault" value="none" zoom-appear="8" />
+
+		<osm-tag key="fmrelmtbered" value="none" zoom-appear="8" />
+		<osm-tag key="fmrelmtbgreen" value="none" zoom-appear="8" />
+		<osm-tag key="fmrelmtbblue" value="none" zoom-appear="8" />
+		<osm-tag key="fmrelmtbyellow" value="none" zoom-appear="8" />
+		<osm-tag key="fmrelmtbblack" value="none" zoom-appear="8" />
+		<osm-tag key="fmrelmtbdefault" value="none" zoom-appear="8" />
+
 		<osm-tag key="fmrelbicycleref" value="%s" renderable="false" />
+		<osm-tag key="fmrelmtbref" value="%s" zoom-appear="8" />
 
 		<osm-tag key="fmreleducation" value="%s" zoom-appear="8" />
 		<osm-tag key="fmreleducationname" value="%s" renderable="false" />

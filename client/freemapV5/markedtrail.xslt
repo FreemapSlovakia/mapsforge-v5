@@ -19,8 +19,8 @@
     <xsl:variable name="offset3high">2.3</xsl:variable>
     <xsl:variable name="offset4high">3.1</xsl:variable>
 
-    <xsl:variable name="markedTrailWidthLow">1.6</xsl:variable>
-    <xsl:variable name="markedTrailWidthHigh">0.8</xsl:variable>
+    <xsl:variable name="markedTrailWidthLow">1.7</xsl:variable>
+    <xsl:variable name="markedTrailWidthHigh">0.9</xsl:variable>
 
     <xsl:variable name="zoomlow">11</xsl:variable>
     <xsl:variable name="zoomhigh">15</xsl:variable>
@@ -347,6 +347,24 @@
   </rule>
 </xsl:template>
 
+<xsl:template name="mtbtrails">
+  <rule cat="cycle" e="way" k="highway" v="*" zoom-min="{$zoomlow}">
+    <xsl:call-template name="markedTrailsSingle">
+    <xsl:with-param name="redKey" select="'fmrelmtbred'"/>
+    <xsl:with-param name="blueKey" select="'fmrelmtbblue'"/>
+    <xsl:with-param name="greenKey" select="'fmrelmtbgreen'"/>
+    <xsl:with-param name="yellowKey" select="'fmrelmtbyellow'"/>
+    <xsl:with-param name="fallbackKey" select="'fmrelmtbwhite|fmrelmtbblack|fmrelmtbdefault'"/>
+    <xsl:with-param name="side" select="-1"/>
+    <xsl:with-param name="offset" select="0.5"/>
+    <xsl:with-param name="dasharray" select="'0.3, 5'"/>
+    </xsl:call-template>
+    <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
+      <caption k="fmrelmtbref" font-style="bold" font-size="9" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="always" priority="100"/>
+    </rule>
+  </rule>
+</xsl:template>
+
 <xsl:template name="skitrails">
   <rule cat="ski" e="way" k="highway" v="*" zoom-min="{$zoomlow}">
     <xsl:call-template name="markedTrailsSingle">
@@ -444,9 +462,11 @@
       <line stroke="#AAFFFFFF" stroke-dasharray="2,3" stroke-width="1.2" stroke-linecap="round" scale="all" />
       <line stroke="#FF008800" stroke-dasharray="2,3" stroke-width="0.5" stroke-linecap="butt" scale="all" />
     </rule>
-    <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
-      <pathText k="fmreleducationname" dy="2" font-style="bold" font-size="9" fill="#FFFFFF" stroke="#008800" stroke-width="3" display="always" priority="100"/>
-    </rule>    
+    <rule cat="naucho" e="way" k="*" v="*" zoom-min="14">
+      <rule cat="trailnum" e="way" k="*" v="*">
+        <pathText k="fmreleducationname" dy="2" font-style="bold" font-size="9" fill="#FFFFFF" stroke="#008800" stroke-width="3" display="always" priority="100"/>
+      </rule>
+    </rule>
 </xsl:template>
 
 <xsl:template name="sac-scale">

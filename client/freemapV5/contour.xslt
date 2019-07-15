@@ -10,11 +10,9 @@
             <rule e="way" k="contour_ext" v="elevation_medium" zoom-min="15">
                 <pathText k="ele" font-size="7" font-style="bold" fill="#A86868" stroke="#FFFFFF" stroke-width="2" />
             </rule>
-<!--
-            <rule e="way" k="contour_ext" v="elevation_minor" zoom-min="16">
+            <rule e="way" k="contour_ext" v="elevation_minor" zoom-min="17">
                 <pathText k="ele" font-size="7" font-style="bold" fill="#A86868" stroke="#FFFFFF" stroke-width="2"/>
             </rule>
--->
         </rule>
     </xsl:template>
 

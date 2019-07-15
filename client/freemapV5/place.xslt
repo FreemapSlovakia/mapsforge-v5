@@ -29,7 +29,7 @@
       <caption k="name" font-style="normal" font-size="11" fill="#000000" stroke="#ffffff" stroke-width="2" priority="17"/>
     </rule>
     <rule e="node" k="place" v="locality" zoom-min="15">
-      <caption k="name" font-style="italic" font-family="serif" font-size="12" fill="#666666" stroke="#666666" stroke-width="0.1" priority="16" display="always"/>
+      <caption k="name" font-style="italic" font-family="serif" font-size="12" fill="#666666" stroke="#ffffff" stroke-width="1" priority="16" display="ifspace"/>
     </rule>
     <rule e="node" k="place" v="island" zoom-min="10">
       <caption k="name" font-style="bold" font-size="20" fill="#000000" stroke="#ffffff" stroke-width="3.0" priority="16"/>
