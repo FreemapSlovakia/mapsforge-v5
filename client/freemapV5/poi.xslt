@@ -3,7 +3,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <xsl:template name="poi">
-  <rule cat="topo_common" e="node" k="natural" v="spring" zoom-min="14">
+  <rule cat="topo_common" e="node" k="natural" v="spring" zoom-min="13">
     <rule e="node" k="drinking_water" v="~|no">
         <symbol id="spring" src="file:/symbols/spring.svg" symbol-width="20" priority="30"/>
     </rule>
@@ -72,7 +72,7 @@
   </rule>
 
   
-  <rule cat="accommodation" e="any" k="tourism" v="hotel" zoom-min="16">
+  <rule cat="accommodation" e="any" k="tourism" v="hotel" zoom-min="15">
       <symbol id="hotel" src="file:/symbols/hotel.svg" symbol-width="12"/>
       <caption k="name" symbol-id="hotel" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
   </rule>
@@ -84,22 +84,22 @@
       <symbol id="hostel" src="file:/symbols/hostel.svg" symbol-width="12"/>
       <caption k="name" symbol-id="hostel" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
   </rule>
-  <rule cat="accommodation" e="any" k="tourism" v="camp_site" zoom-min="16">
+  <rule cat="accommodation" e="any" k="tourism" v="camp_site" zoom-min="13">
     <symbol id="camp" src="file:/symbols/camping.svg" symbol-width="12"/>
     <caption k="name" symbol-id="camp" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
   </rule>
-  <rule cat="accommodation" e="any" k="tourism" v="caravan_site" zoom-min="16">
+  <rule cat="accommodation" e="any" k="tourism" v="caravan_site" zoom-min="13">
     <symbol id="caravan" src="file:/symbols/caravan.svg" symbol-width="12"/>
     <caption k="name" symbol-id="caravan" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
   </rule>
-  <rule e="any" k="tourism" v="alpine_hut" zoom-min="15">
+  <rule e="any" k="tourism" v="alpine_hut" zoom-min="13">
     <symbol id="hut" src="file:/symbols/alpine_hut.svg" symbol-width="14"/>
     <caption k="name" symbol-id="hut" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
   </rule>
-  <rule e="any" k="tourism" v="wilderness_hut" zoom-min="15">
+  <rule e="any" k="tourism" v="wilderness_hut" zoom-min="13">
       <symbol src="file:/symbols/wilderness_hut.svg" symbol-width="14"/>
   </rule>
-  <rule cat="topo_icons" e="node" k="amenity" v="shelter" zoom-min="16">
+  <rule cat="topo_icons" e="node" k="amenity" v="shelter" zoom-min="15">
     <symbol src="file:/symbols/shelter.svg" symbol-width="12"/>
   </rule>
 

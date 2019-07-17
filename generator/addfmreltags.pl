@@ -301,12 +301,12 @@ sub getFmRelHikingTags {
 			$network = "local";
 			$fmRelTags->{"fmrelhikinglocal" . $colour . "osmc"} = $osmcsymbol;
 			if (defined($relTags->{"operator"})) { $fmRelTags->{"fmrelhikinglocaloperator" . $colour} = $relTags->{"operator"}; }
-			if (defined($ref)) { $fmRelTags->{"fmrelhikinglocal" . $colour . "ref"} = $ref; }
+##			if (defined($ref)) { $fmRelTags->{"fmrelhikinglocal" . $colour . "ref"} = $ref; }
 		} elsif (($network eq "rwn") or ($network eq "nwn") or ($network eq "iwn")) { 
 			$network = "";
 			$fmRelTags->{"fmrelhiking" . $colour . "osmc"} = $osmcsymbol;
 			if (defined($relTags->{"operator"})) { $fmRelTags->{"fmrelhikingoperator" . $colour} = $relTags->{"operator"}; }
-			if (defined($ref)) { $fmRelTags->{"fmrelhiking" . $colour . "ref"} = $ref; }
+##			if (defined($ref)) { $fmRelTags->{"fmrelhiking" . $colour . "ref"} = $ref; }
 		} else {
 			$network = "unknown"; 
 		}

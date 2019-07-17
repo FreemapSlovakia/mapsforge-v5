@@ -26,12 +26,12 @@
             <cat id="hikinglocal" />
             <cat id="hikingcycle" />
         </layer>
-        <layer id="hikingkst" enabled="false" visible="false">
+<!--        <layer id="hikingkst" enabled="false" visible="false">
             <name lang="en" value="Only KST hiking trails" />
             <name lang="sk" value="Iba KST trasy" />
             <cat id="hikingkst" />
             <cat id="hikingcycle" />
-        </layer>
+        </layer> -->
         <layer id="naucho" enabled="false" visible="false">
             <name lang="en" value="Edu trails" />
             <name lang="sk" value="Náučné chodníky" />

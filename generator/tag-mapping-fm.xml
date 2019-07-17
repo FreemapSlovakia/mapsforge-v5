@@ -50,7 +50,7 @@
 
 		<osm-tag key="amenity" value="hunting_stand" zoom-appear="14" />
 		<osm-tag key="amenity" value="ranger_house" zoom-appear="14" />
-		<osm-tag key="amenity" value="shelter" zoom-appear="15" />
+		<osm-tag key="amenity" value="shelter" zoom-appear="13" />
 		<osm-tag key="amenity" value="feeding_place" zoom-appear="15" />
 		<osm-tag key="amenity" value="game_feeding" zoom-appear="15" />
 
@@ -95,13 +95,13 @@
 	<!-- TOURISM TAGS -->
 	<pois>
 		<osm-tag key="tourism" value="attraction" zoom-appear="15" />
-		<osm-tag key="tourism" value="hostel" zoom-appear="15" />
-		<osm-tag key="tourism" value="hotel" zoom-appear="15" />
-		<osm-tag key="tourism" value="guest_house" zoom-appear="15" />
-		<osm-tag key="tourism" value="wilderness_hut" zoom-appear="15" />
-		<osm-tag key="tourism" value="alpine_hut" zoom-appear="15" />
-		<osm-tag key="tourism" value="camp_site" zoom-appear="15" />
-		    <osm-tag key="tourism" value="caravan_site" zoom-appear="15" />
+		<osm-tag key="tourism" value="hostel" zoom-appear="12" />
+		<osm-tag key="tourism" value="hotel" zoom-appear="12" />
+		<osm-tag key="tourism" value="guest_house" zoom-appear="12" />
+		<osm-tag key="tourism" value="wilderness_hut" zoom-appear="12" />
+		<osm-tag key="tourism" value="alpine_hut" zoom-appear="12" />
+		<osm-tag key="tourism" value="camp_site" zoom-appear="12" />
+		    <osm-tag key="tourism" value="caravan_site" zoom-appear="12" />
 		<osm-tag key="tourism" value="information" zoom-appear="10" />
 		<osm-tag key="tourism" value="museum" zoom-appear="14" />
 		<osm-tag key="tourism" value="viewpoint" zoom-appear="14" />
@@ -109,7 +109,7 @@
 		<osm-tag key="historic" value="memorial" zoom-appear="17" />
 		<osm-tag key="historic" value="monument" zoom-appear="17" />
 		<osm-tag key="historic" value="wayside_cross" zoom-appear="15" />
-		<osm-tag key="historic" value="mine" zoom-appear="15" />
+		<osm-tag key="historic" value="mine" zoom-appear="12" />
 
 		<osm-tag key="information" value="%s" renderable="false" />
 		<osm-tag key="ref" value="%s" renderable="false" />
@@ -172,8 +172,8 @@
 		<osm-tag key="tower:type" value="observation" renderable="false"/>
 		<osm-tag key="man_made" value="mast" zoom-appear="14" />		
 		<osm-tag key="man_made" value="windmill" zoom-appear="14" />
-		<osm-tag key="man_made" value="adit" zoom-appear="14" />
-		<osm-tag key="man_made" value="mineshaft" zoom-appear="14" />
+		<osm-tag key="man_made" value="adit" zoom-appear="12" />
+		<osm-tag key="man_made" value="mineshaft" zoom-appear="12" />
 		<osm-tag key="man_made" value="chimney" zoom-appear="14" />
 		
 		<osm-tag key="disused" value="yes" renderable="false" />
@@ -402,11 +402,11 @@
 		<osm-tag key="amenity" value="bar" zoom-appear="16" />
 
 		<osm-tag key="tourism" value="attraction" zoom-appear="15" />
-		<osm-tag key="tourism" value="hostel" zoom-appear="15" />
-		<osm-tag key="tourism" value="hotel" zoom-appear="15" />
-		<osm-tag key="tourism" value="guest_house" zoom-appear="15" />
-		<osm-tag key="tourism" value="wilderness_hut" zoom-appear="15" />
-		<osm-tag key="tourism" value="alpine_hut" zoom-appear="15" />
+		<osm-tag key="tourism" value="hostel" zoom-appear="12" />
+		<osm-tag key="tourism" value="hotel" zoom-appear="12" />
+		<osm-tag key="tourism" value="guest_house" zoom-appear="12" />
+		<osm-tag key="tourism" value="wilderness_hut" zoom-appear="12" />
+		<osm-tag key="tourism" value="alpine_hut" zoom-appear="12" />
 		<osm-tag key="tourism" value="zoo" zoom-appear="12" />
 		<osm-tag key="tourism" value="museum" zoom-appear="14" />
 	</ways>
@@ -544,7 +544,7 @@
 
 		<osm-tag key="logging" value="clearcutting" renderable="false"/>
 		<osm-tag key="logging" value="selective_cutting" renderable="false"/>
-
+<!--
 		<osm-tag key="fmrelbus" value="yes" zoom-appear="8" />
 		<osm-tag key="fmrelbusref" value="x" zoom-appear="8" />
 
@@ -556,8 +556,8 @@
 
 		<osm-tag key="fmreltrain" value="Major" zoom-appear="8" />
 		<osm-tag key="fmreltrainref" value="x" zoom-appear="8" />
-
-		<osm-tag key="fmrelhikingblue"  value="major" zoom-appear="8" />
+-->
+<!--		<osm-tag key="fmrelhikingblue"  value="major" zoom-appear="8" />
 		<osm-tag key="fmrelhikingblue"  value="none" zoom-appear="8" />
 		<osm-tag key="fmrelhikingblue"  value="local" zoom-appear="8" />
 		<osm-tag key="fmrelhikingblue"  value="ruin" zoom-appear="8" />
@@ -613,7 +613,7 @@
 		<osm-tag key="fmrelhikingyellow"  value="alternative" zoom-appear="8" />
 		<osm-tag key="fmrelhikingyellow"  value="roundtrip" zoom-appear="8" />
 		<osm-tag key="fmrelhikingyellow"  value="stripe" zoom-appear="8" />
-
+ -->
 <!-- osmc:symbol -->
 		<osm-tag key="fmrelhikingredosmc"  value="yes" zoom-appear="8" />
 		<osm-tag key="fmrelhikingredosmc"  value="none" zoom-appear="8" />
@@ -726,7 +726,7 @@
 		<osm-tag key="fmrelhikinglocalyellowosmc"  value="corner" zoom-appear="8" />
 		<osm-tag key="fmrelhikinglocalyellowosmc"  value="dot" zoom-appear="8" />
 		<osm-tag key="fmrelhikinglocalyellowosmc"  value="backslash" zoom-appear="8" />
-
+<!--
 		<osm-tag key="fmrelhikingoperatorred"  value="%s" renderable="false" />
 		<osm-tag key="fmrelhikingoperatorgreen"  value="%s" renderable="false" />
 		<osm-tag key="fmrelhikingoperatorblue"  value="%s" renderable="false" />
@@ -735,7 +735,7 @@
 		<osm-tag key="fmrelhikinglocaloperatorgreen"  value="%s" renderable="false" />
 		<osm-tag key="fmrelhikinglocaloperatorblue"  value="%s" renderable="false" />
 		<osm-tag key="fmrelhikinglocaloperatoryellow"  value="%s" renderable="false" />
-
+-->
 		<osm-tag key="fmrelhikingref" value="%s" renderable="false" />
 
 		<osm-tag key="fmrelbicyclered" value="none" zoom-appear="8" />
