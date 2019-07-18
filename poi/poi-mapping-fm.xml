@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" title="root"
+    xmlns="http://mapsforge.org/poi-mapping"
+    xsi:schemaLocation="http://mapsforge.org/poi-mapping https://raw.githubusercontent.com/mapsforge/mapsforge/master/resources/poi-mapping.xsd">
+
+    <category title="turistika/cyklo">
+      <category title="Smerovník">
+        <mapping tag="information=guidepost" />
+      </category>
+      <category title="Studnička">
+        <mapping tag="natural=spring" />
+      </category>   
+      <category title="Vrch">
+        <mapping tag="natural=peak" />
+      </category>
+      <category title="Sedlo">
+        <mapping tag="natural=saddle" />
+      </category>
+      <category title="Jaskyňa">
+        <mapping tag="natural=cave_entrance" />
+      </category>
+      <category title="Vodopád">
+        <mapping tag="waterway=waterfall" />
+      </category>
+    </category>
+    <category title="Ubytovanie">
+      <category title="Hotel">
+        <mapping tag="tourism=hotel" />
+      </category>
+      <category title="Penzión">
+        <mapping tag="tourism=guest_house" />
+      </category>
+      <category title="Hostel">
+        <mapping tag="tourism=hostel" />      
+      </category>
+      <category title="Iné ubytovanie">
+        <mapping tag="tourism=alpine_hut" />
+        <mapping tag="tourism=camp_site" />
+        <mapping tag="tourism=caravan_site" />      
+      </category>            
+    </category>
+    <category title="Stravovanie">
+      <category title="Reštaurácia">
+        <mapping tag="amenity=restaurant" />
+      </category>
+      <category title="Pohostinstvo">
+        <mapping tag="amenity=pub" />
+      </category>
+      <category title="Rýchle občerstvenie">
+        <mapping tag="amenity=fast_food" />
+      </category>      
+      <category title="Kaviareň">
+        <mapping tag="amenity=cafe" />
+      </category>
+      <category title="Bar">
+        <mapping tag="amenity=bar" />
+      </category>
+    </category>
+    <category title="Obchody">
+      <category title="Supermarket/nákupné stredisko">
+        <mapping tag="shop=supermarket" />
+        <mapping tag="shop=mall" />
+        <mapping tag="shop=department_store" />        
+      </category>
+      <category title="Potraviny">
+        <mapping tag="shop=convenience" />
+      </category>
+      <category title="Ostatné obchody">
+        <mapping tag="shop=bakery" />
+        <mapping tag="shop=organic" />
+        <mapping tag="shop=greengrocer" />
+        <mapping tag="shop=ice_cream" />
+        <mapping tag="shop=butcher" />
+        <mapping tag="shop=confectionery" />
+        <mapping tag="shop=farm" />
+        <mapping tag="shop=chemist" />
+      </category>      
+    </category>
+    <category title="Cestovanie">
+      <category title="Železničná doprava">
+        <mapping tag="railway=station" />
+        <mapping tag="railway=halt" />
+        <mapping tag="railway=tram_stop" />
+      </category>
+      <category title="Autobusová doprava">
+        <mapping tag="amenity=bus_station" />
+        <mapping tag="highway=bus_stop" />        
+      </category>
+      <category title="Letecká doprava">
+        <category title="Letisko">
+          <mapping tag="aeroway=aerodrome" />
+        </category>
+      </category>
+      <category title="Lodná doprava">
+        <category title="Prístav">
+          <mapping tag="leisure=marina" />
+        </category>
+      </category>
+    </category>
+    <category title="Obce/Mestá">
+      <mapping tag="place=city" />
+      <mapping tag="place=town" />
+      <mapping tag="place=village" />
+      <mapping tag="place=hamlet" />
+      <mapping tag="place=suburb" />    
+    </category>
+    <category title="Zaujímavosti">
+      <category title="Múzeum"> 
+        <mapping tag="tourism=museum" />
+      </category>
+      <category title="Pamätník"> 
+        <mapping tag="historic=memorial" />
+        <mapping tag="historic=monument" />
+      </category>
+      <category title="Výhliadka">
+        <mapping tag="tourism=viewpoint" />
+      </category>
+    </category>          
+</category>

@@ -356,7 +356,7 @@
     <xsl:with-param name="yellowKey" select="'fmrelmtbyellow'"/>
     <xsl:with-param name="fallbackKey" select="'fmrelmtbwhite|fmrelmtbblack|fmrelmtbdefault'"/>
     <xsl:with-param name="side" select="-1"/>
-    <xsl:with-param name="offset" select="0"/>
+    <xsl:with-param name="offset" select="0.5"/>
     <xsl:with-param name="dasharray" select="'0.3,5'"/>
     </xsl:call-template>
     <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
