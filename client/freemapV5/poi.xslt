@@ -227,6 +227,10 @@
       <symbol id="church" src="file:/symbols/church.svg" symbol-width="16"/>
       <caption k="name" symbol-id="church" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
     </rule>
+    <rule e="any" k="building" v="chapel"> 
+      <symbol id="chapel" src="file:/symbols/chapel.svg" symbol-width="16"/>
+      <caption k="name" symbol-id="chapel" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+    </rule>
   </rule>
   <rule e="node" k="historic" v="wayside_cross" zoom-min="17">
     <symbol src="file:/symbols/wayside_cross.svg" symbol-width="16" priority="10"/>

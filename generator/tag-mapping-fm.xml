@@ -37,22 +37,22 @@
 		<osm-tag key="amenity" value="post_box" zoom-appear="17" />
 		<osm-tag key="amenity" value="post_office" zoom-appear="16" />
 		<osm-tag key="amenity" value="recycling" zoom-appear="17" />
-		<osm-tag key="amenity" value="restaurant" zoom-appear="16" />
-		<osm-tag key="amenity" value="pub" zoom-appear="16" />
-		<osm-tag key="amenity" value="fast_food" zoom-appear="16" />
-		<osm-tag key="amenity" value="cafe" zoom-appear="16" />
-		<osm-tag key="amenity" value="bar" zoom-appear="16" />
-		<osm-tag key="amenity" value="school" zoom-appear="17" />
+		<osm-tag key="amenity" value="restaurant" zoom-appear="14" />
+		<osm-tag key="amenity" value="pub" zoom-appear="14" />
+		<osm-tag key="amenity" value="fast_food" zoom-appear="14" />
+		<osm-tag key="amenity" value="cafe" zoom-appear="14" />
+		<osm-tag key="amenity" value="bar" zoom-appear="14" />
+		<osm-tag key="amenity" value="school" zoom-appear="14" />
 		<osm-tag key="amenity" value="telephone" zoom-appear="17" />
-		<osm-tag key="amenity" value="theatre" zoom-appear="17" />
-		<osm-tag key="amenity" value="toilets" zoom-appear="17" />
-		<osm-tag key="amenity" value="university" zoom-appear="17" />
+		<osm-tag key="amenity" value="theatre" zoom-appear="14" />
+		<osm-tag key="amenity" value="toilets" zoom-appear="16" />
+		<osm-tag key="amenity" value="university" zoom-appear="14" />
 
-		<osm-tag key="amenity" value="hunting_stand" zoom-appear="14" />
-		<osm-tag key="amenity" value="ranger_house" zoom-appear="14" />
+		<osm-tag key="amenity" value="hunting_stand" zoom-appear="12" />
+		<osm-tag key="amenity" value="ranger_house" zoom-appear="12" />
 		<osm-tag key="amenity" value="shelter" zoom-appear="13" />
-		<osm-tag key="amenity" value="feeding_place" zoom-appear="15" />
-		<osm-tag key="amenity" value="game_feeding" zoom-appear="15" />
+		<osm-tag key="amenity" value="feeding_place" zoom-appear="14" />
+		<osm-tag key="amenity" value="game_feeding" zoom-appear="14" />
 
 		<osm-tag key="emergency" value="phone" zoom-appear="16" />
 
@@ -395,11 +395,11 @@
 		<osm-tag key="amenity" value="university" zoom-appear="14" />
 		<osm-tag key="amenity" value="place_of_worship" zoom-appear="17" />
 
-		<osm-tag key="amenity" value="restaurant" zoom-appear="16" />
-		<osm-tag key="amenity" value="pub" zoom-appear="16" />
-		<osm-tag key="amenity" value="fast_food" zoom-appear="16" />
-		<osm-tag key="amenity" value="cafe" zoom-appear="16" />
-		<osm-tag key="amenity" value="bar" zoom-appear="16" />
+		<osm-tag key="amenity" value="restaurant" zoom-appear="14" />
+		<osm-tag key="amenity" value="pub" zoom-appear="14" />
+		<osm-tag key="amenity" value="fast_food" zoom-appear="14" />
+		<osm-tag key="amenity" value="cafe" zoom-appear="14" />
+		<osm-tag key="amenity" value="bar" zoom-appear="14" />
 
 		<osm-tag key="tourism" value="attraction" zoom-appear="15" />
 		<osm-tag key="tourism" value="hostel" zoom-appear="12" />
@@ -442,8 +442,8 @@
 		<osm-tag key="admin_level" value="4" zoom-appear="8" />
 		<osm-tag key="admin_level" value="6" zoom-appear="10" />
 		<osm-tag key="admin_level" value="8" zoom-appear="12" />
-		<osm-tag key="admin_level" value="9" zoom-appear="14" />
-		<osm-tag key="admin_level" value="10" zoom-appear="16" />
+		<osm-tag key="admin_level" value="9" zoom-appear="12" />
+		<osm-tag key="admin_level" value="10" zoom-appear="12" />
 	</ways>
 
 	<!-- AIRPORT TAGS -->
@@ -501,8 +501,8 @@
 		<osm-tag key="military" value="bunker" zoom-appear="12" />
 	</ways>
 	<pois>
-		<osm-tag key="historic" value="castle" zoom-appear="14" />
-		<osm-tag key="historic" value="ruins" zoom-appear="14" />
+		<osm-tag key="historic" value="castle" zoom-appear="12" />
+		<osm-tag key="historic" value="ruins" zoom-appear="12" />
 		<osm-tag key="ruins" value="yes" renderable="false" />
 		<osm-tag key="castle_type" value="%s" renderable="false" />
 	</pois>

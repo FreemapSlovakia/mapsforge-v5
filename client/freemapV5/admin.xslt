@@ -5,17 +5,17 @@
     <!-- https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries -->
   <xsl:template name="admin">
     <rule cat="boundaries" e="way" k="admin_level" v="*">
-      <rule e="way" k="admin_level" v="11" zoom-min="12">
+      <rule e="way" k="admin_level" v="11" zoom-min="15">
         <line stroke="#50EDC2EC" stroke-width="0.8" />
         <line stroke="#9A3996" stroke-width="0.1" stroke-dasharray="1,5" scale="none"/>
       </rule>
       <!-- SK KU -->
-      <rule e="way" k="admin_level" v="10" zoom-min="12">
+      <rule e="way" k="admin_level" v="10" zoom-min="15">
         <line stroke="#50EDC2EC" stroke-width="1" />
         <line stroke="#9A3996" stroke-width="0.8" stroke-dasharray="2,15" scale="none"/>
       </rule>
       <!-- SK obec -->
-      <rule e="way" k="admin_level" v="9" zoom-min="12">
+      <rule e="way" k="admin_level" v="9" zoom-min="13">
         <line stroke="#50EDC2EC" stroke-width="1" />
         <line stroke="#9A3996" stroke-width="0.8" stroke-dasharray="10,10" scale="none"/>
       </rule>
