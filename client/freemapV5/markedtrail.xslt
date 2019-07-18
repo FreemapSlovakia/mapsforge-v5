@@ -412,7 +412,7 @@
       <xsl:with-param name="yellowKey" select="'fmrelhikinglocalyellowosmc'"/>
       <xsl:with-param name="fallbackKey" select="'fmrelhikinglocalwhite|fmrelhikinglocalblack|fmrelhikinglocaldefault'"/>
       <xsl:with-param name="side" select="1"/>
-      <xsl:with-param name="offset" select="1"/>      
+      <xsl:with-param name="offset" select="1"/>
       <xsl:with-param name="dasharray" select="'2,3'"/>
     </xsl:call-template>    
     <rule cat="trailnum" e="way" k="fmrelhikinglocalredosmc|fmrelhikinglocalblueosmc|fmrelhikinglocalgreenosmc|fmrelhikinglocalyellowosmc" v="*" zoom-min="14">

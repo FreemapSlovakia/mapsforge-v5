@@ -351,6 +351,16 @@
   </rule>
 </rule>
 
+
+<rule cat="topo_common" e="way" k="man_made" v="embankment" zoom-min="16">
+  <line dy="8" stroke="#000000" stroke-width="6" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+  <line dy="-8" stroke="#000000" stroke-width="6" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+</rule>
+<rule cat="topo_common" e="way" k="embankment" v="yes" zoom-min="16">
+  <line dy="8" stroke="#000000" stroke-width="6" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+  <line dy="-8" stroke="#000000" stroke-width="6" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+</rule>
+
 <rule cat="overlay" e="way" k="access" v="*" zoom-min="16">
   <line stroke="#44FFFFFF" stroke-width="0.2"/>
   <rule e="way" k="access" v="destination">

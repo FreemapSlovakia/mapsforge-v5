@@ -488,8 +488,8 @@
 		<osm-tag key="protect_class" value="4" force-polygon-line="true" zoom-appear="14"/>
 		<osm-tag key="ramsar" value="yes" equivalent-values="1,true" renderable="false" />
 
-		<osm-tag key="historic" value="ruins" zoom-appear="14" />
-		<osm-tag key="historic" value="castle" zoom-appear="14" />
+		<osm-tag key="historic" value="ruins" zoom-appear="12" />
+		<osm-tag key="historic" value="castle" zoom-appear="12" />
 		<osm-tag key="ruins" value="yes" renderable="false" />		
 		<osm-tag key="castle_type" value="%s" renderable="false" />
 

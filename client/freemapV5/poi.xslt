@@ -172,7 +172,7 @@
     <symbol src="file:/symbols/natural-sinkhole.svg" symbol-width="16"/>  
   </rule>
   
-  <rule e="any" k="historic" v="castle" zoom-min="14">
+  <rule e="any" k="historic" v="castle" zoom-min="13">
     <rule e="any" k="ruins" v="~">
       <rule e="any" k="castle_type" v="~|defensive|fortress">
         <symbol id="castle" src="file:/symbols/castle.svg" symbol-width="14" priority="20"/>
@@ -198,7 +198,7 @@
     <symbol id="museum" src="file:/symbols/museum.svg" symbol-width="14"  priority="15"/>
     <rule e="any" k="*" v="*" zoom-min="17">
       <caption k="name" symbol-id="museum" position="below" font-style="bold" font-size="10" fill="#550000" stroke="#ffffff" stroke-width="2"/>
-     </rule>      
+     </rule>
   </rule>
   <rule e="any" k="tourism" v="zoo" zoom-min="16">
     <symbol id="zoo" src="file:/symbols/zoo.svg" symbol-width="16"/>
