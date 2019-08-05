@@ -7,7 +7,11 @@
     <rule e="node" k="place" v="city" zoom-max="14">
       <caption k="name" font-style="bold_italic" font-size="16" fill="#000000" stroke="#ffffff" stroke-width="3" priority="20"/>
     </rule>
-    <rule e="node" k="place" v="town" zoom-min="8" zoom-max="10">
+    <rule e="node" k="place" v="town" zoom-min="8" zoom-max="8">
+        <circle fill="#000000" radius="2" scale-radius="false" />
+        <circle fill="#ffffff" radius="1" scale-radius="false" />
+    </rule>
+    <rule e="node" k="place" v="town" zoom-min="9" zoom-max="10">
       <caption k="name" font-style="bold" font-size="9" fill="#000000" stroke="#ffffff" stroke-width="3" priority="19"/>
     </rule>
     <rule e="node" k="place" v="town" zoom-min="11" zoom-max="15">

@@ -42,7 +42,7 @@
 <xsl:variable name="z-trunk">6</xsl:variable>
 <xsl:variable name="z-trunk_link">12</xsl:variable>
 <xsl:variable name="z-primary">9</xsl:variable>
-<xsl:variable name="z-secondary">10</xsl:variable>
+<xsl:variable name="z-secondary">9</xsl:variable>
 <xsl:variable name="z-tertiary">12</xsl:variable>
 <xsl:variable name="z-residential">13</xsl:variable>
 <xsl:variable name="z-pedestrian">13</xsl:variable>
@@ -318,23 +318,25 @@
     <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
       <pathText k="name" font-style="bold" font-size="10" stroke="#FFFFFF" stroke-width="2"/>    
     </rule>    
-    <rule e="way" k="highway" v="pedestrian" zoom-min="{$z-pedestrian}">
+    <rule e="way" k="highway" v="pedestrian" zoom-min="14">
       <pathText k="name" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3"/>
     </rule>
-    <rule e="way" k="highway" v="living_street" zoom-min="{$z-living}">
+    <rule e="way" k="highway" v="living_street" zoom-min="14">
       <pathText k="name" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3"/>
     </rule>
-    <rule e="way" k="highway" v="residential|unclassified" zoom-min="{$z-residential}">
+    <rule e="way" k="highway" v="residential|unclassified" zoom-min="14">
       <pathText k="name" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3" display="always"/>
     </rule>    
-    <rule e="way" k="highway" v="tertiary" zoom-min="{$z-tertiary}">
+    <rule e="way" k="highway" v="tertiary" zoom-min="14">
       <pathText k="name" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3"/>
     </rule>
-    <rule e="way" k="highway" v="secondary" zoom-min="{$z-secondary}">
+    <rule e="way" k="highway" v="secondary" zoom-min="14">
       <pathText k="name" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3"/>
-    </rule>    
+    </rule>
+    <rule e="way" k="highway" v="primary" zoom-min="14">
+      <pathText k="name" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3"/>
+    </rule>
     <rule e="way" k="highway" v="primary" zoom-min="{$z-primary}">
-      <pathText k="name" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3"/>
       <caption k="ref" font-style="bold" font-size="8" fill="#FFFFFF" stroke="{$cs-primary}" stroke-width="3" priority="-10"/>
     </rule>
 
