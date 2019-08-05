@@ -11,9 +11,14 @@
         </rule>
         <rule e="node" k="*" v="*" zoom-min="13">
           <symbol id="guide_hiking" src="file:/symbols/guidepost_hiking.svg" symbol-width="20" priority="50" display="always"/>
-          <caption k="name" symbol-id="guide_hiking" position="above" font-style="bold" font-size="12" fill="#000000" stroke="#DBFFA0" stroke-width="3" priority="50" display="always"/>
+          <rule e="node" k="*" v="*" zoom-min="13" zoom-max="15">
+            <caption k="name" symbol-id="guide_hiking" position="above" font-style="bold" font-size="11" fill="#000000" stroke="#DBFFA0" stroke-width="2" priority="50" display="ifspace"/>
+          </rule>
+          <rule e="node" k="*" v="*" zoom-min="16">
+            <caption k="name" symbol-id="guide_hiking" position="above" font-style="bold" font-size="12" fill="#000000" stroke="#DBFFA0" stroke-width="2" priority="50" display="always"/>
+          </rule>
           <rule e="node" k="*" v="*" zoom-min="15">
-            <caption k="ele" symbol-id="guide_hiking" position="below" font-style="normal" font-size="10" fill="#000000" stroke="#DBFFA0" stroke-width="3" priority="49" display="ifspace"/>
+            <caption k="ele" symbol-id="guide_hiking" position="below" font-style="normal" font-size="10" fill="#000000" stroke="#DBFFA0" stroke-width="2" priority="49" display="ifspace"/>
           </rule>
         </rule>
       </rule>     
@@ -27,9 +32,14 @@
         </rule>
         <rule e="node" k="*" v="*" zoom-min="13">
           <symbol id="guide_cycle" src="file:/symbols/guidepost_cycle.svg" symbol-width="20" priority="50" display="always"/>
-          <caption k="name" symbol-id="guide_cycle" position="above" font-style="bold" font-size="12" fill="#000000" stroke="#D5EBFF" stroke-width="3" priority="50" display="always"/>
+          <rule e="node" k="*" v="*" zoom-min="13" zoom-max="15">
+            <caption k="name" symbol-id="guide_cycle" position="above" font-style="bold" font-size="11" fill="#000000" stroke="#D5EBFF" stroke-width="2" priority="50" display="ifspace"/>
+          </rule>
+          <rule e="node" k="*" v="*" zoom-min="16">
+            <caption k="name" symbol-id="guide_cycle" position="above" font-style="bold" font-size="12" fill="#000000" stroke="#D5EBFF" stroke-width="2" priority="50" display="always"/>
+          </rule>
           <rule e="node" k="*" v="*" zoom-min="15">
-            <caption k="ele" symbol-id="guide_cycle" position="below" font-style="normal" font-size="10" fill="#000000" stroke="#D5EBFF" stroke-width="3" priority="49" display="ifspace"/>
+            <caption k="ele" symbol-id="guide_cycle" position="below" font-style="normal" font-size="10" fill="#000000" stroke="#D5EBFF" stroke-width="2" priority="49" display="ifspace"/>
           </rule>
         </rule>
       </rule>     
