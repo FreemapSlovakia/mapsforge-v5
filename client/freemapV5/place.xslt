@@ -19,11 +19,19 @@
     <rule e="node" k="place" v="suburb" zoom-min="15" zoom-max="16">
       <caption k="name" font-style="bold" font-size="14" fill="#B06C6C6C" stroke="#80ffffff" stroke-width="2" priority="17" display="ifspace"/>
     </rule>
+    <rule e="node" k="place" v="village" zoom-min="10" zoom-max="12">
+        <circle fill="#000000" radius="2" scale-radius="false" />
+        <circle fill="#ffffff" radius="1" scale-radius="false" />
+    </rule>
     <rule e="node" k="place" v="village" zoom-min="12" zoom-max="12">
       <caption k="name" font-style="normal" font-size="8" fill="#000000" stroke="#ffffff" stroke-width="3" priority="18"/>
     </rule>
     <rule e="node" k="place" v="village" zoom-min="13" zoom-max="18">
       <caption k="name" font-style="normal" font-size="12" fill="#000000" stroke="#ffffff" stroke-width="3" priority="18"/>
+    </rule>
+    <rule e="node" k="place" v="hamlet" zoom-min="12" zoom-max="13">
+        <circle fill="#000000" radius="1.75" scale-radius="false" />
+        <circle fill="#ffffff" radius="0.5" scale-radius="false" />
     </rule>
     <rule e="node" k="place" v="hamlet" zoom-min="13" zoom-max="18">
       <caption k="name" font-style="normal" font-size="11" fill="#000000" stroke="#ffffff" stroke-width="2" priority="17"/>

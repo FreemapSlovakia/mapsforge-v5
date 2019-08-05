@@ -42,11 +42,11 @@
 <xsl:variable name="z-trunk">6</xsl:variable>
 <xsl:variable name="z-trunk_link">12</xsl:variable>
 <xsl:variable name="z-primary">9</xsl:variable>
-<xsl:variable name="z-secondary">12</xsl:variable>
-<xsl:variable name="z-tertiary">13</xsl:variable>
-<xsl:variable name="z-residential">14</xsl:variable>
-<xsl:variable name="z-pedestrian">14</xsl:variable>
-<xsl:variable name="z-living">14</xsl:variable>
+<xsl:variable name="z-secondary">10</xsl:variable>
+<xsl:variable name="z-tertiary">12</xsl:variable>
+<xsl:variable name="z-residential">13</xsl:variable>
+<xsl:variable name="z-pedestrian">13</xsl:variable>
+<xsl:variable name="z-living">13</xsl:variable>
 <xsl:variable name="z-service">15</xsl:variable>
 <xsl:variable name="z-service2">16</xsl:variable>
 <xsl:variable name="z-track">13</xsl:variable>

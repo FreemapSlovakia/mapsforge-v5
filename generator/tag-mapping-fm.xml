@@ -130,9 +130,9 @@
 		<osm-tag key="place" value="city" zoom-appear="6" />
 		<osm-tag key="place" value="town" zoom-appear="9" />
 		<osm-tag key="place" value="suburb" zoom-appear="11" />
-		<osm-tag key="place" value="village" zoom-appear="11" />
+		<osm-tag key="place" value="village" zoom-appear="10" />
 		<osm-tag key="place" value="island" zoom-appear="12" />
-		<osm-tag key="place" value="hamlet" zoom-appear="13" />
+		<osm-tag key="place" value="hamlet" zoom-appear="10" />
 		<osm-tag key="place" value="locality" zoom-appear="14" />
 	</pois>
 

@@ -222,14 +222,18 @@
     <symbol src="file:/symbols/noexit.svg" symbol-width="10"/>
   </rule>
   
-  <rule e="any" k="amenity" v="place_of_worship" zoom-min="16">
+  <rule e="any" k="amenity" v="place_of_worship" zoom-min="14">
     <rule e="any" k="building" v="church"> 
       <symbol id="church" src="file:/symbols/church.svg" symbol-width="16"/>
-      <caption k="name" symbol-id="church" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      <rule e="any" k="*" v="*" zoom-min="16">
+        <caption k="name" symbol-id="church" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="any" k="building" v="chapel"> 
       <symbol id="chapel" src="file:/symbols/chapel.svg" symbol-width="16"/>
-      <caption k="name" symbol-id="chapel" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      <rule e="any" k="*" v="*" zoom-min="16">
+        <caption k="name" symbol-id="chapel" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      </rule>
     </rule>
   </rule>
   <rule e="node" k="historic" v="wayside_cross" zoom-min="17">
