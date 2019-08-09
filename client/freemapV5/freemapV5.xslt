@@ -29,6 +29,7 @@
   <xsl:call-template name="waterways"/>
   <xsl:call-template name="waterbodies"/>
   <xsl:call-template name="admin"/>
+  <xsl:call-template name="protected"/>
   <xsl:call-template name="contour_lines"/>
   <xsl:call-template name="aeroway"/>
   <xsl:call-template name="buildings"/>

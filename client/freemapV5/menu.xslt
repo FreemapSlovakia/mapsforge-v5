@@ -93,7 +93,7 @@
             <name lang="sk" value="Obce/Mestá" />
             <cat id="place" />
         </layer>
-        <layer id="protect_area" enabled="true" visible="false">
+        <layer id="protect_area" enabled="false" visible="false">
             <name lang="en" value="Protected areas/parks" />
             <name lang="sk" value="Chránené územia" />
             <cat id="protect_area" />
@@ -110,20 +110,21 @@
             <cat id="building" />
             <cat id="waterway" />
             <cat id="boundaries" />
-            <cat id="place" />            
+            <cat id="place" />
             <overlay id="contours" />
             <overlay id="hiking" />
             <overlay id="hikinglocal" />
-            <overlay id="hikingkst" />            
+            <overlay id="hikingkst" />
             <overlay id="sac-scale" />
             <overlay id="naucho" />
             <overlay id="cycle" />
             <overlay id="mtb-scale" />
-            <overlay id="trailnum" />           
+            <overlay id="trailnum" />
             <overlay id="ski" />
+            <overlay id="protect_area" />
             <overlay id="food" />
             <overlay id="sport" />
-            <overlay id="shop" />            
+            <overlay id="shop" />
             <overlay id="accommodation" />
             <overlay id="osmmapper" />
         </layer>
