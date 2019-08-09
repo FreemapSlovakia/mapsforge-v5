@@ -33,7 +33,7 @@
 <xsl:variable name="cs-track">#c2b5a3</xsl:variable>
 <xsl:variable name="cs-service">#666666</xsl:variable>
 <xsl:variable name="cs-cycleway">#639CFF</xsl:variable>
-<xsl:variable name="cs-footway">#C8B8B1</xsl:variable>
+<xsl:variable name="cs-footway">#9F8F88</xsl:variable>
 <xsl:variable name="cs-construction">#80FFFFFF</xsl:variable>
 
 <!-- road min zoom -->
@@ -52,6 +52,7 @@
 <xsl:variable name="z-track">13</xsl:variable>
 <xsl:variable name="z-cycleway">15</xsl:variable>
 <xsl:variable name="z-footway">16</xsl:variable>
+<xsl:variable name="z-path">15</xsl:variable>
 <xsl:variable name="z-construction">15</xsl:variable>
 
 <xsl:template name="highway">
@@ -103,7 +104,7 @@
         <line stroke="{$cs-pedestrian}" stroke-width="0.9" stroke-linecap="butt"/>
       </rule>
       <rule e="way" k="highway" v="footway" zoom-min="{$z-footway}">
-        <line stroke="{$cs-footway}" stroke-width="0.8" stroke-linecap="butt"/>
+        <line stroke="{$cs-footway}" stroke-width="0.7" stroke-linecap="butt"/>
       </rule>
     </rule>
     <!-- tunnel -->
@@ -192,7 +193,7 @@
         </rule>
         <rule e="way" k="service" v="parking_aisle|driveway|drive-through" zoom-min="{$z-service2}">
           <line stroke="{$cs-service}" stroke-width="0.4" stroke-linecap="butt"/>
-        </rule>             
+        </rule>
       </rule>
       <rule e="way" k="highway" v="pedestrian" zoom-min="{$z-pedestrian}">
         <line stroke="{$cs-pedestrian}" stroke-width="0.6" stroke-linecap="butt"/>
@@ -201,7 +202,7 @@
         <line stroke="{$cs-cycleway}" stroke-width="0.45" stroke-linecap="butt"/>
       </rule>
       <rule e="way" k="highway" v="footway" zoom-min="{$z-footway}">
-        <line stroke="{$cs-footway}" stroke-width="0.35" stroke-linecap="butt"/>
+        <line stroke="{$cs-footway}" stroke-width="0.40" stroke-linecap="butt"/>
       </rule>
         
       </rule>
@@ -214,9 +215,9 @@
       <line stroke="{$hw-steps}" stroke-width="0.4" stroke-dasharray="1,3" stroke-linecap="butt" scale="stroke"/>
     </rule>
     <rule e="way" k="highway" v="footway" zoom-min="{$z-footway}">
-      <line stroke="{$hw-footway}" stroke-width="0.25" stroke-linecap="butt"/>
+      <line stroke="{$hw-footway}" stroke-width="0.22" stroke-linecap="butt"/>
     </rule>
-    <rule e="way" k="highway" v="path" zoom-min="{$z-footway}">
+    <rule e="way" k="highway" v="path" zoom-min="{$z-path}">
       <line stroke="{$hw-path1}" stroke-width="0.33" stroke-linecap="butt"/>
       <line stroke="{$hw-path2}" stroke-width="0.33" stroke-dasharray="0.5,0.5" stroke-linecap="butt" scale="all"/>
     </rule>
@@ -224,24 +225,24 @@
       <line stroke="{$hw-cycleway}" stroke-width="0.25" stroke-linecap="butt"/>
     </rule>
     <rule e="way" k="highway" v="track" zoom-min="{$z-track}">
-      <line stroke="{$cs-track}" stroke-width="0.7" stroke-linecap="butt"/>
+      <line stroke="{$cs-track}" stroke-width="0.8" stroke-linecap="butt"/>
       <rule e="way" k="tracktype" v="grade1"> 
-        <line stroke="{$hw-track}" stroke-width="0.7" stroke-dasharray="0.8,0.4,0.2,0.4" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="0.8,0.5,0.2,0.5" stroke-linecap="butt" scale="all"/>
       </rule>
       <rule e="way" k="tracktype" v="grade2">
-        <line stroke="{$hw-track}" stroke-width="0.7" stroke-dasharray="0.8,0.4,0.2,0.3,0.2,0.4" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="0.8,0.5,0.2,0.3,0.2,0.5" stroke-linecap="butt" scale="all"/>
       </rule>
       <rule e="way" k="tracktype" v="grade3">
-        <line stroke="{$hw-track}" stroke-width="0.7" stroke-dasharray="0.8,0.4,0.2,0.3,0.2,0.3,0.2,0.4" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="0.8,0.5,0.2,0.3,0.2,0.3,0.2,0.5" stroke-linecap="butt" scale="all"/>
       </rule>
       <rule e="way" k="tracktype" v="grade4">
-        <line stroke="{$hw-track}" stroke-width="0.7" stroke-dasharray="0.8,0.4,0.2,0.3,0.2,0.3,0.2,0.3,0.2,0.4" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="0.8,0.5,0.2,0.3,0.2,0.3,0.2,0.3,0.2,0.5" stroke-linecap="butt" scale="all"/>
       </rule>
       <rule e="way" k="tracktype" v="grade5">
-        <line stroke="{$hw-track}" stroke-width="0.7" stroke-dasharray="0.8,0.4,0.2,0.3,0.2,0.3,0.2,0.3,0.2,0.3,0.2,0.4" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="0.8,0.5,0.2,0.3,0.2,0.3,0.2,0.3,0.2,0.3,0.2,0.5" stroke-linecap="butt" scale="all"/>
       </rule>
       <rule e="way" k="tracktype" v="~">
-        <line stroke="{$hw-track}" stroke-width="0.7" stroke-dasharray="1,3" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="1,3" stroke-linecap="butt" scale="all"/>
       </rule>
     </rule>
     <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
@@ -251,7 +252,7 @@
       <rule e="way" k="service" v="*" zoom-min="{$z-service2}"> 
         <line stroke="{$hw-service}" stroke-width="0.2" />
       </rule>
-    </rule>    
+    </rule>
     <rule e="way" k="highway" v="pedestrian" zoom-min="{$z-pedestrian}">
       <line stroke="{$hw-pedestrian}" stroke-width="0.3" />
     </rule>
@@ -266,7 +267,7 @@
     </rule>
     <rule e="way" k="highway" v="secondary|secondary_link" zoom-min="{$z-secondary}">
       <line stroke="{$hw-secondary}" stroke-width="1.2" />
-    </rule>    
+    </rule>
     <rule e="way" k="highway" v="primary|primary_link" zoom-min="{$z-primary}">
       <line stroke="{$hw-primary}" stroke-width="1.2" />
     </rule>
@@ -333,11 +334,14 @@
     <rule e="way" k="highway" v="secondary" zoom-min="14">
       <pathText k="name" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3"/>
     </rule>
+    <rule e="way" k="highway" v="secondary" zoom-min="11" zoom-max="15">
+      <caption k="ref" font-style="bold" font-size="7" fill="#FFFFFF" stroke="{$cs-secondary}" stroke-width="3" priority="-10"/>
+    </rule>
     <rule e="way" k="highway" v="primary" zoom-min="14">
       <pathText k="name" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3"/>
     </rule>
     <rule e="way" k="highway" v="primary" zoom-min="{$z-primary}">
-      <caption k="ref" font-style="bold" font-size="8" fill="#FFFFFF" stroke="{$cs-primary}" stroke-width="3" priority="-10"/>
+      <caption k="ref" font-style="bold" font-size="7" fill="#FFFFFF" stroke="{$cs-primary}" stroke-width="3" priority="-10"/>
     </rule>
 
     <rule e="way" k="highway" v="trunk_link" zoom-min="{$z-trunk_link}">

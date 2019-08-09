@@ -5,13 +5,13 @@
 <xsl:template name="poi">
   <rule cat="topo_common" e="node" k="natural" v="spring" zoom-min="13">
     <rule e="node" k="drinking_water" v="~|no">
-        <symbol id="spring" src="file:/symbols/spring.svg" symbol-width="20" priority="30"/>
+        <symbol id="spring" src="file:/symbols/spring.svg" symbol-width="20" priority="80" display="ifspace"/>
     </rule>
     <rule e="node" k="drinking_water" v="yes">
-        <symbol id="spring" src="file:/symbols/spring-drink.svg" symbol-width="20" priority="30"/>
+        <symbol id="spring" src="file:/symbols/spring-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
     </rule>
     <rule e="node" k="*" v="*" zoom-min="16">
-        <caption k="name" symbol-id="spring" position="below" font-style="bold" font-size="9" fill="#0092da" stroke="#ffffff" stroke-width="2"/>
+        <caption k="name" symbol-id="spring" position="below" font-style="bold" font-size="9" fill="#0092da" stroke="#ffffff" stroke-width="2" priority="20"/>
     </rule>
   </rule>
 
@@ -61,10 +61,10 @@
   <rule cat="default" e="any" k="amenity" v="charging_station" zoom-min="16">
     <symbol src="file:/symbols/charging_station.svg" symbol-width="14" priority="0"/>
   </rule>
-  <rule cat="default" e="any" k="amenity" v="fire_station" zoom-min="16">
+  <rule cat="default" e="any" k="amenity" v="fire_station" zoom-min="15">
     <symbol src="file:/symbols/fire_station.svg" symbol-width="14" priority="0"/>
   </rule>
-  <rule cat="default" e="any" k="amenity" v="police" zoom-min="16">
+  <rule cat="default" e="any" k="amenity" v="police" zoom-min="15">
     <symbol id="police"  src="file:/symbols/police_station.svg" symbol-width="14" priority="0"/>
       <rule cat="default" e="any" k="*" v="*" zoom-min="17">
         <caption k="name" symbol-id="police" position="below" font-style="bold" font-size="9" fill="#550000" stroke="#ffffff" stroke-width="2"/>
@@ -73,34 +73,34 @@
 
   
   <rule cat="accommodation" e="any" k="tourism" v="hotel" zoom-min="15">
-      <symbol id="hotel" src="file:/symbols/hotel.svg" symbol-width="12"/>
-      <caption k="name" symbol-id="hotel" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
+      <symbol id="hotel" src="file:/symbols/hotel.svg" symbol-width="12" priority="10"/>
+      <caption k="name" symbol-id="hotel" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
   </rule>
   <rule cat="accommodation" e="any" k="tourism" v="guest_house" zoom-min="15">
-      <symbol id="guesthouse" src="file:/symbols/hotel.svg" symbol-width="12"/>
-      <caption k="name" symbol-id="guesthouse" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
+      <symbol id="guesthouse" src="file:/symbols/hotel.svg" symbol-width="12" priority="10"/>
+      <caption k="name" symbol-id="guesthouse" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
   </rule>
   <rule cat="accommodation" e="any" k="tourism" v="hostel" zoom-min="15">
-      <symbol id="hostel" src="file:/symbols/hostel.svg" symbol-width="12"/>
-      <caption k="name" symbol-id="hostel" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
+      <symbol id="hostel" src="file:/symbols/hostel.svg" symbol-width="12" priority="10"/>
+      <caption k="name" symbol-id="hostel" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
   </rule>
   <rule cat="accommodation" e="any" k="tourism" v="camp_site" zoom-min="13">
-    <symbol id="camp" src="file:/symbols/camping.svg" symbol-width="12"/>
-    <caption k="name" symbol-id="camp" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
+    <symbol id="camp" src="file:/symbols/camping.svg" symbol-width="12" priority="10"/>
+    <caption k="name" symbol-id="camp" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
   </rule>
   <rule cat="accommodation" e="any" k="tourism" v="caravan_site" zoom-min="13">
-    <symbol id="caravan" src="file:/symbols/caravan.svg" symbol-width="12"/>
-    <caption k="name" symbol-id="caravan" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
+    <symbol id="caravan" src="file:/symbols/caravan.svg" symbol-width="12" priority="10"/>
+    <caption k="name" symbol-id="caravan" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
   </rule>
   <rule e="any" k="tourism" v="alpine_hut" zoom-min="13">
-    <symbol id="hut" src="file:/symbols/alpine_hut.svg" symbol-width="14"/>
-    <caption k="name" symbol-id="hut" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
+    <symbol id="hut" src="file:/symbols/alpine_hut.svg" symbol-width="14" priority="10"/>
+    <caption k="name" symbol-id="hut" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
   </rule>
   <rule e="any" k="tourism" v="wilderness_hut" zoom-min="13">
-      <symbol src="file:/symbols/wilderness_hut.svg" symbol-width="14"/>
+      <symbol src="file:/symbols/wilderness_hut.svg" symbol-width="14" priority="10"/>
   </rule>
   <rule cat="topo_icons" e="node" k="amenity" v="shelter" zoom-min="13">
-    <symbol src="file:/symbols/shelter.svg" symbol-width="12"/>
+    <symbol src="file:/symbols/shelter.svg" symbol-width="12" priority="10"/>
   </rule>
 
 
@@ -250,25 +250,25 @@
     </rule>
   </rule>
 
-  <rule cat="food" e="any" k="amenity" v="restaurant" zoom-min="16">
-    <symbol id="restaurant" src="file:/symbols/restaurant.svg" symbol-width="14"/>
-    <caption k="name" symbol-id="restaurant" position="below" font-style="bold" font-size="10" fill="#aa4400" stroke="#ffffff" stroke-width="2"/>
+  <rule cat="food" e="any" k="amenity" v="restaurant" zoom-min="15">
+    <symbol id="restaurant" src="file:/symbols/restaurant.svg" symbol-width="14" priority="10"/>
+    <caption k="name" symbol-id="restaurant" position="below" font-style="bold" font-size="10" fill="#aa4400" stroke="#ffffff" stroke-width="2" priority="8"/>
   </rule>
-  <rule cat="food" e="any" k="amenity" v="pub" zoom-min="16">
-    <symbol id="pub" src="file:/symbols/pub.svg" symbol-width="14"/>
-    <caption k="name" symbol-id="pub" position="below" font-style="bold" font-size="10" fill="#aa4400" stroke="#ffffff" stroke-width="2"/>
+  <rule cat="food" e="any" k="amenity" v="pub" zoom-min="14">
+    <symbol id="pub" src="file:/symbols/pub.svg" symbol-width="14" priority="10"/>
+    <caption k="name" symbol-id="pub" position="below" font-style="bold" font-size="10" fill="#aa4400" stroke="#ffffff" stroke-width="2" priority="8"/>
   </rule>
-  <rule cat="food" e="any" k="amenity" v="fast_food" zoom-min="16">
-    <symbol id="fastfood" src="file:/symbols/fastfood.svg" symbol-width="14"/>
-    <caption k="name" symbol-id="fastfood" position="below" font-style="bold" font-size="10" fill="#aa4400" stroke="#ffffff" stroke-width="2"/>
+  <rule cat="food" e="any" k="amenity" v="fast_food" zoom-min="14">
+    <symbol id="fastfood" src="file:/symbols/fastfood.svg" symbol-width="14" priority="10"/>
+    <caption k="name" symbol-id="fastfood" position="below" font-style="bold" font-size="10" fill="#aa4400" stroke="#ffffff" stroke-width="2" priority="8"/>
   </rule>
-  <rule cat="food" e="any" k="amenity" v="cafe" zoom-min="16">
-    <symbol id="cafe" src="file:/symbols/cafe.svg" symbol-width="14"/>
-    <caption k="name" symbol-id="cafe" position="below" font-style="bold" font-size="10" fill="#aa4400" stroke="#ffffff" stroke-width="2"/>
+  <rule cat="food" e="any" k="amenity" v="cafe" zoom-min="14">
+    <symbol id="cafe" src="file:/symbols/cafe.svg" symbol-width="14" priority="10"/>
+    <caption k="name" symbol-id="cafe" position="below" font-style="bold" font-size="10" fill="#aa4400" stroke="#ffffff" stroke-width="2" priority="8"/>
   </rule>
-  <rule cat="food" e="any" k="amenity" v="bar" zoom-min="16">
-    <symbol id="bar" src="file:/symbols/bar.svg" symbol-width="14"/>
-    <caption k="name" symbol-id="bar" position="below" font-style="bold" font-size="10" fill="#aa4400" stroke="#ffffff" stroke-width="2"/>
+  <rule cat="food" e="any" k="amenity" v="bar" zoom-min="14">
+    <symbol id="bar" src="file:/symbols/bar.svg" symbol-width="14" priority="10"/>
+    <caption k="name" symbol-id="bar" position="below" font-style="bold" font-size="10" fill="#aa4400" stroke="#ffffff" stroke-width="2" priority="8"/>
   </rule>
   
   <rule cat="shop" e="any" k="shop" v="*">

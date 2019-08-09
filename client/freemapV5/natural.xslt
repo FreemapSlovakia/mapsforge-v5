@@ -25,13 +25,13 @@
         </rule>
         <rule e="any" k="*" v="*" zoom-min="14">
           <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="10" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="15" display="ifspace"/>
-        </rule>        
+        </rule>
 
-      </rule>    
+      </rule>
     </rule>
     <rule e="node" k="name" v="~">
       <rule e="node" k="*" v="*" zoom-min="16">
-        <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="8" />
+        <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="8" priority="20"/>
       </rule>
     </rule>
     <rule e="any" k="*" v="*" zoom-min="15">
