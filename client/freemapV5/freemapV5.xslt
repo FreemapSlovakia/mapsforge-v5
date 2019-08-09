@@ -10,12 +10,13 @@
     <xsl:include href="aeroway.xslt" />
     <xsl:include href="landuse.xslt" />
     <xsl:include href="water.xslt" />
+    <xsl:include href="protected.xslt" />
     <xsl:include href="admin.xslt" />
     <xsl:include href="place.xslt" />
     <xsl:include href="markedtrail.xslt" />
     <xsl:include href="tourism.xslt" />
     <xsl:include href="ski.xslt" />
-    <xsl:include href="natural.xslt" />    
+    <xsl:include href="natural.xslt" />
     <xsl:include href="aerial.xslt" />
     <xsl:include href="barrier.xslt" />
     <xsl:include href="poi.xslt" />

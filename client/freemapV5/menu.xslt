@@ -92,7 +92,12 @@
             <name lang="en" value="Places" />
             <name lang="sk" value="Obce/Mestá" />
             <cat id="place" />
-        </layer>        
+        </layer>
+        <layer id="protect_area" enabled="true" visible="false">
+            <name lang="en" value="Protected areas/parks" />
+            <name lang="sk" value="Chránené územia" />
+            <cat id="protect_area" />
+        </layer>
         <layer id="topo" visible="true">
             <name lang="en" value="Topo" />
             <name lang="sk" value="Topo" />
