@@ -745,10 +745,11 @@
 		<osm-tag key="fmrelbicycleblack" value="none" zoom-appear="8" />
 		<osm-tag key="fmrelbicycledefault" value="none" zoom-appear="8" />
 
-		<osm-tag key="fmrelmtbered" value="none" zoom-appear="8" />
+		<osm-tag key="fmrelmtbred" value="none" zoom-appear="8" />
 		<osm-tag key="fmrelmtbgreen" value="none" zoom-appear="8" />
 		<osm-tag key="fmrelmtbblue" value="none" zoom-appear="8" />
 		<osm-tag key="fmrelmtbyellow" value="none" zoom-appear="8" />
+		<osm-tag key="fmrelmtbwhite" value="none" zoom-appear="8" />
 		<osm-tag key="fmrelmtbblack" value="none" zoom-appear="8" />
 		<osm-tag key="fmrelmtbdefault" value="none" zoom-appear="8" />
 
