@@ -317,7 +317,7 @@
 
     
     <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
-      <pathText k="name" font-style="bold" font-size="10" stroke="#FFFFFF" stroke-width="2"/>    
+      <pathText k="name" font-style="bold" font-size="10" stroke="#FFFFFF" stroke-width="2"/>
     </rule>    
     <rule e="way" k="highway" v="pedestrian" zoom-min="14">
       <pathText k="name" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3"/>

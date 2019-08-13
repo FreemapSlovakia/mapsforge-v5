@@ -7,59 +7,59 @@
     <rule e="node" k="information" v="guidepost">
       <rule e="node" k="hiking" v="yes">
         <rule e="node" k="*" v="*" zoom-min="12" zoom-max="12">
-          <symbol id="guide_hiking" src="file:/symbols/guidepost_hiking.svg" symbol-width="12" priority="50" display="always"/>
+          <symbol id="guide_hiking" src="file:/symbols/guidepost_hiking.svg" symbol-width="12" priority="150" display="always"/>
         </rule>
         <rule e="node" k="*" v="*" zoom-min="13">
-          <symbol id="guide_hiking" src="file:/symbols/guidepost_hiking.svg" symbol-width="20" priority="50" display="always"/>
+          <symbol id="guide_hiking" src="file:/symbols/guidepost_hiking.svg" symbol-width="20" priority="150" display="always"/>
           <rule e="node" k="*" v="*" zoom-min="13" zoom-max="15">
-            <caption k="name" symbol-id="guide_hiking" position="above" font-style="bold" font-size="11" fill="#000000" stroke="#DBFFA0" stroke-width="2" priority="50" display="ifspace"/>
+            <caption k="name" symbol-id="guide_hiking" position="above" font-style="bold" font-size="11" fill="#000000" stroke="#DBFFA0" stroke-width="2" priority="160" display="ifspace"/>
           </rule>
           <rule e="node" k="*" v="*" zoom-min="16">
-            <caption k="name" symbol-id="guide_hiking" position="above" font-style="bold" font-size="12" fill="#000000" stroke="#DBFFA0" stroke-width="2" priority="50" display="always"/>
+            <caption k="name" symbol-id="guide_hiking" position="above" font-style="bold" font-size="12" fill="#000000" stroke="#DBFFA0" stroke-width="2" priority="160" display="always"/>
           </rule>
           <rule e="node" k="*" v="*" zoom-min="15">
             <caption k="ele" symbol-id="guide_hiking" position="below" font-style="normal" font-size="10" fill="#000000" stroke="#DBFFA0" stroke-width="2" priority="49" display="ifspace"/>
           </rule>
         </rule>
-      </rule>     
-    </rule>  
+      </rule>
+    </rule>
   </rule>
   <rule cat="cycle" e="node" k="tourism" v="*" zoom-min="11">
     <rule e="node" k="information" v="guidepost">
       <rule e="node" k="bicycle" v="yes">
         <rule e="node" k="*" v="*" zoom-min="12" zoom-max="12">
-          <symbol id="guide_cycle" src="file:/symbols/guidepost_cycle.svg" symbol-width="12" priority="50" display="always"/>
+          <symbol id="guide_cycle" src="file:/symbols/guidepost_cycle.svg" symbol-width="12" priority="150" display="always"/>
         </rule>
         <rule e="node" k="*" v="*" zoom-min="13">
-          <symbol id="guide_cycle" src="file:/symbols/guidepost_cycle.svg" symbol-width="20" priority="50" display="always"/>
+          <symbol id="guide_cycle" src="file:/symbols/guidepost_cycle.svg" symbol-width="20" priority="150" display="always"/>
           <rule e="node" k="*" v="*" zoom-min="13" zoom-max="15">
-            <caption k="name" symbol-id="guide_cycle" position="above" font-style="bold" font-size="11" fill="#000000" stroke="#D5EBFF" stroke-width="2" priority="50" display="ifspace"/>
+            <caption k="name" symbol-id="guide_cycle" position="above" font-style="bold" font-size="11" fill="#000000" stroke="#D5EBFF" stroke-width="2" priority="160" display="ifspace"/>
           </rule>
           <rule e="node" k="*" v="*" zoom-min="16">
-            <caption k="name" symbol-id="guide_cycle" position="above" font-style="bold" font-size="12" fill="#000000" stroke="#D5EBFF" stroke-width="2" priority="50" display="always"/>
+            <caption k="name" symbol-id="guide_cycle" position="above" font-style="bold" font-size="12" fill="#000000" stroke="#D5EBFF" stroke-width="2" priority="160" display="always"/>
           </rule>
           <rule e="node" k="*" v="*" zoom-min="15">
             <caption k="ele" symbol-id="guide_cycle" position="below" font-style="normal" font-size="10" fill="#000000" stroke="#D5EBFF" stroke-width="2" priority="49" display="ifspace"/>
           </rule>
         </rule>
-      </rule>     
-    </rule>  
+      </rule>
+    </rule>
   </rule>
   <rule cat="ski" e="node" k="tourism" v="*" zoom-min="11">
     <rule e="node" k="information" v="guidepost">
       <rule e="node" k="ski" v="yes">
         <rule e="node" k="*" v="*" zoom-min="12" zoom-max="12">
-          <symbol id="guide_ski" src="file:/symbols/guidepost_ski.svg" symbol-width="12" priority="50" display="always"/>
+          <symbol id="guide_ski" src="file:/symbols/guidepost_ski.svg" symbol-width="12" priority="150" display="always"/>
         </rule>
         <rule e="node" k="*" v="*" zoom-min="13">
-          <symbol id="guide_ski" src="file:/symbols/guidepost_ski.svg" symbol-width="20" priority="50" display="always"/>
-          <caption k="name" symbol-id="guide_ski" position="above" font-style="bold" font-size="12" fill="#000000" stroke="#FFEEAA" stroke-width="3" priority="50" display="always"/>
+          <symbol id="guide_ski" src="file:/symbols/guidepost_ski.svg" symbol-width="20" priority="150" display="always"/>
+          <caption k="name" symbol-id="guide_ski" position="above" font-style="bold" font-size="12" fill="#000000" stroke="#FFEEAA" stroke-width="3" priority="160" display="always"/>
           <rule e="node" k="*" v="*" zoom-min="15">
             <caption k="ele" symbol-id="guide_ski" position="below" font-style="normal" font-size="10" fill="#000000" stroke="#FFEEAA" stroke-width="3" priority="49" display="ifspace"/>
           </rule>
         </rule>
-      </rule>     
-    </rule>  
+      </rule>
+    </rule>
   </rule>
 
 </xsl:template>

@@ -478,9 +478,9 @@
 		<osm-tag key="barrier" value="retaining_wall" zoom-appear="14" />
 		<osm-tag key="barrier" value="wall" zoom-appear="14" />
 
-		<osm-tag key="boundary" value="national_park" zoom-appear="10"/>
-		<osm-tag key="boundary" value="protected_landscape_area"  zoom-appear="10"/>
-		<osm-tag key="boundary" value="protected_area" zoom-appear="10"/>
+		<osm-tag key="boundary" value="national_park" zoom-appear="10" />
+		<osm-tag key="boundary" value="protected_landscape_area" zoom-appear="10" />
+		<osm-tag key="boundary" value="protected_area" zoom-appear="10" />
 		<osm-tag key="protect_class" value="1" renderable="false"/>
 		<osm-tag key="protect_class" value="2" renderable="false"/>
 		<osm-tag key="protect_class" value="3" renderable="false"/>

@@ -33,4 +33,26 @@
 			<tag k="ele" from_match="elevation" v="{1}m"/>
 		</output>
 	</translation>
+
+
+	<translation>
+		<name>chranene uzemia</name>
+		<description>relacie chranene uzemia na multipolygon</description>
+		<match type="relation" mode="and">
+			<match mode="or" type="relation">
+				<tag k="boundary" v="national_park"/>
+				<tag k="boundary" v="protected_area"/>
+				<tag k="boundary" v="nature_reserve"/>
+				<tag k="leisure" v="national_park"/>
+				<tag k="leisure" v="nature_reserve"/>
+			</match>
+			<match mode="or" type="relation">
+				<tag k="type" v="boundary"/>
+			</match>
+		</match>
+		<output>
+			<copy-all/>
+			<tag k="type" v="multipolygon"/>
+		</output>
+	</translation>
 </translations>

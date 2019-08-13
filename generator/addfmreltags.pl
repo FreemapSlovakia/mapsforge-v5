@@ -199,9 +199,9 @@ sub	convertArrayToString {
 		for my $tag (keys(%$wayTags)) {
 			if (index($tag, "ref") != -1) {	# convert Ref from array to plain string
 				if (scalar(@{$wayTags->{$tag}}) > 1) {
-					$wayTags->{$tag} = join(",", sort(uniq(@{$wayTags->{$tag}})));
+					$wayTags->{$tag} = join("/", sort(uniq(@{$wayTags->{$tag}})));
 				}
-				else { $wayTags->{$tag} = $wayTags->{$tag}->[0]; }
+				else { $wayTags->{$tag} = $wayTags->{$tag}->[0] . " "; } # " " > single number ref hack
 			}
 		}
 	}
