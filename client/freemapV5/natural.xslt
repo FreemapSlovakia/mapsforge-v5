@@ -13,10 +13,10 @@
           <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="10" />
         </rule>
         <rule e="any" k="*" v="*" zoom-min="12" zoom-max="13">
-          <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="8" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="15" display="ifspace"/>
-        </rule>        
+          <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="8" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="70" display="ifspace"/>
+        </rule>
         <rule e="any" k="*" v="*" zoom-min="14">
-          <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="10" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="15" display="ifspace"/>
+          <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="10" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="70" display="ifspace"/>
         </rule>
       </rule>
       <rule e="node" k="ele" v="~">
@@ -24,7 +24,7 @@
           <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="10" />
         </rule>
         <rule e="any" k="*" v="*" zoom-min="14">
-          <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="10" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="15" display="ifspace"/>
+          <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="10" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="70" display="ifspace"/>
         </rule>
 
       </rule>

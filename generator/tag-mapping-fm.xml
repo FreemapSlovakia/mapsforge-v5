@@ -615,7 +615,12 @@
 		<osm-tag key="fmrelhikingyellow"  value="stripe" zoom-appear="8" />
  -->
 <!-- osmc:symbol -->
-		<osm-tag key="fmrelhikingredosmc"  value="yes" zoom-appear="8" />
+		<osm-tag key="fmrelhikingredosmc"  value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelhikinggreenosmc"  value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelhikingblueosmc"  value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelhikingyellowosmc"  value="%s" zoom-appear="8" />
+
+<!--		<osm-tag key="fmrelhikingredosmc"  value="yes" zoom-appear="8" />
 		<osm-tag key="fmrelhikingredosmc"  value="none" zoom-appear="8" />
 		<osm-tag key="fmrelhikingredosmc"  value="bar" zoom-appear="8" />
 		<osm-tag key="fmrelhikingredosmc"  value="L" zoom-appear="8" />
@@ -662,10 +667,16 @@
 		<osm-tag key="fmrelhikingyellowosmc"  value="corner" zoom-appear="8" />
 		<osm-tag key="fmrelhikingyellowosmc"  value="dot" zoom-appear="8" />
 		<osm-tag key="fmrelhikingyellowosmc"  value="backslash" zoom-appear="8" />
-
+-->
 
 <!-- local osmc:symbol -->
-		<osm-tag key="fmrelhikinglocaldefault"  value="yellow" zoom-appear="8" />
+		<osm-tag key="fmrelhikinglocaldefault"  value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelhikinglocalredosmc"  value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelhikinglocalgreenosmc"  value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelhikinglocalblueosmc"  value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelhikinglocalyellowosmc"  value="%s" zoom-appear="8" />
+
+<!--		<osm-tag key="fmrelhikinglocaldefault"  value="yellow" zoom-appear="8" />
 		<osm-tag key="fmrelhikinglocaldefault"  value="blue" zoom-appear="8" />
 		<osm-tag key="fmrelhikinglocaldefault"  value="none" zoom-appear="8" />
 		<osm-tag key="fmrelhikinglocaldefault"  value="gruen" zoom-appear="8" />
@@ -726,6 +737,7 @@
 		<osm-tag key="fmrelhikinglocalyellowosmc"  value="corner" zoom-appear="8" />
 		<osm-tag key="fmrelhikinglocalyellowosmc"  value="dot" zoom-appear="8" />
 		<osm-tag key="fmrelhikinglocalyellowosmc"  value="backslash" zoom-appear="8" />
+-->
 <!--
 		<osm-tag key="fmrelhikingoperatorred"  value="%s" renderable="false" />
 		<osm-tag key="fmrelhikingoperatorgreen"  value="%s" renderable="false" />

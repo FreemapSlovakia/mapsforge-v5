@@ -345,7 +345,7 @@
     </xsl:call-template>
     <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
 <!--      <caption k="fmrelbicycleref" font-style="bold" font-size="9" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="always" priority="100"/> -->
-      <pathText k="fmrelbicycleref" dy="-1" font-style="bold" font-size="9" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="always" priority="100"/>
+      <pathText k="fmrelbicycleref" dy="-2" font-style="bold" font-size="8" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="always" priority="100"/>
     </rule>
   </rule>
 </xsl:template>
@@ -365,7 +365,7 @@
     </xsl:call-template>
     <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
 <!--      <caption k="fmrelmtbref" font-style="bold" font-size="9" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="always" priority="100"/> -->
-      <pathText k="fmrelmtbref" dy="-1" font-style="bold" font-size="9" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="always" priority="95"/>
+      <pathText k="fmrelmtbref" dy="-2" font-style="bold" font-size="8" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="always" priority="95"/>
     </rule>
   </rule>
 </xsl:template>
@@ -385,7 +385,7 @@
     </xsl:call-template>
     <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
 <!--       <caption k="fmrelskiref" font-style="bold" font-size="9" fill="#000000" stroke="#FFEEAA" stroke-width="4" display="always" priority="100"/> -->
-      <pathText k="fmrelskiref" dy="-2" font-style="bold" font-size="9" fill="#000000" stroke="#FFEEAA" stroke-width="4" display="always" priority="100"/>
+      <pathText k="fmrelskiref" dy="-3" font-style="bold" font-size="8" fill="#000000" stroke="#FFEEAA" stroke-width="4" display="always" priority="100"/>
     </rule>
   </rule>
 </xsl:template>
@@ -406,7 +406,7 @@
     </xsl:call-template>
     <rule cat="trailnum" e="way" k="fmrelhikingredosmc|fmrelhikingblueosmc|fmrelhikinggreenosmc|fmrelhikingyellowosmc" v="*" zoom-min="14">
 <!--      <caption k="fmrelhikingref" font-style="bold" font-size="9" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="100"/> -->
-      <pathText k="fmrelhikingref" dy="1" font-style="bold" font-size="9" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="100"/>
+      <pathText k="fmrelhikingref" dy="2" font-style="bold" font-size="8" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="100"/>
     </rule>
   </rule>
 </xsl:template>
@@ -426,7 +426,7 @@
     </xsl:call-template>
     <rule cat="trailnum" e="way" k="fmrelhikinglocalredosmc|fmrelhikinglocalblueosmc|fmrelhikinglocalgreenosmc|fmrelhikinglocalyellowosmc" v="*" zoom-min="14">
 <!--      <caption k="fmrelhikingref" font-style="bold" font-size="9" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="100"/> -->
-      <pathText k="fmrelhikingref" dy="2" font-style="bold" font-size="9" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="95"/>
+      <pathText k="fmrelhikingref" dy="3" font-style="bold" font-size="8" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="95"/>
     </rule>
   </rule>
 </xsl:template>
@@ -445,7 +445,7 @@
       <xsl:with-param name="linecap" select="'round'"/>
     </xsl:call-template>
     <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
-      <caption k="fmrelhikingref" font-style="bold" font-size="9" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="100"/>
+      <caption k="fmrelhikingref" font-style="bold" font-size="8" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="100"/>
     </rule>
     <xsl:call-template name="markedTrailsSingle">
       <xsl:with-param name="redKey" select="'fmrelhikinglocalredosmc'"/>
@@ -459,7 +459,7 @@
       <xsl:with-param name="linecap" select="'round'"/>
     </xsl:call-template>
     <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
-      <caption k="fmrelhikingref" font-style="bold" font-size="9" fill="#000000" stroke="#BFFF4E" stroke-width="4" display="always" priority="100"/>
+      <caption k="fmrelhikingref" font-style="bold" font-size="8" fill="#000000" stroke="#BFFF4E" stroke-width="4" display="always" priority="100"/>
     </rule>
   </rule>
 </xsl:template>
@@ -475,7 +475,7 @@
     </rule>
     <rule cat="naucho" e="way" k="*" v="*" zoom-min="14">
       <rule cat="trailnum" e="way" k="*" v="*">
-        <pathText k="fmreleducationname" dy="2" font-style="bold" font-size="9" fill="#FFFFFF" stroke="#008800" stroke-width="3" display="ifspace" priority="100"/>
+        <pathText k="fmreleducationname" dy="2" font-style="bold" font-size="8" fill="#FFFFFF" stroke="#008800" stroke-width="3" display="ifspace" priority="100"/>
       </rule>
     </rule>
 </xsl:template>
