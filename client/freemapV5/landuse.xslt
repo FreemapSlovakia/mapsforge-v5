@@ -68,10 +68,10 @@
     </rule>
     <rule cat="topo_common" e="way" k="natural" v="scrub">
       <rule cat="all" e="way" k="*" v="*">
-        <area fill="#B6D9BE" scale="none"/>
+        <area fill="#BEE1C6" scale="none"/>
       </rule>
       <rule cat="overlay" e="way" k="*" v="*">
-        <area fill="#80B6D9BE" scale="none"/>
+        <area fill="#80BEE1C6" scale="none"/>
       </rule>
       <area src="file:/patterns/scrub.svg" symbol-width="48"/>
     </rule>    

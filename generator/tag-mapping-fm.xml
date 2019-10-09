@@ -120,6 +120,7 @@
 		<osm-tag key="hiking" value="no" equivalent-values="0,false" renderable="false" />
 		<osm-tag key="bicycle" value="yes" equivalent-values="1,true" renderable="false" />
 		<osm-tag key="bicycle" value="no" equivalent-values="0,false" renderable="false" />
+		<osm-tag key="mtb" value="yes" renderable="false" />
 		<osm-tag key="edu" value="yes" equivalent-values="1,true" renderable="false" />
 		<osm-tag key="edu" value="no" equivalent-values="0,false" renderable="false" />
 	</pois>
@@ -544,6 +545,7 @@
 
 		<osm-tag key="logging" value="clearcutting" renderable="false"/>
 		<osm-tag key="logging" value="selective_cutting" renderable="false"/>
+		<osm-tag key="man_made" value="clear_cut" zoom-appear="12"/>
 <!--
 		<osm-tag key="fmrelbus" value="yes" zoom-appear="8" />
 		<osm-tag key="fmrelbusref" value="x" zoom-appear="8" />
@@ -771,25 +773,13 @@
 		<osm-tag key="fmreleducation" value="%s" zoom-appear="8" />
 		<osm-tag key="fmreleducationname" value="%s" renderable="false" />
 
-		<osm-tag key="fmrelskired" value="major" zoom-appear="8" />
-		<osm-tag key="fmrelskigreen" value="major" zoom-appear="8" />
-		<osm-tag key="fmrelskiblue" value="major" zoom-appear="8" />
-		<osm-tag key="fmrelskiyellow" value="major" zoom-appear="8" />
-		<osm-tag key="fmrelskiwhite" value="major" zoom-appear="8" />
-		<osm-tag key="fmrelskidefault" value="major" zoom-appear="8" />
-		<osm-tag key="fmrelskired" value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelskigreen" value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelskiblue" value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelskiyellow" value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelskiwhite" value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelskidefault" value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelskired" value="None" zoom-appear="8" />
-		<osm-tag key="fmrelskigreen" value="None" zoom-appear="8" />
-		<osm-tag key="fmrelskiblue" value="None" zoom-appear="8" />
-		<osm-tag key="fmrelskiyellow" value="None" zoom-appear="8" />
-		<osm-tag key="fmrelskiwhite" value="None" zoom-appear="8" />
-		<osm-tag key="fmrelskidefault" value="None" zoom-appear="8" />
 
+		<osm-tag key="fmrelskired" value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelskigreen" value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelskiblue" value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelskiyellow" value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelskiwhite" value="%s" zoom-appear="8" />
+		<osm-tag key="fmrelskidefault" value="%s" zoom-appear="8" />
 		<osm-tag key="fmrelskiref" value="%s" renderable="false" />
 	</ways>
 

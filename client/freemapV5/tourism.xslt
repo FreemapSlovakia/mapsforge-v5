@@ -26,7 +26,7 @@
   </rule>
   <rule cat="cycle" e="node" k="tourism" v="*" zoom-min="11">
     <rule e="node" k="information" v="guidepost">
-      <rule e="node" k="bicycle" v="yes">
+      <rule e="node" k="bicycle|mtb" v="yes">
         <rule e="node" k="*" v="*" zoom-min="12" zoom-max="12">
           <symbol id="guide_cycle" src="file:/symbols/guidepost_cycle.svg" symbol-width="12" priority="150" display="always"/>
         </rule>
