@@ -441,9 +441,9 @@
 		<osm-tag key="admin_level" value="2" zoom-appear="6" />
 		<osm-tag key="admin_level" value="3" zoom-appear="8" />
 		<osm-tag key="admin_level" value="4" zoom-appear="8" />
-		<osm-tag key="admin_level" value="6" zoom-appear="10" />
-		<osm-tag key="admin_level" value="8" zoom-appear="12" />
-		<osm-tag key="admin_level" value="9" zoom-appear="12" />
+		<osm-tag key="admin_level" value="6" zoom-appear="8" />
+		<osm-tag key="admin_level" value="8" zoom-appear="10" />
+		<osm-tag key="admin_level" value="9" zoom-appear="10" />
 		<osm-tag key="admin_level" value="10" zoom-appear="12" />
 	</ways>
 

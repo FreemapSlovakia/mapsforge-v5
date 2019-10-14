@@ -12,7 +12,7 @@
 <xsl:variable name="hw-unclassified">#FFFFFF</xsl:variable>
 <xsl:variable name="hw-pedestrian">#E5E0C2</xsl:variable>
 <xsl:variable name="hw-living">#D9D9D9</xsl:variable>
-<xsl:variable name="hw-track">#6A5B47</xsl:variable>
+<xsl:variable name="hw-track">#494A47</xsl:variable>
 <xsl:variable name="hw-service">#FFFFFF</xsl:variable>
 <xsl:variable name="hw-cycleway">#E5E0C2</xsl:variable>
 <xsl:variable name="hw-footway">#E5E0C2</xsl:variable>
@@ -47,7 +47,7 @@
 <xsl:variable name="z-residential">13</xsl:variable>
 <xsl:variable name="z-pedestrian">13</xsl:variable>
 <xsl:variable name="z-living">13</xsl:variable>
-<xsl:variable name="z-service">15</xsl:variable>
+<xsl:variable name="z-service">14</xsl:variable>
 <xsl:variable name="z-service2">16</xsl:variable>
 <xsl:variable name="z-track">13</xsl:variable>
 <xsl:variable name="z-cycleway">15</xsl:variable>
@@ -225,7 +225,7 @@
       <line stroke="{$hw-cycleway}" stroke-width="0.25" stroke-linecap="butt"/>
     </rule>
     <rule e="way" k="highway" v="track" zoom-min="{$z-track}">
-      <line stroke="{$cs-track}" stroke-width="0.8" stroke-linecap="butt"/>
+      <line stroke="{$cs-track}" stroke-width="0.9" stroke-linecap="butt"/>
       <rule e="way" k="tracktype" v="grade1"> 
         <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="0.8,0.5,0.2,0.5" stroke-linecap="butt" scale="all"/>
       </rule>
@@ -315,7 +315,7 @@
     </rule>
 
 
-    
+    <rule e="way" k="highway" v="*" zoom-min="15">
     <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
       <pathText k="name" font-style="bold" font-size="10" stroke="#FFFFFF" stroke-width="2"/>
     </rule>    
@@ -339,6 +339,7 @@
     </rule>
     <rule e="way" k="highway" v="primary" zoom-min="14">
       <pathText k="name" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3"/>
+    </rule>
     </rule>
     <rule e="way" k="highway" v="primary" zoom-min="{$z-primary}">
       <caption k="ref" font-style="bold" font-size="7" fill="#FFFFFF" stroke="{$cs-primary}" stroke-width="3" priority="-10"/>
