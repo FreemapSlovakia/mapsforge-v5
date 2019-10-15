@@ -10,7 +10,7 @@
     <rule e="node" k="drinking_water" v="yes">
         <symbol id="spring" src="file:/symbols/spring-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
     </rule>
-    <rule e="node" k="*" v="*" zoom-min="16">
+    <rule e="node" k="*" v="*" zoom-min="15">
         <caption k="name" symbol-id="spring" position="below" font-style="bold" font-size="9" fill="#0092da" stroke="#ffffff" stroke-width="2" priority="20"/>
     </rule>
   </rule>

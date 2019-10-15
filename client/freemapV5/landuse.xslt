@@ -20,7 +20,7 @@
       <area fill="#A0FAFAF0"/>
     </rule>
     <rule e="way" k="landuse" v="industrial">
-      <area fill="#80C0C0C0" />
+      <area fill="#80D2D2D2" />
     </rule>
     <rule e="way" k="landuse" v="retail">
       <area fill="#80FED9F5" />
@@ -30,7 +30,7 @@
     </rule>
     <rule e="way" k="landuse" v="residential">
 <!--      <area fill="#80E5E1DC" /> -->
-      <area fill="#80F4E8D6" />
+      <area fill="#80EEE7D5" />
     </rule>
     <rule e="way" k="landuse" v="village_green|meadow|grass|recreation_ground|grassland">
       <rule cat="all" e="way" k="*" v="*">
