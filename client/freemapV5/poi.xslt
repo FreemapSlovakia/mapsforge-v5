@@ -236,7 +236,7 @@
       </rule>
     </rule>
   </rule>
-  <rule e="node" k="historic" v="wayside_cross" zoom-min="17">
+  <rule e="node" k="historic" v="wayside_cross" zoom-min="16">
     <symbol src="file:/symbols/wayside_cross.svg" symbol-width="16" priority="10"/>
   </rule>
 

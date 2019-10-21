@@ -34,7 +34,7 @@
         <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="8" priority="20"/>
       </rule>
     </rule>
-    <rule e="any" k="*" v="*" zoom-min="15">
+    <rule e="any" k="*" v="*" zoom-min="14">
       <caption k="ele" symbol-id="peak" position="below" font-size="9"  fill="#560000" stroke="#ffffff" stroke-width="3" priority="10"  display="ifspace"/>
     </rule>
 

@@ -22,7 +22,7 @@
     <xsl:variable name="markedTrailWidthLow">1.7</xsl:variable>
     <xsl:variable name="markedTrailWidthHigh">0.9</xsl:variable>
 
-    <xsl:variable name="zoomlow">11</xsl:variable>
+    <xsl:variable name="zoomlow">10</xsl:variable>
     <xsl:variable name="zoomhigh">15</xsl:variable>
 
 <xsl:variable name="zoomlow2"><xsl:value-of select="$zoomhigh - 1"/></xsl:variable>
