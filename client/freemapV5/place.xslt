@@ -7,7 +7,7 @@
     <rule e="node" k="place" v="city" zoom-max="14">
       <caption k="name" font-style="bold_italic" font-size="16" fill="#000000" stroke="#ffffff" stroke-width="3" priority="20"/>
     </rule>
-    <rule e="node" k="place" v="town" zoom-min="8" zoom-max="8">
+    <rule e="node" k="place" v="town" zoom-min="7" zoom-max="8">
         <circle fill="#000000" radius="2" scale-radius="false" />
         <circle fill="#ffffff" radius="1" scale-radius="false" />
     </rule>
@@ -23,13 +23,13 @@
     <rule e="node" k="place" v="suburb" zoom-min="15" zoom-max="16">
       <caption k="name" font-style="bold" font-size="14" fill="#B06C6C6C" stroke="#80ffffff" stroke-width="2" priority="17" display="ifspace"/>
     </rule>
-    <rule e="node" k="place" v="village" zoom-min="10" zoom-max="12">
+    <rule e="node" k="place" v="village" zoom-min="10" zoom-max="11">
         <circle fill="#ffffff" radius="3" scale-radius="false" />
         <circle fill="#000000" radius="2" scale-radius="false" />
         <circle fill="#ffffff" radius="1" scale-radius="false" />
     </rule>
-    <rule e="node" k="place" v="village" zoom-min="12" zoom-max="12">
-      <caption k="name" font-style="normal" font-size="8" fill="#000000" stroke="#ffffff" stroke-width="3" priority="18"/>
+    <rule e="node" k="place" v="village" zoom-min="11" zoom-max="12">
+      <caption k="name" font-style="normal" font-size="8" fill="#000000" stroke="#ffffff" stroke-width="3" priority="0" display="ifspace"/>
     </rule>
     <rule e="node" k="place" v="village" zoom-min="13" zoom-max="18">
       <caption k="name" font-style="normal" font-size="12" fill="#000000" stroke="#ffffff" stroke-width="3" priority="18"/>

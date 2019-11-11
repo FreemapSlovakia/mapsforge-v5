@@ -19,6 +19,7 @@
 		<osm-tag key="amenity" value="bank" zoom-appear="17" />
 		<osm-tag key="amenity" value="bench" zoom-appear="17" />
 		<osm-tag key="amenity" value="bicycle_rental" zoom-appear="17" />
+		<osm-tag key="amenity" value="bicycle_repair_station" zoom-appear="17" />
 		<osm-tag key="amenity" value="bus_station" zoom-appear="15" />
 		<osm-tag key="amenity" value="cinema" zoom-appear="17" />
 		<osm-tag key="amenity" value="fountain" zoom-appear="17" />
@@ -470,6 +471,7 @@
 		<osm-tag key="aerialway" value="mixed_lift" zoom-appear="12" />
 		<osm-tag key="aerialway" value="rope_tow" zoom-appear="12" />
 		<osm-tag key="aerialway" value="t-bar" zoom-appear="12" />
+		<osm-tag key="aerialway" value="j-bar" zoom-appear="12" />
 	</ways>
 
 	<!-- OTHER TAGS -->

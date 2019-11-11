@@ -17,7 +17,7 @@
       <area fill="#80DFCFBC"/>
     </rule>
     <rule e="way" k="landuse" v="field|farm|farmland">
-      <area fill="#A0FAFAF0"/>
+      <area fill="#80FFFEDC"/>
     </rule>
     <rule e="way" k="landuse" v="industrial">
       <area fill="#80D2D2D2" />
@@ -93,7 +93,7 @@
     <area fill="#B0B5FF99" stroke="#B0B5FF99" stroke-width="1" scale="none" />
   </rule>
   <rule e="node" k="golf" v="pin" zoom-min="16">
-    <circle fill="#6FC72B" radius="4" scale-radius="false" />
+    <circle fill="#6FC72B" radius="2" scale-radius="false" />
   </rule>
 
   <rule e="way" k="natural" v="wetland">

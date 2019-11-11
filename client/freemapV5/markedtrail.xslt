@@ -2,11 +2,11 @@
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <xsl:variable name="yellow">#CCEECB00</xsl:variable>
-    <xsl:variable name="green">#CC009900</xsl:variable>
-    <xsl:variable name="blue">#CC3233FF</xsl:variable>
-    <xsl:variable name="red">#CCFE0000</xsl:variable>
-    <xsl:variable name="alternative">#CCFF00FF</xsl:variable>
+    <xsl:variable name="yellow">#FFFF00</xsl:variable>
+    <xsl:variable name="green">#DD009900</xsl:variable>
+    <xsl:variable name="blue">#DD0000FF</xsl:variable>
+    <xsl:variable name="red">#DDFE0000</xsl:variable>
+    <xsl:variable name="alternative">#DDFF00FF</xsl:variable>
     <xsl:variable name="fallback">#AA000000</xsl:variable>
 
     <xsl:variable name="offset1low">1</xsl:variable>
@@ -20,7 +20,7 @@
     <xsl:variable name="offset4high">3.1</xsl:variable>
 
     <xsl:variable name="markedTrailWidthLow">1.7</xsl:variable>
-    <xsl:variable name="markedTrailWidthHigh">0.9</xsl:variable>
+    <xsl:variable name="markedTrailWidthHigh">0.8</xsl:variable>
 
     <xsl:variable name="zoomlow">10</xsl:variable>
     <xsl:variable name="zoomhigh">15</xsl:variable>
@@ -339,13 +339,12 @@
     <xsl:with-param name="yellowKey" select="'fmrelbicycleyellow'"/>
     <xsl:with-param name="fallbackKey" select="'fmrelbicyclewhite|fmrelbicycleblack|fmrelbicycledefault'"/>
     <xsl:with-param name="side" select="-1"/>
-    <xsl:with-param name="offset" select="0"/>
+    <xsl:with-param name="offset" select="0.5"/>
     <xsl:with-param name="dasharray" select="'0.1,2.5'"/>
     <xsl:with-param name="linecap" select="'round'"/>
     </xsl:call-template>
-    <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
-<!--      <caption k="fmrelbicycleref" font-style="bold" font-size="9" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="always" priority="100"/> -->
-      <pathText k="fmrelbicycleref" dy="-2" font-style="bold" font-size="8" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="always" priority="100"/>
+    <rule cat="trailnum" e="way" k="*" v="*" zoom-min="13">
+      <pathText k="fmrelbicycleref" dy="-3" font-style="bold" font-size="8" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="ifspace" priority="100"/>
     </rule>
   </rule>
 </xsl:template>
@@ -359,13 +358,12 @@
     <xsl:with-param name="yellowKey" select="'fmrelmtbyellow'"/>
     <xsl:with-param name="fallbackKey" select="'fmrelmtbwhite|fmrelmtbblack|fmrelmtbdefault'"/>
     <xsl:with-param name="side" select="-1"/>
-    <xsl:with-param name="offset" select="0.5"/>
+    <xsl:with-param name="offset" select="1"/>
     <xsl:with-param name="dasharray" select="'0.7,2.5'"/>
     <xsl:with-param name="linecap" select="'round'"/>
     </xsl:call-template>
-    <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
-<!--      <caption k="fmrelmtbref" font-style="bold" font-size="9" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="always" priority="100"/> -->
-      <pathText k="fmrelmtbref" dy="-2" font-style="bold" font-size="8" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="always" priority="95"/>
+    <rule cat="trailnum" e="way" k="*" v="*" zoom-min="13">
+      <pathText k="fmrelmtbref" dy="-5" font-style="bold" font-size="8" fill="#000000" stroke="#D5EBFF" stroke-width="4" display="ifspace" priority="95"/>
     </rule>
   </rule>
 </xsl:template>
@@ -383,9 +381,8 @@
       <xsl:with-param name="dasharray" select="'4,1'"/>
       <xsl:with-param name="linecap" select="'butt'"/>
     </xsl:call-template>
-    <rule cat="trailnum" e="way" k="*" v="*" zoom-min="14">
-<!--       <caption k="fmrelskiref" font-style="bold" font-size="9" fill="#000000" stroke="#FFEEAA" stroke-width="4" display="always" priority="100"/> -->
-      <pathText k="fmrelskiref" dy="-3" font-style="bold" font-size="8" fill="#000000" stroke="#FFEEAA" stroke-width="4" display="always" priority="100"/>
+    <rule cat="trailnum" e="way" k="*" v="*" zoom-min="13">
+      <pathText k="fmrelskiref" dy="-3" font-style="bold" font-size="8" fill="#000000" stroke="#FFEEAA" stroke-width="4" display="ifspace" priority="100"/>
     </rule>
   </rule>
 </xsl:template>
@@ -400,13 +397,12 @@
       <xsl:with-param name="yellowKey" select="'fmrelhikingyellowosmc'"/>
       <xsl:with-param name="fallbackKey" select="'fmrelhikingwhite|fmrelhikingblack|fmrelhikingdefault'"/>
       <xsl:with-param name="side" select="1"/>
-      <xsl:with-param name="offset" select="0"/>
+      <xsl:with-param name="offset" select="0.5"/>
       <xsl:with-param name="dasharray" select="'0.1,0.1'"/>
       <xsl:with-param name="linecap" select="'round'"/>
     </xsl:call-template>
-    <rule cat="trailnum" e="way" k="fmrelhikingredosmc|fmrelhikingblueosmc|fmrelhikinggreenosmc|fmrelhikingyellowosmc" v="*" zoom-min="14">
-<!--      <caption k="fmrelhikingref" font-style="bold" font-size="9" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="100"/> -->
-      <pathText k="fmrelhikingref" dy="2" font-style="bold" font-size="8" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="100"/>
+    <rule cat="trailnum" e="way" k="fmrelhikingredosmc|fmrelhikingblueosmc|fmrelhikinggreenosmc|fmrelhikingyellowosmc" v="*" zoom-min="13">
+      <pathText k="fmrelhikingref" dy="3" font-style="bold" font-size="8" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="ifspace" priority="100"/>
     </rule>
   </rule>
 </xsl:template>
@@ -424,9 +420,8 @@
       <xsl:with-param name="dasharray" select="'3,4'"/>
       <xsl:with-param name="linecap" select="'round'"/>
     </xsl:call-template>
-    <rule cat="trailnum" e="way" k="fmrelhikinglocalredosmc|fmrelhikinglocalblueosmc|fmrelhikinglocalgreenosmc|fmrelhikinglocalyellowosmc" v="*" zoom-min="14">
-<!--      <caption k="fmrelhikingref" font-style="bold" font-size="9" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="100"/> -->
-      <pathText k="fmrelhikingref" dy="3" font-style="bold" font-size="8" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="always" priority="95"/>
+    <rule cat="trailnum" e="way" k="fmrelhikinglocalredosmc|fmrelhikinglocalblueosmc|fmrelhikinglocalgreenosmc|fmrelhikinglocalyellowosmc" v="*" zoom-min="13">
+      <pathText k="fmrelhikingref" dy="4" font-style="bold" font-size="8" fill="#000000" stroke="#DBFFA0" stroke-width="4" display="ifspace" priority="95"/>
     </rule>
   </rule>
 </xsl:template>

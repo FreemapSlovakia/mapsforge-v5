@@ -3,11 +3,11 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <!-- road colors -->
-<xsl:variable name="hw-motorway">#FFFF00</xsl:variable>
-<xsl:variable name="hw-trunk">#FFFF00</xsl:variable>
+<xsl:variable name="hw-motorway">#EAEA00</xsl:variable>
+<xsl:variable name="hw-trunk">#EAEA00</xsl:variable>
 <xsl:variable name="hw-primary">#FF9988</xsl:variable>
-<xsl:variable name="hw-secondary">#FDBF6F</xsl:variable>
-<xsl:variable name="hw-tertiary">#FEF9B9</xsl:variable>
+<xsl:variable name="hw-secondary">#FFE090</xsl:variable>
+<xsl:variable name="hw-tertiary">#FFFFD5</xsl:variable>
 <xsl:variable name="hw-residential">#FFFFFF</xsl:variable>
 <xsl:variable name="hw-unclassified">#FFFFFF</xsl:variable>
 <xsl:variable name="hw-pedestrian">#E5E0C2</xsl:variable>
@@ -159,7 +159,7 @@
       <rule e="way" k="bridge" v="~">
         <rule e="way" k="highway" v="construction" zoom-min="{$z-construction}">
           <line stroke="{$cs-construction}" stroke-width="0.8" stroke-linecap="butt"/>
-        </rule>      
+        </rule>
         <rule e="way" k="highway" v="motorway" zoom-min="{$z-motorway}">
           <line stroke="{$cs-motorway}" stroke-width="1.9" stroke-linecap="butt"/>
         </rule>
@@ -173,13 +173,13 @@
           <line stroke="{$cs-trunk}" stroke-width="1.6" stroke-linecap="butt"/>
         </rule>
         <rule e="way" k="highway" v="primary|primary_link" zoom-min="{$z-primary}">
-          <line stroke="{$cs-primary}" stroke-width="1.6" stroke-linecap="butt"/>
+          <line stroke="{$cs-primary}" stroke-width="1.8" stroke-linecap="butt"/>
         </rule>
         <rule e="way" k="highway" v="secondary|secondary_link" zoom-min="{$z-secondary}">
-          <line stroke="{$cs-secondary}" stroke-width="1.6" stroke-linecap="butt"/>
+          <line stroke="{$cs-secondary}" stroke-width="1.8" stroke-linecap="butt"/>
         </rule>
         <rule e="way" k="highway" v="tertiary|tertiary_link" zoom-min="{$z-tertiary}">
-          <line stroke="{$cs-tertiary}" stroke-width="1.6" stroke-linecap="butt"/>
+          <line stroke="{$cs-tertiary}" stroke-width="1.8" stroke-linecap="butt"/>
         </rule>
         <rule e="way" k="highway" v="residential|unclassified" zoom-min="{$z-residential}">
           <line stroke="{$cs-residential}" stroke-width="0.9" stroke-linecap="butt"/>
@@ -275,13 +275,13 @@
       <line stroke="{$hw-trunk}" stroke-width="1.2" />
     </rule>
     <rule e="way" k="highway" v="trunk" zoom-min="{$z-trunk}">
-      <line stroke="{$hw-trunk}" stroke-width="1.6" />
+      <line stroke="{$hw-trunk}" stroke-width="1.5" />
     </rule>
     <rule e="way" k="highway" v="motorway_link" zoom-min="{$z-motorway_link}">
       <line stroke="{$hw-motorway}" stroke-width="1.2" />
     </rule>
     <rule e="way" k="highway" v="motorway" zoom-min="{$z-motorway}">
-      <line stroke="{$hw-motorway}" stroke-width="1.6" />
+      <line stroke="{$hw-motorway}" stroke-width="1.5" />
     </rule>
 
       <rule e="way" k="oneway" v="yes" zoom-min="15">

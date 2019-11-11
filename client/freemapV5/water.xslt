@@ -40,7 +40,7 @@
         </rule>
     </rule>
     <rule e="way" k="waterway" v="river">
-      <rule e="way" k="*" v="*" zoom-min="13">
+      <rule e="way" k="*" v="*" zoom-min="12">
         <pathText k="name" font-style="italic" font-size="10" fill="#0000fc" stroke="#ffffff" stroke-width="3"/>
       </rule>
         <rule e="way" k="tunnel" v="yes|culvert">

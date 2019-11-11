@@ -109,7 +109,6 @@
             <cat id="highway" />
             <cat id="building" />
             <cat id="waterway" />
-            <cat id="boundaries" />
             <cat id="place" />
             <overlay id="contours" />
             <overlay id="hiking" />
@@ -126,12 +125,13 @@
             <overlay id="sport" />
             <overlay id="shop" />
             <overlay id="accommodation" />
+            <overlay id="boundaries" />
             <overlay id="osmmapper" />
         </layer>
         <layer id="default" visible="true">
             <name lang="en" value="Default" />
             <name lang="sk" value="Všeobecná" />
-            <cat id="all" />            
+            <cat id="all" />
             <cat id="default" />
             <cat id="landuse" />
             <cat id="highway" />
@@ -143,6 +143,7 @@
             <overlay id="sport" />
             <overlay id="shop" />
             <overlay id="accommodation" />
+            <overlay id="boundaries" />
             <overlay id="osmmapper" />
         </layer>
         <layer id="over" visible="true">
