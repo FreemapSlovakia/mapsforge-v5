@@ -30,6 +30,9 @@
     <rule e="way" k="landuse" v="industrial">
       <area fill="#80D2D2D2" />
     </rule>
+    <rule e="way" k="landuse" v="railway">
+      <area fill="#80e6d1e3" />
+    </rule>
     <rule e="way" k="landuse" v="retail">
       <area fill="#80FED9F5" />
     </rule>
