@@ -362,13 +362,23 @@
 </rule>
 
 
-<rule cat="topo_common" e="way" k="man_made" v="embankment" zoom-min="16">
-  <line dy="8" stroke="#000000" stroke-width="6" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
-  <line dy="-8" stroke="#000000" stroke-width="6" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+<rule cat="topo_common" e="way" k="man_made" v="embankment" zoom-min="15">
+  <rule e="way" k="highway|railway" v="*">
+    <line dy="8" stroke="#000000" stroke-width="5" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+    <line dy="-8" stroke="#000000" stroke-width="5" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+  </rule>
+  <rule e="way" k="highway|railway" v="~">
+    <line stroke="#000000" stroke-width="5" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+  </rule>
 </rule>
-<rule cat="topo_common" e="way" k="embankment" v="yes" zoom-min="16">
-  <line dy="8" stroke="#000000" stroke-width="6" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
-  <line dy="-8" stroke="#000000" stroke-width="6" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+<rule cat="topo_common" e="way" k="embankment" v="yes" zoom-min="15">
+  <rule e="way" k="highway|railway" v="*">
+    <line dy="8" stroke="#000000" stroke-width="5" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+    <line dy="-8" stroke="#000000" stroke-width="5" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+  </rule>
+  <rule e="way" k="highway|railway" v="~">
+    <line stroke="#000000" stroke-width="5" stroke-linecap="butt" stroke-dasharray="1,5" scale="none" />
+  </rule>
 </rule>
 
 <rule cat="overlay" e="way" k="access" v="*" zoom-min="16">
@@ -384,7 +394,7 @@
 
   <!-- highway nodes -->
   <rule e="node" k="*" v="*">
-    <rule cat="default" e="node" k="highway" v="motorway_junction" zoom-min="16">    
+    <rule cat="default" e="node" k="highway" v="motorway_junction" zoom-min="16">
       <symbol id="motoexit" src="file:/symbols/motorway_exit.svg" symbol-width="16" priority="30"/>
       <caption symbol-id="motoexit" k="name" position="above" font-style="bold" font-size="9" fill="#17820b" stroke="#FFFFFF" stroke-width="4" />
       <caption symbol-id="motoexit" k="ref" position="below" font-style="normal" font-size="9" fill="#17820b" stroke="#FFFFFF" stroke-width="4" />
@@ -393,14 +403,14 @@
 </xsl:template>
 
 <xsl:template name="highway_area">
-  <rule e="way" k="amenity" v="parking" zoom-min="15">    
+  <rule e="way" k="amenity" v="parking" zoom-min="15">
     <rule e="way" k="access" v="private" zoom-min="16">
       <area src="file:/patterns/access-private.png" symbol-height="12"/>
     </rule>
     <rule e="way" k="access" v="customers" zoom-min="16">
       <area src="file:/patterns/access-destination.png" symbol-height="12"/>
     </rule>
-    <area src="file:/patterns/parking.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>    
+    <area src="file:/patterns/parking.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
     <rule cat="default" e="way" k="fee" v="~|no" zoom-min="18">
       <symbol src="file:/symbols/parking.svg" symbol-width="9" priority="-50"/>
     </rule>

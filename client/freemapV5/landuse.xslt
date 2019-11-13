@@ -19,6 +19,14 @@
     <rule e="way" k="landuse" v="field|farm|farmland">
       <area fill="#80FFFEDC"/>
     </rule>
+    <rule e="way" k="landuse" v="orchard">
+      <area fill="#80C8F0AB"/>
+      <area src="file:/patterns/orchard.svg" symbol-width="24"/>
+    </rule>
+    <rule e="way" k="landuse" v="vineyard">
+      <area fill="#80C8F0AB"/>
+      <area src="file:/patterns/vineyard.svg" symbol-width="24"/>
+    </rule>
     <rule e="way" k="landuse" v="industrial">
       <area fill="#80D2D2D2" />
     </rule>
