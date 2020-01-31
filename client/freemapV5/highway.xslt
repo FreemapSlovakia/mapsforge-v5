@@ -23,15 +23,15 @@
 <!-- road casing colors -->
 <xsl:variable name="cs-motorway">#FF0000</xsl:variable>
 <xsl:variable name="cs-trunk">#006600</xsl:variable>
-<xsl:variable name="cs-primary">#666666</xsl:variable>
-<xsl:variable name="cs-secondary">#666666</xsl:variable>
-<xsl:variable name="cs-tertiary">#666666</xsl:variable>
-<xsl:variable name="cs-residential">#666666</xsl:variable>
+<xsl:variable name="cs-primary">#444444</xsl:variable>
+<xsl:variable name="cs-secondary">#444444</xsl:variable>
+<xsl:variable name="cs-tertiary">#444444</xsl:variable>
+<xsl:variable name="cs-residential">#444444</xsl:variable>
 <xsl:variable name="cs-unclassified">#707070</xsl:variable>
 <xsl:variable name="cs-pedestrian">#C8B8B1</xsl:variable>
 <xsl:variable name="cs-living">#707070</xsl:variable>
 <xsl:variable name="cs-track">#c2b5a3</xsl:variable>
-<xsl:variable name="cs-service">#666666</xsl:variable>
+<xsl:variable name="cs-service">#444444</xsl:variable>
 <xsl:variable name="cs-cycleway">#639CFF</xsl:variable>
 <xsl:variable name="cs-footway">#9F8F88</xsl:variable>
 <xsl:variable name="cs-construction">#80FFFFFF</xsl:variable>
@@ -227,22 +227,22 @@
     <rule e="way" k="highway" v="track" zoom-min="{$z-track}">
       <line stroke="{$cs-track}" stroke-width="0.9" stroke-linecap="butt"/>
       <rule e="way" k="tracktype" v="grade1"> 
-        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="0.8,0.6,0.2,0.6" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.6" stroke-dasharray="1,0" stroke-linecap="butt" scale="all"/>
       </rule>
       <rule e="way" k="tracktype" v="grade2">
-        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="0.8,0.6,0.2,0.3,0.2,0.6" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.6" stroke-dasharray="2,0.5" stroke-linecap="butt" scale="all"/>
       </rule>
       <rule e="way" k="tracktype" v="grade3">
-        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="0.8,0.6,0.2,0.3,0.2,0.3,0.2,0.6" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.6" stroke-dasharray="1.5,1" stroke-linecap="butt" scale="all"/>
       </rule>
       <rule e="way" k="tracktype" v="grade4">
-        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="0.8,0.6,0.2,0.3,0.2,0.3,0.2,0.3,0.2,0.6" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.6" stroke-dasharray="1,2" stroke-linecap="butt" scale="all"/>
       </rule>
       <rule e="way" k="tracktype" v="grade5">
-        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="0.8,0.6,0.2,0.3,0.2,0.3,0.2,0.3,0.2,0.3,0.2,0.6" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.6" stroke-dasharray="0.5,2" stroke-linecap="butt" scale="all"/>
       </rule>
       <rule e="way" k="tracktype" v="~">
-        <line stroke="{$hw-track}" stroke-width="0.8" stroke-dasharray="1,3" stroke-linecap="butt" scale="all"/>
+        <line stroke="{$hw-track}" stroke-width="0.6" stroke-dasharray="0.2,0.5,0.5,0.5,0.2,2" stroke-linecap="butt" scale="all"/>
       </rule>
     </rule>
     <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
@@ -260,7 +260,7 @@
       <line stroke="{$hw-living}" stroke-width="0.6" />
     </rule>
     <rule e="way" k="highway" v="residential|unclassified" zoom-min="{$z-residential}">
-      <line stroke="{$hw-residential}" stroke-width="0.6" />
+      <line stroke="{$hw-residential}" stroke-width="0.5" />
     </rule>    
     <rule e="way" k="highway" v="tertiary|tertiary_link" zoom-min="{$z-tertiary}">
       <line stroke="{$hw-tertiary}" stroke-width="1.1" />
