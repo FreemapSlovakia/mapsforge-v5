@@ -116,5 +116,9 @@
     </rule>    
     <area src="file:/patterns/wetland.svg" symbol-width="24"/>
   </rule>
+
+  <rule e="way" k="man_made" v="clearcut" zoom-min="12">
+     <area src="file:/patterns/forest_cut.svg" symbol-scaling="size" symbol-height="24" symbol-width="24"/>
+  </rule>
 </xsl:template>
 </xsl:stylesheet>

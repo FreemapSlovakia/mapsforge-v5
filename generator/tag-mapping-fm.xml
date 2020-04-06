@@ -550,7 +550,7 @@
 
 		<osm-tag key="logging" value="clearcutting" renderable="false"/>
 		<osm-tag key="logging" value="selective_cutting" renderable="false"/>
-		<osm-tag key="man_made" value="clear_cut" zoom-appear="12"/>
+		<osm-tag key="man_made" value="clearcut" zoom-appear="12"/>
 <!--
 		<osm-tag key="fmrelbus" value="yes" zoom-appear="8" />
 		<osm-tag key="fmrelbusref" value="x" zoom-appear="8" />
