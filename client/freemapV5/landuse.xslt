@@ -6,7 +6,7 @@
   <rule cat="landuse" e="way" k="*" v="*" zoom-min="10">
     <rule e="way" k="natural|landuse" v="forest|wood"  zoom-min="10">
       <area fill="#B6D9BE"/>
-      <rule e="way" k="logging" v="clearcutting|selective_cutting" zoom-min="12">
+      <rule cat="topo_common" e="way" k="logging" v="clearcutting|selective_cutting" zoom-min="12">
         <area src="file:/patterns/forest_cut.svg" symbol-scaling="size" symbol-height="32" symbol-width="32"/>
       </rule>
 <!--      <rule e="way" k="logging" v="~" zoom-min="15">
@@ -77,15 +77,17 @@
       <area fill="#E2E2E2" scale="none"/>
       <area src="file:/patterns/bare_rock.svg" symbol-width="32"/>
     </rule>
-    <rule cat="topo_common" e="way" k="natural" v="scrub">
+    <rule cat="all" e="way" k="natural" v="scrub">
       <rule cat="all" e="way" k="*" v="*">
         <area fill="#BEE1C6" scale="none"/>
       </rule>
       <rule cat="overlay" e="way" k="*" v="*">
         <area fill="#80BEE1C6" scale="none"/>
       </rule>
-      <area src="file:/patterns/scrub.svg" symbol-width="48"/>
-    </rule>    
+      <rule cat="topo_common" e="any" k="*" v="*">
+        <area src="file:/patterns/scrub.svg" symbol-width="48"/>
+      </rule>
+    </rule>
   </rule>
 
   <rule e="way" k="building" v="~">
@@ -117,7 +119,7 @@
     <area src="file:/patterns/wetland.svg" symbol-width="24"/>
   </rule>
 
-  <rule e="way" k="man_made" v="clearcut" zoom-min="12">
+  <rule cat="topo_common" e="way" k="man_made" v="clearcut" zoom-min="12">
      <area src="file:/patterns/forest_cut.svg" symbol-scaling="size" symbol-height="24" symbol-width="24"/>
   </rule>
 </xsl:template>
