@@ -102,10 +102,11 @@
 		<osm-tag key="tourism" value="wilderness_hut" zoom-appear="12" />
 		<osm-tag key="tourism" value="alpine_hut" zoom-appear="12" />
 		<osm-tag key="tourism" value="camp_site" zoom-appear="12" />
-		    <osm-tag key="tourism" value="caravan_site" zoom-appear="12" />
+		<osm-tag key="tourism" value="caravan_site" zoom-appear="12" />
 		<osm-tag key="tourism" value="information" zoom-appear="10" />
 		<osm-tag key="tourism" value="museum" zoom-appear="14" />
 		<osm-tag key="tourism" value="viewpoint" zoom-appear="14" />
+		<osm-tag key="tourism" value="artwork" zoom-appear="14" />
 
 		<osm-tag key="historic" value="memorial" zoom-appear="17" />
 		<osm-tag key="historic" value="monument" zoom-appear="17" />

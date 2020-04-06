@@ -22,7 +22,11 @@
       <caption k="name" symbol-id="tourisminfo" position="below" font-style="bold" font-size="10" fill="#005e00" stroke="#ffffff" stroke-width="2" priority="30"/>
     </rule>
   </rule>
-  
+
+  <rule e="any" k="tourism" v="artwork" zoom-min="15">
+    <symbol id="artwork" src="file:/symbols/artwork.svg" symbol-width="16"/>
+  </rule>
+
   <rule e="any" k="aeroway" v="aerodrome" zoom-min="13">
     <rule e="any" k="icao" v="*" zoom-min="13">
       <symbol id="airport" src="file:/symbols/aerodrome.svg" symbol-width="14"/>
