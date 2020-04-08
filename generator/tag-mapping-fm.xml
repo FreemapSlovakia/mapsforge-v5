@@ -59,10 +59,6 @@
 
 		<osm-tag key="leisure" value="slipway" zoom-appear="17" />
 
-		<osm-tag key="religion" value="christian" renderable="false" />
-		<osm-tag key="religion" value="jewish" renderable="false" />
-		<osm-tag key="religion" value="muslim" renderable="false" />
-
 		<osm-tag key="shop" value="department_store" zoom-appear="16" />
 		<osm-tag key="shop" value="supermarket" zoom-appear="16" />
 		<osm-tag key="shop" value="mall" zoom-appear="16" />
@@ -302,6 +298,9 @@
 		<osm-tag key="landuse" value="orchard" zoom-appear="11" />
 		<osm-tag key="landuse" value="brownfield" zoom-appear="11" />
 		<osm-tag key="landuse" value="cemetery" zoom-appear="11" />
+		<osm-tag key="religion" value="christian" renderable="false" />
+		<osm-tag key="religion" value="jewish" renderable="false" />
+		<osm-tag key="religion" value="muslim" renderable="false" />
 		<osm-tag key="landuse" value="commercial" zoom-appear="11" />
 		<osm-tag key="landuse" value="construction" zoom-appear="12" />
 		<osm-tag key="landuse" value="farm" zoom-appear="11" />

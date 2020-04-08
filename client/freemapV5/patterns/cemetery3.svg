@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="128"
+   height="128"
+   viewBox="0 0 33.866666 33.866668"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     y="2.0078385e-06"
+     x="0"
+     height="33.866669"
+     width="33.866665"
+     id="rect871"
+     style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:#bde3cb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26499999;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="path3814"
+     d="m 3.9687501,6.9444502 4.4354568,-1e-7 -2.2177284,4.4326329 z"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#848484;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="path3814-6"
+     d="M 8.4042069,9.8256619 H 3.9687499 L 6.1864789,5.393028 Z"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#848484;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="path3814-7"
+     d="m 24.240606,24.142367 h 4.435457 L 26.458334,28.575 Z"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#848484;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="path3814-6-8"
+     d="m 28.676063,27.023579 h -4.435457 l 2.217729,-4.432634 z"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#848484;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="path3814-66"
+     d="m 8.3656049,21.496534 h 4.4354571 l -2.217729,4.432633 z"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#b0b0b0;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="path3814-6-5"
+     d="M 12.801062,24.377745 H 8.3656047 l 2.2177293,-4.432633 z"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#b0b0b0;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="path3814-66-4"
+     d="m 21.594771,8.2673669 h 4.435458 L 23.8125,12.7 Z"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#b0b0b0;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="path3814-6-5-3"
+     d="m 26.030229,11.148578 h -4.435458 l 2.21773,-4.4326331 z"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#b0b0b0;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+</svg>

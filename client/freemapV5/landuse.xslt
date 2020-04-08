@@ -54,17 +54,26 @@
     </rule>
     <rule e="way" k="landuse" v="landfill">
       <area fill="#50704000"/>
+      <area src="file:/patterns/landfill.svg" symbol-height="48"/>
     </rule>
     <rule e="way" k="landuse" v="quarry">
       <area fill="#A0e1e1e1"/>
-      <area src="file:/patterns/quarry.png"/>
+      <area src="file:/patterns/quarry.svg" symbol-height="48"/>
     </rule>
     <rule e="way" k="landuse" v="allotments">
       <area src="file:/patterns/allotments.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
     </rule>
     <rule e="way" k="landuse" v="cemetery">
       <area fill="#E9F6EE" stroke="#C0C0C0" stroke-width="0.8" scale="none"/>
-      <area src="file:/patterns/cemetery.svg" symbol-scaling="size" symbol-height="32" symbol-width="32"/>
+      <rule e="any" k="religion" v="christian">
+        <area src="file:/patterns/cemetery2.svg" symbol-scaling="size" symbol-height="32" symbol-width="32"/>
+      </rule>
+      <rule e="any" k="religion" v="jewish">
+        <area src="file:/patterns/cemetery3.svg" symbol-scaling="size" symbol-height="32" symbol-width="32"/>
+      </rule>
+      <rule e="any" k="religion" v="~">
+        <area src="file:/patterns/cemetery.svg" symbol-scaling="size" symbol-height="32" symbol-width="32"/>
+      </rule>
     </rule>
     <rule e="way" k="landuse" v="military">
       <area src="file:/patterns/military.svg" symbol-width="32"/>
