@@ -227,7 +227,7 @@
   </rule>
   
   <rule e="any" k="amenity" v="place_of_worship" zoom-min="14">
-    <rule e="any" k="building" v="church"> 
+    <rule e="any" k="building" v="cathedral|church"> 
       <symbol id="church" src="file:/symbols/church.svg" symbol-width="16"/>
       <rule e="any" k="*" v="*" zoom-min="16">
         <caption k="name" symbol-id="church" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>

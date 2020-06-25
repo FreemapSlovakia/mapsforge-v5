@@ -285,6 +285,8 @@
 		<osm-tag key="waterway" value="river" zoom-appear="8" />
 		<osm-tag key="waterway" value="riverbank" zoom-appear="8" />
 		<osm-tag key="waterway" value="stream" zoom-appear="14" />
+		<osm-tag key="intermittent" value="yes" renderable="false" />
+
 	</ways>
 
 	<!-- LANDUSE TAGS -->

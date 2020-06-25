@@ -21,7 +21,7 @@
         <area fill="#B0A3D3D9" stroke="#1b8389" stroke-width="1" scale="none" />
       </rule>
     </rule>
-    <rule e="way" k="building" v="church|chapel">
+    <rule e="way" k="building" v="cathedral|church|chapel">
       <area fill="#B0d19158" stroke="#8F8F8F" stroke-width="1.6" scale="none" />
     </rule>
     <rule e="way" k="building" v="shop">
