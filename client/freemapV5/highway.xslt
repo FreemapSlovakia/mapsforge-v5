@@ -395,7 +395,7 @@
   <!-- highway nodes -->
   <rule e="node" k="*" v="*">
     <rule cat="default" e="node" k="highway" v="motorway_junction" zoom-min="16">
-      <symbol id="motoexit" src="file:/symbols/motorway_exit.svg" symbol-width="16" priority="30"/>
+      <symbol id="motoexit" src="file:/poi/motorway_exit.svg" symbol-width="16" priority="30"/>
       <caption symbol-id="motoexit" k="name" position="above" font-style="bold" font-size="9" fill="#17820b" stroke="#FFFFFF" stroke-width="4" />
       <caption symbol-id="motoexit" k="ref" position="below" font-style="normal" font-size="9" fill="#17820b" stroke="#FFFFFF" stroke-width="4" />
     </rule>
@@ -412,10 +412,10 @@
     </rule>
     <area src="file:/patterns/parking.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
     <rule cat="default" e="way" k="fee" v="~|no" zoom-min="18">
-      <symbol src="file:/symbols/parking.svg" symbol-width="9" priority="-50"/>
+      <symbol src="file:/poi/parking.svg" symbol-width="9" priority="-50"/>
     </rule>
     <rule cat="default" e="way" k="fee" v="*" zoom-min="18">
-      <symbol src="file:/symbols/parking-fee.svg" symbol-width="9" priority="-50"/>
+      <symbol src="file:/poi/parking-fee.svg" symbol-width="9" priority="-50"/>
     </rule>
   </rule>
 

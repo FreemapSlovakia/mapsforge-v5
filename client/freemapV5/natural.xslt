@@ -7,10 +7,10 @@
     <rule e="node" k="name" v="*">
       <rule e="node" k="ele" v="*">
         <rule e="node" k="*" v="*" zoom-min="11" zoom-max="13">
-          <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="7" />
+          <symbol id="peak" src="file:/poi/peak.svg" symbol-width="7" />
         </rule>
         <rule e="node" k="*" v="*" zoom-min="14">
-          <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="10" />
+          <symbol id="peak" src="file:/poi/peak.svg" symbol-width="10" />
         </rule>
         <rule e="any" k="*" v="*" zoom-min="11" zoom-max="13">
           <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="8" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="70" display="ifspace"/>
@@ -21,7 +21,7 @@
       </rule>
       <rule e="node" k="ele" v="~">
         <rule e="node" k="*" v="*" zoom-min="14">
-          <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="10" />
+          <symbol id="peak" src="file:/poi/peak.svg" symbol-width="10" />
         </rule>
         <rule e="any" k="*" v="*" zoom-min="14">
           <caption k="name" symbol-id="peak" position="above" font-style="bold" font-family="serif" font-size="10" fill="#560000" stroke="#ffffcc" stroke-width="3" priority="70" display="ifspace"/>
@@ -31,7 +31,7 @@
     </rule>
     <rule e="node" k="name" v="~">
       <rule e="node" k="*" v="*" zoom-min="16">
-        <symbol id="peak" src="file:/symbols/peak.svg" symbol-width="8" priority="20"/>
+        <symbol id="peak" src="file:/poi/peak.svg" symbol-width="8" priority="20"/>
       </rule>
     </rule>
     <rule e="any" k="*" v="*" zoom-min="14">

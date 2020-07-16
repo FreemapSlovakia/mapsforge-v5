@@ -44,22 +44,22 @@
       <!-- node barriers -->      
       <rule e="node" k="barrier" v="*" zoom-min="17">
         <rule e="node" k="barrier" v="bollard">
-          <symbol src="file:/symbols/barrier-bollard.svg" symbol-width="18" priority="10"/>
+          <symbol src="file:/poi/barrier-bollard.svg" symbol-width="18" priority="10"/>
         </rule>
         <rule e="node" k="barrier" v="block">
-          <symbol src="file:/symbols/barrier-block.svg" symbol-width="18" priority="10"/>
+          <symbol src="file:/poi/barrier-block.svg" symbol-width="18" priority="10"/>
         </rule>
         <rule e="node" k="barrier" v="lift_gate">
-          <symbol src="file:/symbols/barrier-lift_gate.svg" symbol-width="18" priority="10"/>
+          <symbol src="file:/poi/barrier-lift_gate.svg" symbol-width="18" priority="10"/>
         </rule>
         <rule e="node" k="barrier" v="swing_gate">
-          <symbol src="file:/symbols/barrier-lift_gate.svg" symbol-width="18" priority="10"/>
+          <symbol src="file:/poi/barrier-lift_gate.svg" symbol-width="18" priority="10"/>
         </rule>
         <rule e="node" k="barrier" v="gate">
-          <symbol src="file:/symbols/barrier-gate.svg" symbol-width="18" priority="10"/>
+          <symbol src="file:/poi/barrier-gate.svg" symbol-width="18" priority="10"/>
         </rule>
         <rule e="node" k="barrier" v="entrance">
-          <symbol src="file:/symbols/barrier-entrance.svg" symbol-width="14" priority="10"/>
+          <symbol src="file:/poi/barrier-entrance.svg" symbol-width="14" priority="10"/>
         </rule>        
       </rule>
 

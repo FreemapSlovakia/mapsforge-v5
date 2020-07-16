@@ -87,22 +87,22 @@
     <xsl:template name="railway_node">
         <rule e="node" k="railway" v="*">
             <rule e="node" k="railway" v="crossing" zoom-min="16">
-              <symbol src="file:/symbols/railway-crossing.svg" symbol-width="10"/>
+              <symbol src="file:/poi/railway-crossing.svg" symbol-width="10"/>
             </rule>
             <rule e="node" k="railway" v="level_crossing" zoom-min="16">
-              <symbol id="railcross2" src="file:/symbols/railway-crossing.svg" symbol-width="16"/>
+              <symbol id="railcross2" src="file:/poi/railway-crossing.svg" symbol-width="16"/>
               <rule e="node" k="*" v="*" zoom-min="18">
                 <caption k="ref" symbol-id="railcross2" position="below" font-style="normal" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
               </rule>
             </rule>
             <rule  e="any" k="railway" v="station" zoom-min="15">
-              <symbol id="trainstation" src="file:/symbols/train_station.svg" symbol-width="14" priority="0"/>
+              <symbol id="trainstation" src="file:/poi/train_station.svg" symbol-width="14" priority="0"/>
               <rule e="any" k="*" v="*" zoom-min="16">
                 <caption k="name" symbol-id="trainstation" position="below" font-style="bold" font-size="11" fill="#1E4BFF" stroke="#FFFFFF" stroke-width="3" priority="49" display="ifspace"/>
               </rule>
             </rule>
             <rule e="node" k="railway" v="halt|tram_stop" zoom-min="16">
-                <symbol id="trainhalt" src="file:/symbols/train_halt.svg" symbol-width="14" priority="0"/>
+                <symbol id="trainhalt" src="file:/poi/train_halt.svg" symbol-width="14" priority="0"/>
                 <caption k="name" symbol-id="trainhalt" position="below" font-style="bold" font-size="10" fill="#1E4BFF" stroke="#ffffff" stroke-width="2"/>
             </rule>
         </rule>
