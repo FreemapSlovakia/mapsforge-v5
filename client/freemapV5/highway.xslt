@@ -305,12 +305,24 @@
       <lineSymbol src="file:/symbols/oneway.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="25" symbol-width="8" priority="-30"/>
     </rule>
 
-    <rule e="way" k="highway" v="*" zoom-min="16">
+    <rule e="way" k="highway" v="*" zoom-min="15">
       <rule e="way" k="access" v="destination">
-        <line src="file:/patterns/access-destination.png" stroke-width="1" symbol-height="8"/>
+        <line src="file:/patterns/access-destination.svg" stroke-width="1.2" symbol-height="8"/>
       </rule>
       <rule e="way" k="access" v="private|no">
-        <line src="file:/patterns/access-private.png" stroke-width="1" symbol-height="8"/>
+        <line src="file:/patterns/access-private.svg" stroke-width="1.2" symbol-height="8"/>
+      </rule>
+      <rule e="way" k="foot" v="no">
+        <lineSymbol src="file:/patterns/access-foot-no.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="100" symbol-height="14"/>
+      </rule>
+      <rule e="way" k="bicycle" v="no">
+        <lineSymbol src="file:/patterns/access-bicycle-no.svg" align-center="true" repeat="true" repeat-start="10" repeat-gap="100" symbol-height="14"/>
+      </rule>
+      <rule e="way" k="vehicle" v="no">
+        <lineSymbol src="file:/patterns/access-vehicle-no.svg" align-center="true" repeat="true" repeat-start="20" repeat-gap="100" symbol-height="14"/>
+      </rule>
+      <rule e="way" k="motor_vehicle" v="no">
+        <lineSymbol src="file:/patterns/access-motor_vehicle-no.svg" align-center="true" repeat="true" repeat-start="30" repeat-gap="100" symbol-height="14"/>
       </rule>
     </rule>
 
@@ -384,10 +396,10 @@
 <rule cat="overlay" e="way" k="access" v="*" zoom-min="16">
   <line stroke="#44FFFFFF" stroke-width="0.2"/>
   <rule e="way" k="access" v="destination">
-    <line src="file:/patterns/access-destination.png" stroke-width="0.2" symbol-height="8"/>
+    <line src="file:/patterns/access-destination.svg" stroke-width="0.2" symbol-height="8"/>
   </rule>
   <rule e="way" k="access" v="private|no">
-    <line src="file:/patterns/access-private.png" stroke-width="0.2" symbol-height="8"/>
+    <line src="file:/patterns/access-private.svg" stroke-width="0.2" symbol-height="8"/>
   </rule>
 </rule>
 
@@ -405,12 +417,17 @@
 <xsl:template name="highway_area">
   <rule e="way" k="amenity" v="parking" zoom-min="15">
     <rule e="way" k="access" v="private" zoom-min="16">
-      <area src="file:/patterns/access-private.png" symbol-height="12"/>
+      <area src="file:/patterns/access-private.svg" symbol-height="12"/>
     </rule>
     <rule e="way" k="access" v="customers" zoom-min="16">
-      <area src="file:/patterns/access-destination.png" symbol-height="12"/>
+      <area src="file:/patterns/access-destination.svg" symbol-height="12"/>
     </rule>
-    <area src="file:/patterns/parking.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+    <rule e="way" k="fee" v="~|no" >
+      <area src="file:/patterns/parking.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+    </rule>
+    <rule e="way" k="fee" v="*" >
+      <area src="file:/patterns/parking-fee.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+    </rule>
     <rule cat="default" e="way" k="fee" v="~|no" zoom-min="18">
       <symbol src="file:/poi/parking.svg" symbol-width="9" priority="-50"/>
     </rule>
