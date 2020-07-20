@@ -5,10 +5,10 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.0"
-   width="128"
+   id="svg2"
    height="128"
-   id="svg2">
+   width="128"
+   version="1.0">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -27,91 +27,100 @@
   <defs
      id="defs4">
     <style
-       type="text/css"
-       id="style6">
+       id="style6"
+       type="text/css">
    
     .fil0 {fill:#EF7900}
    
   </style>
     <marker
-       viewBox="0 0 10 10"
-       refY="5"
+       id="ArrowStart"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
        refX="10"
-       orient="auto"
-       markerWidth="4"
-       markerUnits="strokeWidth"
-       markerHeight="3"
-       id="ArrowStart">
+       refY="5"
+       viewBox="0 0 10 10">
       <path
-         id="path2295"
-         d="M 10,0 0,5 10,10 Z" />
+         d="M 10,0 0,5 10,10 Z"
+         id="path2295" />
     </marker>
     <marker
-       viewBox="0 0 10 10"
-       refY="5"
+       id="ArrowEnd"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
        refX="0"
-       orient="auto"
-       markerWidth="4"
-       markerUnits="strokeWidth"
-       markerHeight="3"
-       id="ArrowEnd">
+       refY="5"
+       viewBox="0 0 10 10">
       <path
-         id="path2292"
-         d="M 0,0 10,5 0,10 Z" />
+         d="M 0,0 10,5 0,10 Z"
+         id="path2292" />
     </marker>
     <marker
-       viewBox="0 0 10 10"
-       refY="5"
+       id="marker8025"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
        refX="10"
-       orient="auto"
-       markerWidth="4"
-       markerUnits="strokeWidth"
-       markerHeight="3"
-       id="marker8025">
+       refY="5"
+       viewBox="0 0 10 10">
       <path
-         id="path8027"
-         d="M 10,0 0,5 10,10 Z" />
+         d="M 10,0 0,5 10,10 Z"
+         id="path8027" />
     </marker>
     <marker
-       viewBox="0 0 10 10"
-       refY="5"
-       refX="0"
-       orient="auto"
-       markerWidth="4"
-       markerUnits="strokeWidth"
+       id="marker8021"
        markerHeight="3"
-       id="marker8021">
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
+       refX="0"
+       refY="5"
+       viewBox="0 0 10 10">
       <path
-         id="path8023"
-         d="M 0,0 10,5 0,10 Z" />
+         d="M 0,0 10,5 0,10 Z"
+         id="path8023" />
     </marker>
   </defs>
   <path
-     style="fill:#971583;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:3.03997755px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path828"
      d="m 21.520325,1.52046 h 84.959365 c 11.11991,0 19.99985,8.879941 19.99985,19.999861 v 84.959369 c 0,11.11992 -8.87994,19.99985 -19.99985,19.99985 H 21.520325 c -11.11992,0 -19.99986,-8.87993 -19.99986,-19.99985 V 21.520321 c 0,-11.11992 8.87994,-19.999861 19.99986,-19.999861 z"
-     id="path828" />
+     style="fill:#971583;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:3.03997755px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <g
-     id="g2319"
-     transform="translate(879.29125,-415.19488)">
+     transform="translate(879.29125,-415.19488)"
+     id="g2319">
     <path
-       id="path2323"
+       d=""
        style="fill:#ffffff;stroke:none"
-       d="" />
+       id="path2323" />
   </g>
   <g
-     id="g2325"
-     transform="translate(879.29125,-415.19488)">
+     transform="translate(879.29125,-415.19488)"
+     id="g2325">
     <path
-       id="path2329"
+       d=""
        style="fill:#ffffff;stroke:none"
-       d="" />
+       id="path2329" />
   </g>
-  <path
-     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.22068965px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 54.951724,24.662066 c -1.871983,0 -3.737931,1.352969 -3.737931,3.51724 l -0.04138,69.572416 h 3.848275 l 0.03448,5.503448 35.331035,-0.0207 0.02758,-5.482758 3.310345,0.02759 V 27.462076 c 2e-6,-1.499824 -0.868773,-2.799999 -2.503448,-2.799999 z m 5.910345,7.689654 h 23.151724 c 1.281825,0 2.289657,0.522044 2.289655,2.289657 v 18.289655 c 0,1.238887 -0.662261,2.137929 -2.075861,2.137929 l -23.303449,-0.06207 c -1.345825,0 -2.503448,-0.994287 -2.503448,-2.441379 l 0.117241,-17.986208 c 0,-1.439712 0.997471,-2.227586 2.324138,-2.227586 z"
-     id="path1897" />
-  <path
-     d="m 51.383638,48.575535 -3.535803,-0.02094 c -0.02293,14.387432 0.08193,42.781773 0.141853,43.267606 0.127911,1.037089 0.05056,2.111512 -0.215716,3.090335 C 42.231026,108.87626 24.29523,102.46271 26.84188,88.875193 32.435215,75.397558 40.278204,66.277671 44.181657,50.381317 l 0.347486,11.816787 c -3.512977,6.836011 -9.710569,18.841706 -14.516948,28.877202 -0.404938,9.265404 10.617128,12.318064 14.069127,2.372903 1.538324,-17.40837 -0.05783,-36.383984 -0.08676,-54.575979 2.243204,-6.668638 4.718346,-7.306966 7.230254,-6.989341"
-     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.22068965px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     id="path1899" />
+  <g
+     id="g12"
+     transform="matrix(0.1953125,0,0,0.1953125,14.000098,14)">
+    <g
+       style="fill:#ffffff;fill-opacity:1"
+       id="g6"
+       transform="matrix(0.95,0,0,0.95,12.799023,12.8)">
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         id="g4">
+        <path
+           style="fill:#ffffff;fill-opacity:1"
+           id="path2"
+           d="M 478.75,126.098 428.522,100.984 V 83.478 c 0,-9.223 -7.479,-16.696 -16.696,-16.696 H 372.87 V 50.087 C 372.87,22.468 350.402,0 322.783,0 H 89.044 C 61.424,0 38.957,22.468 38.957,50.087 V 478.609 H 22.261 c -9.22,0 -16.696,7.475 -16.696,16.696 0,9.221 7.475,16.695 16.696,16.695 h 367.304 c 9.22,0 16.696,-7.475 16.696,-16.696 0,-9.221 -7.475,-16.696 -16.696,-16.696 H 372.87 V 300.522 h 16.696 c 9.206,0 16.696,7.49 16.696,16.696 v 77.913 c 0,27.619 22.468,50.087 50.087,50.087 27.619,0 50.087,-22.468 50.087,-50.087 V 170.897 c -10e-4,-19.092 -10.61,-36.261 -27.686,-44.799 z M 205.935,439.20043 c -39.891,0 -72.348,-32.456 -72.348,-72.348 0,-14.358 4.206,-28.245 12.163,-40.152 l 46.305,-84.8011 c 6.195,-9.272 21.565,-9.272 27.76,0 l 46.305,84.7961 c 7.955,11.913 12.162,25.799 12.162,40.158 0.001,39.891 -32.456,72.347 -72.347,72.347 z M 306.087,150.261 c 0,9.223 -7.479,16.696 -16.696,16.696 H 122.435 c -9.217,0 -16.696,-7.473 -16.696,-16.696 V 83.478 c 0,-9.223 7.479,-16.696 16.696,-16.696 h 166.956 c 9.217,0 16.696,7.473 16.696,16.696 z m 66.783,-50.087 h 22.261 V 200.348 H 372.87 Z M 473.043,395.13 c 0,9.206 -7.49,16.696 -16.696,16.696 -9.206,0 -16.696,-7.49 -16.696,-16.696 v -77.913 c 0,-27.619 -22.468,-50.087 -50.087,-50.087 H 372.87 v -33.391 h 38.957 c 9.217,0 16.696,-7.473 16.696,-16.696 V 138.32 l 35.294,17.647 c 5.695,2.843 9.228,8.565 9.228,14.929 V 395.13 Z" />
+      </g>
+    </g>
+  </g>
 </svg>
