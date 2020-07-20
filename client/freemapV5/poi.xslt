@@ -23,6 +23,10 @@
     </rule>
   </rule>
 
+  <rule cat="topo_common" e="node" k="leisure" v="firepit" zoom-min="13">
+    <symbol id="firepit" src="file:/poi/fireplace.svg" symbol-width="16"/>
+  </rule>
+
   <rule e="any" k="tourism" v="artwork" zoom-min="15">
     <symbol id="artwork" src="file:/poi/artwork.svg" symbol-width="16"/>
   </rule>

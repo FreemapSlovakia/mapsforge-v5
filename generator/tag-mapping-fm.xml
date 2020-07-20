@@ -58,6 +58,7 @@
 		<osm-tag key="emergency" value="phone" zoom-appear="16" />
 
 		<osm-tag key="leisure" value="slipway" zoom-appear="17" />
+		<osm-tag key="leisure" value="firepit" zoom-appear="15" />
 
 		<osm-tag key="shop" value="department_store" zoom-appear="16" />
 		<osm-tag key="shop" value="supermarket" zoom-appear="16" />
@@ -336,8 +337,8 @@
 		<osm-tag key="leisure" value="stadium" zoom-appear="12" />
 		<osm-tag key="leisure" value="track" zoom-appear="14" />
 		<osm-tag key="leisure" value="water_park" zoom-appear="14" />
-        <osm-tag key="leisure" value="horse_riding" zoom-appear="14" />
-        <osm-tag key="leisure" value="shooting_ground" zoom-appear="14" />
+		<osm-tag key="leisure" value="horse_riding" zoom-appear="14" />
+		<osm-tag key="leisure" value="shooting_ground" zoom-appear="14" />
 
 		<osm-tag key="sport" value="golf" renderable="false" />
 		<osm-tag key="sport" value="shooting" renderable="false" />
@@ -369,8 +370,8 @@
 		<osm-tag key="leisure" value="stadium" zoom-appear="12" />
 		<osm-tag key="leisure" value="track" zoom-appear="14" />
 		<osm-tag key="leisure" value="water_park" zoom-appear="14" />
-        <osm-tag key="leisure" value="horse_riding" zoom-appear="14" />
-        <osm-tag key="leisure" value="shooting_ground" zoom-appear="14" />
+		<osm-tag key="leisure" value="horse_riding" zoom-appear="14" />
+		<osm-tag key="leisure" value="shooting_ground" zoom-appear="14" />
 
 		<osm-tag key="sport" value="golf" renderable="false" />
 		<osm-tag key="sport" value="shooting" renderable="false" />
