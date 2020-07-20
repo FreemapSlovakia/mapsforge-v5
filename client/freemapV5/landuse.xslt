@@ -21,11 +21,11 @@
     </rule>
     <rule e="way" k="landuse" v="orchard">
       <area fill="#80C8F0AB"/>
-      <area src="file:/patterns/orchard.svg" symbol-width="24"/>
+      <area src="file:/patterns/orchard.svg" symbol-width="18"/>
     </rule>
     <rule e="way" k="landuse" v="vineyard">
       <area fill="#80C8F0AB"/>
-      <area src="file:/patterns/vineyard.svg" symbol-width="24"/>
+      <area src="file:/patterns/vineyard.svg" symbol-width="18"/>
     </rule>
     <rule e="way" k="landuse" v="industrial">
       <area fill="#80D2D2D2" />
@@ -50,7 +50,7 @@
       <rule cat="overlay" e="way" k="*" v="*">
         <area fill="#80d6edc0" scale="none"/>
       </rule>    
-      <area src="file:/patterns/grass.svg" symbol-width="32"/>
+      <area src="file:/patterns/grass.svg" symbol-width="24"/>
     </rule>
     <rule e="way" k="landuse" v="landfill">
       <area fill="#50704000"/>
@@ -88,13 +88,13 @@
     </rule>
     <rule cat="all" e="way" k="natural" v="scrub">
       <rule cat="all" e="way" k="*" v="*">
-        <area fill="#BEE1C6" scale="none"/>
+        <area fill="#AACDB2" scale="none"/>
       </rule>
       <rule cat="overlay" e="way" k="*" v="*">
-        <area fill="#80BEE1C6" scale="none"/>
+        <area fill="#80AACDB2" scale="none"/>
       </rule>
       <rule cat="topo_common" e="any" k="*" v="*">
-        <area src="file:/patterns/scrub.svg" symbol-width="48"/>
+        <area src="file:/patterns/scrub.svg" symbol-width="64"/>
       </rule>
     </rule>
   </rule>

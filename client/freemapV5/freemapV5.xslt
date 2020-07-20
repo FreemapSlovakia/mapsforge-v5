@@ -57,7 +57,7 @@
   </rule>
   <rule e="node" k="power" v="*">
     <rule e="any" k="power" v="tower" zoom-min="16">
-      <symbol src="file:/symbols/power-tower.svg" symbol-width="10" priority="-20"/>
+      <symbol src="file:/symbols/power-tower.svg" symbol-width="14" priority="-20"/>
     </rule>
     <rule e="any" k="power" v="pole" zoom-min="18">
       <circle radius="3" scale-radius="false" fill="#000000" />

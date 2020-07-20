@@ -98,6 +98,11 @@
             <name lang="sk" value="Chránené územia" />
             <cat id="protect_area" />
         </layer>
+        <layer id="access" enabled="true" visible="false">
+            <name lang="en" value="Access restrictions" />
+            <name lang="sk" value="Obmedzenia vstupu" />
+            <cat id="access" />
+        </layer>
         <layer id="topo" visible="true">
             <name lang="en" value="Topo" />
             <name lang="sk" value="Topo" />
@@ -120,6 +125,7 @@
             <overlay id="mtb-scale" />
             <overlay id="trailnum" />
             <overlay id="ski" />
+            <overlay id="access" />
             <overlay id="protect_area" />
             <overlay id="food" />
             <overlay id="sport" />
@@ -143,6 +149,7 @@
             <overlay id="sport" />
             <overlay id="shop" />
             <overlay id="accommodation" />
+            <overlay id="access" />
             <overlay id="boundaries" />
             <overlay id="osmmapper" />
         </layer>
@@ -158,11 +165,12 @@
             <overlay id="cycle" />
             <overlay id="trailnum" />
             <overlay id="ski" />
-            <overlay id="food" />            
+            <overlay id="food" />
             <overlay id="sport" />
             <overlay id="shop" />
             <overlay id="accommodation" />
             <overlay id="place" />
+            <overlay id="access" />
             <overlay id="boundaries" />
             <overlay id="osmmapper" />
         </layer>

@@ -306,28 +306,6 @@
     </rule>
 
     <rule e="way" k="highway" v="*" zoom-min="15">
-      <rule e="way" k="access" v="destination">
-        <line src="file:/patterns/access-destination.svg" stroke-width="1.2" symbol-height="8"/>
-      </rule>
-      <rule e="way" k="access" v="private|no">
-        <line src="file:/patterns/access-private.svg" stroke-width="1.2" symbol-height="8"/>
-      </rule>
-      <rule e="way" k="foot" v="no">
-        <lineSymbol src="file:/patterns/access-foot-no.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="100" symbol-height="14"/>
-      </rule>
-      <rule e="way" k="bicycle" v="no">
-        <lineSymbol src="file:/patterns/access-bicycle-no.svg" align-center="true" repeat="true" repeat-start="10" repeat-gap="100" symbol-height="14"/>
-      </rule>
-      <rule e="way" k="vehicle" v="no">
-        <lineSymbol src="file:/patterns/access-vehicle-no.svg" align-center="true" repeat="true" repeat-start="20" repeat-gap="100" symbol-height="14"/>
-      </rule>
-      <rule e="way" k="motor_vehicle" v="no">
-        <lineSymbol src="file:/patterns/access-motor_vehicle-no.svg" align-center="true" repeat="true" repeat-start="30" repeat-gap="100" symbol-height="14"/>
-      </rule>
-    </rule>
-
-
-    <rule e="way" k="highway" v="*" zoom-min="15">
     <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
       <pathText k="name" font-style="bold" font-size="10" stroke="#FFFFFF" stroke-width="2"/>
     </rule>    
@@ -393,16 +371,27 @@
   </rule>
 </rule>
 
-<rule cat="overlay" e="way" k="access" v="*" zoom-min="16">
-  <line stroke="#44FFFFFF" stroke-width="0.2"/>
+
+<rule cat="access" e="way" k="highway" v="*" zoom-min="15">
   <rule e="way" k="access" v="destination">
-    <line src="file:/patterns/access-destination.svg" stroke-width="0.2" symbol-height="8"/>
+    <lineSymbol src="file:/patterns/access-destination.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="1" symbol-height="8"/>
   </rule>
   <rule e="way" k="access" v="private|no">
-    <line src="file:/patterns/access-private.svg" stroke-width="0.2" symbol-height="8"/>
+    <lineSymbol src="file:/patterns/access-private.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="1" symbol-height="8"/>
+  </rule>
+  <rule e="way" k="foot" v="no">
+    <lineSymbol src="file:/patterns/access-foot-no.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="100" symbol-height="14"/>
+  </rule>
+  <rule e="way" k="bicycle" v="no">
+    <lineSymbol src="file:/patterns/access-bicycle-no.svg" align-center="true" repeat="true" repeat-start="10" repeat-gap="100" symbol-height="14"/>
+  </rule>
+  <rule e="way" k="vehicle" v="no">
+    <lineSymbol src="file:/patterns/access-vehicle-no.svg" align-center="true" repeat="true" repeat-start="20" repeat-gap="100" symbol-height="14"/>
+  </rule>
+  <rule e="way" k="motor_vehicle" v="no">
+    <lineSymbol src="file:/patterns/access-motor_vehicle-no.svg" align-center="true" repeat="true" repeat-start="30" repeat-gap="100" symbol-height="14"/>
   </rule>
 </rule>
-
 
   <!-- highway nodes -->
   <rule e="node" k="*" v="*">
