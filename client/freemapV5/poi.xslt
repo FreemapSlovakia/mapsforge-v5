@@ -219,7 +219,10 @@
   <rule e="any" k="amenity" v="toilets" zoom-min="17">
     <symbol id="toilets" src="file:/poi/toilets.svg" symbol-width="18" priority="10"/>
   </rule>
-  
+  <rule e="any" k="leisure" v="playground" zoom-min="17">
+    <symbol id="playground" src="file:/poi/playground.svg" symbol-width="18" priority="10"/>
+  </rule>
+
   <rule cat="topo_icons" e="any" k="man_made" v="tower|mast" zoom-min="15">
     <rule  e="any" k="tower:type" v="communication" zoom-min="15">
       <symbol src="file:/poi/tower_comm.svg" symbol-width="16"/>
