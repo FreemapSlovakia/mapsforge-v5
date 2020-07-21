@@ -322,47 +322,47 @@
   </rule>
 
   <rule cat="sport" e="any" k="leisure" v="horse_riding" zoom-min="15">
-    <symbol id="horseriding" src="file:/poi/horse_riding.svg" symbol-width="14"/>
+    <symbol id="horseriding" src="file:/poi/sport-horse_riding.svg" symbol-width="14"/>
     <caption symbol-id="horseriding" k="name" font-style="normal" font-size="9" fill="#ffffff" stroke="#1b8389" stroke-width="3" display="ifspace"/>
   </rule>
   <rule cat="sport" e="any" k="leisure" v="golf_course" zoom-min="15">
-    <symbol id="golf" src="file:/poi/golf.svg" symbol-width="14"/>
+    <symbol id="golf" src="file:/poi/sport-golf.svg" symbol-width="14"/>
     <caption symbol-id="golf" k="name" font-style="normal" font-size="9" fill="#ffffff" stroke="#1b8389" stroke-width="3" display="ifspace"/>
   </rule>
   <rule cat="sport" e="any" k="leisure" v="miniature_golf" zoom-min="16">
-    <symbol id="minigolf" src="file:/poi/minigolf.svg" symbol-width="14"/>
+    <symbol id="minigolf" src="file:/poi/sport-minigolf.svg" symbol-width="14"/>
     <caption symbol-id="minigolf" k="name" font-style="normal" font-size="9" fill="#ffffff" stroke="#1b8389" stroke-width="3" display="ifspace"/>
   </rule>
   <rule cat="sport" e="any" k="leisure" v="shooting_ground" zoom-min="16">
-    <symbol id="sporticon" src="file:/poi/shooting.svg" symbol-width="14"/>
+    <symbol id="sporticon" src="file:/poi/sport-shooting.svg" symbol-width="14"/>
     <caption symbol-id="sporticon" k="name" font-style="bold" font-size="10" fill="#ffffff" stroke="#1b8389" stroke-width="3" display="ifspace"/>
   </rule>
   <rule cat="sport" e="any" k="leisure" v="pitch|sports_centre|stadium" zoom-min="16">
     <rule e="any" k="sport" v="soccer">
-      <symbol id="sporticon" src="file:/poi/soccer.svg" symbol-width="14"/>
+      <symbol id="sporticon" src="file:/poi/sport-soccer.svg" symbol-width="14"/>
     </rule>
     <rule e="any" k="sport" v="ice_hockey">
-      <symbol id="sporticon" src="file:/poi/ice_hockey.svg" symbol-width="14"/>
+      <symbol id="sporticon" src="file:/poi/sport-ice_hockey.svg" symbol-width="14"/>
     </rule>
     <rule e="any" k="sport" v="tennis">
-      <symbol id="sporticon" src="file:/poi/tennis.svg" symbol-width="14"/>
+      <symbol id="sporticon" src="file:/poi/sport-tennis.svg" symbol-width="14"/>
     </rule>
     <rule e="any" k="sport" v="9pin|10pin">
-      <symbol id="sporticon" src="file:/poi/bowling.svg" symbol-width="14"/>
+      <symbol id="sporticon" src="file:/poi/sport-bowling.svg" symbol-width="14"/>
     </rule>
     <rule e="any" k="sport" v="shooting">
-      <symbol id="sporticon" src="file:/poi/shooting.svg" symbol-width="14"/>
+      <symbol id="sporticon" src="file:/poi/sport-shooting.svg" symbol-width="14"/>
     </rule>
     <rule e="any" k="sport" v="swimming">
       <rule e="any" k="indoor" v="yes">
-        <symbol id="sporticon" src="file:/poi/swimming_indoor.svg" symbol-width="14"/>
+        <symbol id="sporticon" src="file:/poi/sport-swimming_indoor.svg" symbol-width="14"/>
       </rule>
       <rule e="any" k="indoor" v="~|no">
         <rule e="any" k="building" v="*">
-          <symbol id="sporticon" src="file:/poi/swimming_indoor.svg" symbol-width="14"/>
+          <symbol id="sporticon" src="file:/poi/sport-swimming_indoor.svg" symbol-width="14"/>
         </rule>
         <rule e="any" k="building" v="~">
-          <symbol id="sporticon" src="file:/poi/swimming_outdoor.svg" symbol-width="14"/>
+          <symbol id="sporticon" src="file:/poi/sport-swimming_outdoor.svg" symbol-width="14"/>
         </rule>
       </rule>
     </rule>
