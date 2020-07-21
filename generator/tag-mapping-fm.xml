@@ -108,6 +108,7 @@
 		<osm-tag key="historic" value="memorial" zoom-appear="17" />
 		<osm-tag key="historic" value="monument" zoom-appear="17" />
 		<osm-tag key="historic" value="wayside_cross" zoom-appear="15" />
+		<osm-tag key="historic" value="wayside_shrine" zoom-appear="15" />
 		<osm-tag key="historic" value="mine" zoom-appear="12" />
 
 		<osm-tag key="information" value="%s" renderable="false" />
@@ -141,6 +142,7 @@
 		<osm-tag key="natural" value="valley" zoom-appear="12" />
 		<osm-tag key="natural" value="cave_entrance" zoom-appear="10" />
 		<osm-tag key="natural" value="peak" zoom-appear="10" />
+		<osm-tag key="ele" value="%s" renderable="false" />
 		<osm-tag key="natural" value="spring" zoom-appear="12" />
 		<osm-tag key="drinking_water" value="yes" renderable="false" />
 		<osm-tag key="natural" value="tree" zoom-appear="15" />
@@ -183,7 +185,8 @@
 		<osm-tag key="power" value="tower" zoom-appear="14" />
 		<osm-tag key="military" value="bunker" zoom-appear="12" />
 
-		<osm-tag key="fee" value="%s" renderable="false" />
+		<osm-tag key="fee" value="yes" renderable="false" />
+		<osm-tag key="fee" value="no" renderable="false" />
 	</pois>
 
 	<!-- AIRPORT TAGS -->
@@ -212,7 +215,7 @@
 		<osm-tag key="contour_ext" value="elevation_minor" zoom-appear="14" force-polygon-line="true"/>
 		<osm-tag key="contour_ext" value="elevation_medium" zoom-appear="10" force-polygon-line="true"/>
 		<osm-tag key="contour_ext" value="elevation_major" zoom-appear="10" force-polygon-line="true"/>
-		<osm-tag key="ele" value="%f" renderable="false" />
+		<osm-tag key="ele" value="%s" renderable="false" />
 	</ways>
 
 	<!-- HIGHWAY TAGS -->
@@ -503,6 +506,7 @@
 
 		<osm-tag key="historic" value="ruins" zoom-appear="12" />
 		<osm-tag key="historic" value="castle" zoom-appear="12" />
+		<osm-tag key="historic" value="wayside_shrine" zoom-appear="15" />
 		<osm-tag key="ruins" value="yes" renderable="false" />		
 		<osm-tag key="castle_type" value="%s" renderable="false" />
 
@@ -533,7 +537,8 @@
 
 		<osm-tag key="area" value="yes" renderable="false" />
 		<osm-tag key="bridge" value="yes" renderable="false" />
-		<osm-tag key="fee" value="%s" renderable="false" />
+		<osm-tag key="fee" value="yes" renderable="false" />
+		<osm-tag key="fee" value="no" renderable="false" />
 
 		<osm-tag key="oneway" value="yes" equivalent-values="1,true" renderable="false" />
 		<osm-tag key="oneway" value="-1" renderable="false" />

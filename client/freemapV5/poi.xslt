@@ -216,7 +216,10 @@
     <symbol id="attraction" src="file:/poi/attraction.svg" symbol-width="18" priority="10"/>
     <caption k="name" symbol-id="attraction" position="below" font-style="bold" font-size="10" fill="#734a08" stroke="#ffffff" stroke-width="2"/>
   </rule>
-
+  <rule e="any" k="amenity" v="toilets" zoom-min="17">
+    <symbol id="toilets" src="file:/poi/toilets.svg" symbol-width="18" priority="10"/>
+  </rule>
+  
   <rule cat="topo_icons" e="any" k="man_made" v="tower|mast" zoom-min="15">
     <rule  e="any" k="tower:type" v="communication" zoom-min="15">
       <symbol src="file:/poi/tower_comm.svg" symbol-width="16"/>
@@ -247,7 +250,9 @@
   <rule e="node" k="historic" v="wayside_cross" zoom-min="16">
     <symbol src="file:/poi/wayside_cross.svg" symbol-width="16" priority="10"/>
   </rule>
-
+  <rule e="node" k="historic" v="wayside_shrine" zoom-min="16">
+    <symbol src="file:/poi/wayside_shrine.svg" symbol-width="16" priority="10"/>
+  </rule>
   <rule  e="node" k="highway" v="bus_stop" zoom-min="15">
     <rule  e="any" k="*" v="*" zoom-min="15" zoom-max="16">
       <symbol src="file:/poi/bus-mini.svg" symbol-width="18" priority="0"/>

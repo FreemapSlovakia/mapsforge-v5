@@ -5,13 +5,21 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg8"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
    version="1.1"
-   viewBox="0 0 8.4666665 8.4666669"
-   height="32"
-   width="32">
+   id="svg8">
   <defs
-     id="defs2" />
+     id="defs2">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -24,26 +32,8 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     transform="translate(0,-288.53332)"
-     id="layer1">
-    <g
-       id="g4554">
-      <path
-         style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.54221565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="path4500-4-2"
-         d="m 6.1656448,294.80293 -2.710257,-0.91908 -2.2935978,1.71161 0.036577,-2.86162 -2.3365961,-1.65242 2.7328624,-0.84951 0.849502,-2.73286 1.6524254,2.3366 2.8616172,-0.0366 -1.7116074,2.2936 z"
-         transform="matrix(0.72251686,0.11713644,-0.11713644,0.72251686,36.151459,81.943232)" />
-      <path
-         style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.18073854;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="path4500"
-         d="m 6.1656448,294.80293 -2.710257,-0.91908 -2.2935978,1.71161 0.036577,-2.86162 -2.3365961,-1.65242 2.7328624,-0.84951 0.849502,-2.73286 1.6524254,2.3366 2.8616172,-0.0366 -1.7116074,2.2936 z"
-         transform="matrix(0.72251687,0.11713644,-0.11713644,0.72251687,36.151796,81.915005)" />
-      <path
-         style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:10.92970085;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="path4500-6"
-         d="m 6.1656448,294.80293 -2.710257,-0.91908 -2.2935978,1.71161 0.036577,-2.86162 -2.3365961,-1.65242 2.7328624,-0.84951 0.849502,-2.73286 1.6524254,2.3366 2.8616172,-0.0366 -1.7116074,2.2936 z"
-         transform="matrix(0.36125844,0.05856822,-0.05856822,0.36125844,20.192649,187.33377)" />
-    </g>
-  </g>
+  <path
+     style="fill:#ffdd55;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.79998779;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 121.42264,50.758677 c -0.42373,-1.309686 -1.54081,-2.253431 -2.90828,-2.446035 L 83.095034,43.150937 67.243971,11.063614 C 66.627648,9.830958 65.375742,9.041302 64.008274,9.041302 c -1.386728,0 -2.638635,0.789656 -3.235698,2.022312 L 44.921511,43.150937 9.5021875,48.312642 c -1.3674676,0.192604 -2.5038138,1.136349 -2.9275356,2.446035 -0.4237227,1.309687 -0.057782,2.754195 0.9244844,3.717197 L 33.134332,79.45623 27.067399,114.74074 c -0.231121,1.3482 0.327423,2.71567 1.444509,3.52459 1.117085,0.80892 2.580853,0.92449 3.813499,0.2889 l 31.682867,-16.65999 31.682866,16.65999 c 0.539284,0.26964 1.097826,0.40447 1.675628,0.40447 0.751146,0 1.50229,-0.23112 2.137875,-0.69337 1.097827,-0.80892 1.656357,-2.17639 1.425237,-3.52459 L 94.882216,79.45623 120.51741,54.475874 c 0.98227,-0.963002 1.32895,-2.40751 0.90523,-3.717197 z"
+     id="path845" />
 </svg>

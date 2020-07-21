@@ -2,7 +2,7 @@
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <xsl:variable name="yellow">#FFFF00</xsl:variable>
+    <xsl:variable name="yellow">#DDFFF000</xsl:variable>
     <xsl:variable name="green">#DD009900</xsl:variable>
     <xsl:variable name="blue">#DD0000FF</xsl:variable>
     <xsl:variable name="red">#DDFE0000</xsl:variable>

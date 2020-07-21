@@ -17,7 +17,7 @@
       <area fill="#80DFCFBC"/>
     </rule>
     <rule e="way" k="landuse" v="field|farm|farmland">
-      <area fill="#80FFFEDC"/>
+      <area fill="#80F0EFCD"/>
     </rule>
     <rule e="way" k="landuse" v="orchard">
       <area fill="#80C8F0AB"/>

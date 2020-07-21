@@ -414,13 +414,13 @@
     <rule e="way" k="fee" v="~|no" >
       <area src="file:/patterns/parking.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
     </rule>
-    <rule e="way" k="fee" v="*" >
+    <rule e="way" k="fee" v="yes" >
       <area src="file:/patterns/parking-fee.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
     </rule>
     <rule cat="default" e="way" k="fee" v="~|no" zoom-min="18">
       <symbol src="file:/poi/parking.svg" symbol-width="9" priority="-50"/>
     </rule>
-    <rule cat="default" e="way" k="fee" v="*" zoom-min="18">
+    <rule cat="default" e="way" k="fee" v="yes" zoom-min="18">
       <symbol src="file:/poi/parking-fee.svg" symbol-width="9" priority="-50"/>
     </rule>
   </rule>

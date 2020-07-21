@@ -34,7 +34,6 @@
 		</output>
 	</translation>
 
-
 	<translation>
 		<name>chranene uzemia</name>
 		<description>relacie chranene uzemia na multipolygon</description>
@@ -53,6 +52,18 @@
 		<output>
 			<copy-all/>
 			<tag k="type" v="multipolygon"/>
+		</output>
+	</translation>
+
+	<translation>
+		<name>fee simplify </name>
+		<description>simplify fee tag</description>
+		<match type="any" mode="and">
+			<tag k="fee" v="....*"/>
+		</match>
+		<output>
+			<copy-unmatched/>
+			<tag k="fee" v="yes"/>
 		</output>
 	</translation>
 </translations>
