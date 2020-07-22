@@ -5,11 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
+   version="1.1"
    id="svg2"
-   version="1.1">
+   viewBox="0 0 24 24"
+   height="24"
+   width="24">
   <defs
      id="defs4" />
   <metadata
@@ -25,11 +25,11 @@
     </rdf:RDF>
   </metadata>
   <path
-     id="path4146-6"
-     d="M 9.4067785,22.350116 23.999999,12.095879 9.4067785,1.5990364 10.237289,9.166097 H 1.2392671e-6 v 5.961259 H 10.237289 Z"
-     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 9.3050836,22.706048 23.999999,12.095879 9.3050836,1.2939517 10.237289,8.9118597 H 1.2392671e-6 V 15.381593 H 10.237289 Z"
+     id="path4146-6" />
   <path
-     id="path4146"
+     style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 10.697337,20.07893 10.765132,-8 -10.765132,-8.0000003 1.336561,6.2857143 H 1.2251814 v 3.428572 H 12.033899 Z"
-     style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     id="path4146" />
 </svg>

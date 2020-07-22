@@ -20,6 +20,7 @@
 <xsl:variable name="hw-path2">#494A47</xsl:variable>
 <xsl:variable name="hw-steps">#AACC5555</xsl:variable>
 <xsl:variable name="hw-construction">#CC6600</xsl:variable>
+<xsl:variable name="hw-ferrata">#494A47</xsl:variable>
 <!-- road casing colors -->
 <xsl:variable name="cs-motorway">#FF0000</xsl:variable>
 <xsl:variable name="cs-trunk">#006600</xsl:variable>
@@ -35,6 +36,7 @@
 <xsl:variable name="cs-cycleway">#639CFF</xsl:variable>
 <xsl:variable name="cs-footway">#9F8F88</xsl:variable>
 <xsl:variable name="cs-construction">#80FFFFFF</xsl:variable>
+<xsl:variable name="cs-ferrata">#80FFFFFF</xsl:variable>
 
 <!-- road min zoom -->
 <xsl:variable name="z-motorway">6</xsl:variable>
@@ -54,6 +56,7 @@
 <xsl:variable name="z-footway">16</xsl:variable>
 <xsl:variable name="z-path">15</xsl:variable>
 <xsl:variable name="z-construction">15</xsl:variable>
+<xsl:variable name="z-ferrata">15</xsl:variable>
 
 <xsl:template name="highway">
 
@@ -212,11 +215,16 @@
       <line stroke="{$hw-construction}" stroke-width="0.2" stroke-linecap="butt" stroke-dasharray="12,12" />
     </rule>
     <rule e="way" k="highway" v="steps" zoom-min="{$z-footway}">
-      <line stroke="{$hw-steps}" stroke-width="0.4" stroke-dasharray="1,3" stroke-linecap="butt" scale="stroke"/>
+      <line stroke="{$hw-steps}" stroke-width="0.4" stroke-dasharray="0.1,0.3" stroke-linecap="butt" scale="all"/>
     </rule>
     <rule e="way" k="highway" v="footway" zoom-min="{$z-footway}">
       <line stroke="{$hw-footway}" stroke-width="0.22" stroke-linecap="butt"/>
     </rule>
+    <rule e="way" k="highway" v="via_ferrata" zoom-min="{$z-ferrata}">
+      <line stroke="{$hw-ferrata}" stroke-width="0.1" dy="0.2"/>
+      <line stroke="{$hw-ferrata}" stroke-width="0.1" dy="-0.2"/>
+      <line stroke="{$hw-ferrata}" stroke-width="1" stroke-linecap="butt" stroke-dasharray="0.1,0.7" scale="all"/>
+    </rule>    
     <rule e="way" k="highway" v="path" zoom-min="{$z-path}">
       <line stroke="{$hw-path1}" stroke-width="0.33" stroke-linecap="butt"/>
       <line stroke="{$hw-path2}" stroke-width="0.33" stroke-dasharray="0.5,0.5" stroke-linecap="butt" scale="all"/>
