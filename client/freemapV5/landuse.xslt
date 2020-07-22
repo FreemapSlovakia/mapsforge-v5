@@ -66,13 +66,13 @@
     <rule e="way" k="landuse" v="cemetery">
       <area fill="#E9F6EE" stroke="#C0C0C0" stroke-width="0.8" scale="none"/>
       <rule e="any" k="religion" v="christian">
-        <area src="file:/patterns/cemetery2.svg" symbol-scaling="size" symbol-height="32" symbol-width="32"/>
+        <area src="file:/patterns/cemetery2.svg" symbol-scaling="size" symbol-height="64" />
       </rule>
       <rule e="any" k="religion" v="jewish">
-        <area src="file:/patterns/cemetery3.svg" symbol-scaling="size" symbol-height="32" symbol-width="32"/>
+        <area src="file:/patterns/cemetery3.svg" symbol-scaling="size" symbol-height="64" />
       </rule>
       <rule e="any" k="religion" v="~">
-        <area src="file:/patterns/cemetery.svg" symbol-scaling="size" symbol-height="32" symbol-width="32"/>
+        <area src="file:/patterns/cemetery.svg" symbol-scaling="size" symbol-height="64" />
       </rule>
     </rule>
     <rule e="way" k="landuse" v="military">
