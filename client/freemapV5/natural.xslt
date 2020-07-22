@@ -39,35 +39,35 @@
     </rule>
 
   </rule>
-  <rule cat="topo_common" e="way" k="natural" v="valley" zoom-min="14">
-      <rule e="way" k="*" v="*" zoom-min="14" zoom-max="15">
-         <line stroke="#40FFFFFF" dy="3" stroke-width="2" scale="none" />
-         <line stroke="#40FFFFFF" dy="-3" stroke-width="2" scale="none" />
-          <pathText k="name" font-style="bold" font-size="6" fill="#DDFFFFFF" stroke="#66000000" repeat-gap="80" stroke-width="1.8" />
+  <rule cat="topo_common" e="way" k="natural" v="valley" zoom-min="12">
+      <rule e="way" k="*" v="*" zoom-min="12" zoom-max="15">
+<!--         <line stroke="#40FFFFFF" dy="3" stroke-width="2" scale="none" />
+         <line stroke="#40FFFFFF" dy="-3" stroke-width="2" scale="none" /> -->
+          <pathText k="name" font-style="bold" font-size="10" fill="#DDFFFFFF" stroke="#77000000" repeat-gap="150" stroke-width="1.8" display="always"/>
       </rule>
       <rule e="way" k="*" v="*" zoom-min="16" zoom-max="17">
-         <line stroke="#40FFFFFF" dy="3" stroke-width="2" scale="none" />
-         <line stroke="#40FFFFFF" dy="-3" stroke-width="2" scale="none" />
-          <pathText k="name" font-style="bold" font-size="8" fill="#EEFFFFFF" stroke="#66000000" repeat-gap="200" stroke-width="2" />
+<!--         <line stroke="#40FFFFFF" dy="3" stroke-width="2" scale="none" />
+         <line stroke="#40FFFFFF" dy="-3" stroke-width="2" scale="none" /> -->
+          <pathText k="name" font-style="bold" font-size="12" fill="#EEFFFFFF" stroke="#77000000" repeat-gap="300" stroke-width="2" />
        </rule>
        <rule e="way" k="*" v="*" zoom-min="18">
-         <line stroke="#40FFFFFF" dy="3" stroke-width="2" scale="none" />
-         <line stroke="#40FFFFFF" dy="-3" stroke-width="2" scale="none" />
-         <pathText k="name" font-style="bold" font-size="10" fill="#EEFFFFFF" stroke="#66000000" repeat-gap="250" stroke-width="2" />
+<!--         <line stroke="#40FFFFFF" dy="3" stroke-width="2" scale="none" />
+         <line stroke="#40FFFFFF" dy="-3" stroke-width="2" scale="none" /> -->
+         <pathText k="name" font-style="bold" font-size="14" fill="#EEFFFFFF" stroke="#77000000" repeat-gap="400" stroke-width="2" />
       </rule>
   </rule>
-  <rule cat="topo_common" e="way" k="natural" v="ridge" zoom-min="14"> 
-      <rule e="way" k="*" v="*" zoom-min="14" zoom-max="15">
-          <line stroke="#40FFFFFF" stroke-width="6" scale="none" />
-          <pathText k="name" font-style="bold" font-size="6" fill="#DDFFFFFF" stroke="#66000000" repeat-gap="80" stroke-width="1.8" />
+  <rule cat="topo_common" e="way" k="natural" v="ridge" zoom-min="12"> 
+      <rule e="way" k="*" v="*" zoom-min="12" zoom-max="15">
+          <line stroke="#60FFFFFF" stroke-width="10" scale="none" />
+          <pathText k="name" font-style="bold" font-size="10" fill="#DDFFFFFF" stroke="#77000000" repeat-gap="150" stroke-width="1.8" display="always"/>
       </rule>
       <rule e="way" k="*" v="*" zoom-min="16" zoom-max="17">
-          <line stroke="#40FFFFFF" stroke-width="10" scale="none" />
-          <pathText k="name" font-style="bold" font-size="8" fill="#EEFFFFFF" stroke="#66000000" repeat-gap="200" stroke-width="2" />
+          <line stroke="#60FFFFFF" stroke-width="12" scale="none" />
+          <pathText k="name" font-style="bold" font-size="12" fill="#EEFFFFFF" stroke="#77000000" repeat-gap="300" stroke-width="2" />
       </rule>
       <rule e="way" k="*" v="*" zoom-min="18">
-         <line stroke="#40FFFFFF" stroke-width="10" scale="none" />
-          <pathText k="name" font-style="bold" font-size="10" fill="#EEFFFFFF" stroke="#66000000" repeat-gap="250" stroke-width="2" />
+         <line stroke="#60FFFFFF" stroke-width="14" scale="none" />
+          <pathText k="name" font-style="bold" font-size="14" fill="#EEFFFFFF" stroke="#77000000" repeat-gap="400" stroke-width="2" />
       </rule>
   </rule>  
 
