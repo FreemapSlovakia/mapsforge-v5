@@ -58,7 +58,7 @@
               <rule e="way" k="{$yellowKey}" v="*">
                   <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
                     <line cat="overlay" stroke="#FFFFFF" dy="{$off1low}"  stroke-width="{$backgroundTrailWidthLow}" scale="all" />
-                    <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                    
+                    <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                     <line cat="overlay" stroke="#FFFFFF" dy="{$off3low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                     <line cat="overlay" stroke="#FFFFFF" dy="{$off4low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                     <line stroke="{$red}" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
@@ -68,7 +68,7 @@
                   </rule>  
                   <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
                     <line cat="overlay" stroke="#FFFFFF" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
-                    <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                    
+                    <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                     <line cat="overlay" stroke="#FFFFFF" dy="{$off3high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                     <line cat="overlay" stroke="#FFFFFF" dy="{$off4high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                     <line stroke="{$red}" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
@@ -81,7 +81,7 @@
               <rule e="way" k="{$yellowKey}" v="~">
                   <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
                     <line cat="overlay" stroke="#FFFFFF" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
-                    <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                    
+                    <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                     <line cat="overlay" stroke="#FFFFFF" dy="{$off3low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                     <line stroke="{$red}" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                     <line stroke="{$blue}" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
@@ -89,7 +89,7 @@
                   </rule>
                   <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
                     <line cat="overlay" stroke="#FFFFFF" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
-                    <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                    
+                    <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                     <line cat="overlay" stroke="#FFFFFF" dy="{$off3high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                     <line stroke="{$red}" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                     <line stroke="{$blue}" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
@@ -102,16 +102,16 @@
               <rule e="way" k="{$yellowKey}" v="*">
                 <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">              
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                    
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off3low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off3low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                   <line stroke="{$red}" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                   <line stroke="{$blue}" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                   <line stroke="{$yellow}" dy="{$off3low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                 </rule>
                 <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">              
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                    
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off3high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off3high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                   <line stroke="{$red}" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                   <line stroke="{$blue}" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                   <line stroke="{$yellow}" dy="{$off3high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
@@ -121,13 +121,13 @@
               <rule e="way" k="{$yellowKey}" v="~">
                 <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                   <line stroke="{$red}" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                   <line stroke="{$blue}" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                 </rule>
                 <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                   <line stroke="{$red}" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                   <line stroke="{$blue}" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                 </rule>
@@ -140,7 +140,7 @@
               <rule e="way" k="{$yellowKey}" v="*">
                 <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off3low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                   <line stroke="{$red}" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                   <line stroke="{$green}" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
@@ -148,7 +148,7 @@
                 </rule>
                 <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off3high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                   <line stroke="{$red}" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                   <line stroke="{$green}" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
@@ -159,13 +159,13 @@
               <rule e="way" k="{$yellowKey}" v="~">
                 <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                   <line stroke="{$red}" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                   <line stroke="{$green}" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                 </rule>
                 <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                   <line stroke="{$red}" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                   <line stroke="{$green}" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                 </rule>
@@ -176,13 +176,13 @@
               <rule e="way" k="{$yellowKey}" v="*">
                 <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                   <line stroke="{$red}" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                   <line stroke="{$yellow}" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                 </rule>
                 <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                   <line stroke="{$red}" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                   <line stroke="{$yellow}" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                 </rule>
@@ -208,16 +208,16 @@
               <rule e="way" k="{$yellowKey}" v="*">
                 <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                    
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off3low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />              
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off3low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                   <line stroke="{$blue}" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                   <line stroke="{$green}" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                   <line stroke="{$yellow}" dy="{$off3low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                 </rule>
                 <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                    
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off3high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />              
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off3high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                   <line stroke="{$blue}" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                   <line stroke="{$green}" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                   <line stroke="{$yellow}" dy="{$off3high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
@@ -227,13 +227,13 @@
               <rule e="way" k="{$yellowKey}" v="~">
                 <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                   <line stroke="{$blue}" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                   <line stroke="{$green}" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                 </rule>
                 <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                   <line stroke="{$blue}" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                   <line stroke="{$green}" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                 </rule>
@@ -244,13 +244,13 @@
               <rule e="way" k="{$yellowKey}" v="*">
                 <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                   <line stroke="{$blue}" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                   <line stroke="{$yellow}" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                 </rule>
                 <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                   <line stroke="{$blue}" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                   <line stroke="{$yellow}" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                 </rule>
@@ -275,13 +275,13 @@
               <rule e="way" k="{$yellowKey}" v="*">
                 <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthLow}" scale="all" />
                   <line stroke="{$green}" dy="{$off1low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                   <line stroke="{$yellow}" dy="{$off2low}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthLow}" scale="all" />
                 </rule>
                 <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
                   <line cat="overlay" stroke="#FFFFFF" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
-                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />                    
+                  <line cat="overlay" stroke="#FFFFFF" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$backgroundTrailWidthHigh}" scale="all" />
                   <line stroke="{$green}" dy="{$off1high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                   <line stroke="{$yellow}" dy="{$off2high}" stroke-dasharray="{$dasharray}" stroke-linecap="{$linecap}" stroke-width="{$markedTrailWidthHigh}" scale="all" />
                 </rule>

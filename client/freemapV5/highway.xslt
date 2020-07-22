@@ -78,13 +78,13 @@
         <line stroke="{$cs-trunk}" stroke-width="2" stroke-linecap="butt"/>
       </rule>
       <rule e="way" k="highway" v="primary|primary_link" zoom-min="{$z-primary}">
-        <line stroke="{$cs-primary}" stroke-width="2" stroke-linecap="butt"/>
+        <line stroke="{$cs-primary}" stroke-width="2.2" stroke-linecap="butt"/>
       </rule>
       <rule e="way" k="highway" v="secondary|secondary_link" zoom-min="{$z-secondary}">
-        <line stroke="{$cs-secondary}" stroke-width="2" stroke-linecap="butt"/>
+        <line stroke="{$cs-secondary}" stroke-width="2.2" stroke-linecap="butt"/>
       </rule>
       <rule e="way" k="highway" v="tertiary|tertiary_link" zoom-min="{$z-tertiary}">
-        <line stroke="{$cs-tertiary}" stroke-width="2" stroke-linecap="butt"/>
+        <line stroke="{$cs-tertiary}" stroke-width="2.2" stroke-linecap="butt"/>
       </rule>
       <rule e="way" k="highway" v="residential|unclassified" zoom-min="{$z-residential}">
         <line stroke="{$cs-residential}" stroke-width="1.3" stroke-linecap="butt"/>
@@ -113,31 +113,31 @@
         <line stroke="{$cs-construction}" stroke-width="0.8" stroke-linecap="butt"/>
       </rule>
       <rule e="way" k="highway" v="motorway" zoom-min="{$z-motorway}">
-        <line stroke="{$cs-motorway}" stroke-width="2.8" stroke-linecap="butt" stroke-dasharray="8,8" />
+        <line stroke="{$cs-motorway}" stroke-width="2.8" stroke-linecap="butt" stroke-dasharray="2,2" scale="all"/>
       </rule>
       <rule e="way" k="highway" v="motorway_link" zoom-min="{$z-motorway_link}">
-        <line stroke="{$cs-motorway}" stroke-width="2" stroke-linecap="butt" stroke-dasharray="8,8" />
+        <line stroke="{$cs-motorway}" stroke-width="2" stroke-linecap="butt" stroke-dasharray="2,2" scale="all" />
       </rule>
       <rule e="way" k="highway" v="trunk" zoom-min="{$z-trunk}">
-        <line stroke="{$cs-trunk}" stroke-width="2.8" stroke-linecap="butt" stroke-dasharray="8,8" />
+        <line stroke="{$cs-trunk}" stroke-width="2.8" stroke-linecap="butt" stroke-dasharray="2,2" scale="all" />
       </rule>
       <rule e="way" k="highway" v="trunk_link" zoom-min="{$z-trunk_link}">
-        <line stroke="{$cs-trunk}" stroke-width="2" stroke-linecap="butt" stroke-dasharray="8,8" />
+        <line stroke="{$cs-trunk}" stroke-width="2" stroke-linecap="butt" stroke-dasharray="2,2" scale="all" />
       </rule>
       <rule e="way" k="highway" v="primary|primary_link" zoom-min="{$z-primary}">
-        <line stroke="{$cs-primary}" stroke-width="2" stroke-linecap="butt" stroke-dasharray="5,5" />
+        <line stroke="{$cs-primary}" stroke-width="2" stroke-linecap="butt" stroke-dasharray="1.5,1.5" scale="all"/>
       </rule>
       <rule e="way" k="highway" v="secondary|secondary_link" zoom-min="{$z-secondary}">
-        <line stroke="{$cs-secondary}" stroke-width="2" stroke-linecap="butt" stroke-dasharray="5,5" />
+        <line stroke="{$cs-secondary}" stroke-width="2" stroke-linecap="butt" stroke-dasharray="1.5,1.5" scale="all"/>
       </rule>
       <rule e="way" k="highway" v="tertiary|tertiary_link" zoom-min="{$z-tertiary}">
-        <line stroke="{$cs-tertiary}" stroke-width="2" stroke-linecap="butt" stroke-dasharray="5,5" />
+        <line stroke="{$cs-tertiary}" stroke-width="2" stroke-linecap="butt" stroke-dasharray="1.5,1.5" scale="all"/>
       </rule>
       <rule e="way" k="highway" v="residential|unclassified" zoom-min="{$z-residential}">
-        <line stroke="{$cs-residential}" stroke-width="1.3" stroke-linecap="butt" stroke-dasharray="4,4"/>
+        <line stroke="{$cs-residential}" stroke-width="1.3" stroke-linecap="butt" stroke-dasharray="1,1" scale="all"/>
       </rule>
       <rule e="way" k="highway" v="living" zoom-min="{$z-living}">
-        <line stroke="{$cs-living}" stroke-width="1.2" stroke-linecap="butt" stroke-dasharray="4,4"/>
+        <line stroke="{$cs-living}" stroke-width="1.2" stroke-linecap="butt" stroke-dasharray="1,1" scale="all"/>
       </rule>
       <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
         <rule e="way" k="service" v="~">
@@ -412,10 +412,10 @@
       <area src="file:/patterns/access-destination.svg" symbol-height="12"/>
     </rule>
     <rule e="way" k="fee" v="~|no" >
-      <area src="file:/patterns/parking.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+      <area src="file:/patterns/parking.svg" symbol-scaling="size" symbol-height="18" symbol-width="20"/>
     </rule>
     <rule e="way" k="fee" v="yes" >
-      <area src="file:/patterns/parking-fee.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+      <area src="file:/patterns/parking-fee.svg" symbol-scaling="size" symbol-height="18" symbol-width="20"/>
     </rule>
     <rule cat="default" e="way" k="fee" v="~|no" zoom-min="18">
       <symbol src="file:/poi/parking.svg" symbol-width="9" priority="-50"/>
