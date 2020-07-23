@@ -4,6 +4,9 @@
 
 <xsl:template name="waterways">
   <rule cat="waterway" e="way" k="waterway" v="*">
+    <rule e="any" k="ford" v="yes" zoom-min="15">
+      <symbol id="ford" src="file:/poi/ford.svg" symbol-width="16"/>
+    </rule>
     <rule e="way" k="waterway" v="ditch" zoom-min="15">
         <line stroke="#8DB0DD" stroke-width="0.1"/>
         <rule e="way" k="*" v="*" zoom-min="16">

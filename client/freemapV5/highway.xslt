@@ -223,7 +223,7 @@
     <rule e="way" k="highway" v="via_ferrata" zoom-min="{$z-ferrata}">
       <line stroke="{$hw-ferrata}" stroke-width="0.1" dy="0.2"/>
       <line stroke="{$hw-ferrata}" stroke-width="0.1" dy="-0.2"/>
-      <line stroke="{$hw-ferrata}" stroke-width="1" stroke-linecap="butt" stroke-dasharray="0.1,0.7" scale="all"/>
+      <line stroke="{$hw-ferrata}" stroke-width="1" stroke-linecap="butt" stroke-dasharray="0.1,0.2,0.1,0.7" scale="all"/>
     </rule>    
     <rule e="way" k="highway" v="path" zoom-min="{$z-path}">
       <line stroke="{$hw-path1}" stroke-width="0.33" stroke-linecap="butt"/>

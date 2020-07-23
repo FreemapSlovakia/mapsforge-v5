@@ -54,6 +54,7 @@
 		<osm-tag key="amenity" value="shelter" zoom-appear="13" />
 		<osm-tag key="amenity" value="feeding_place" zoom-appear="14" />
 		<osm-tag key="amenity" value="game_feeding" zoom-appear="14" />
+		<osm-tag key="ford" value="yes" zoom-appear="15" />
 
 		<osm-tag key="emergency" value="phone" zoom-appear="16" />
 
@@ -411,6 +412,7 @@
 		<osm-tag key="amenity" value="toilets" zoom-appear="17" />
 		<osm-tag key="amenity" value="university" zoom-appear="14" />
 		<osm-tag key="amenity" value="place_of_worship" zoom-appear="17" />
+		<osm-tag key="ford" value="yes" zoom-appear="15" />
 
 		<osm-tag key="amenity" value="restaurant" zoom-appear="14" />
 		<osm-tag key="amenity" value="pub" zoom-appear="14" />
