@@ -92,10 +92,20 @@
 <xsl:template name="waterbodies">
   <rule e="way" k="natural" v="water">
     <rule cat="all" e="way" k="*" v="*">
-      <area fill="#8DB0DD"/>
+      <rule e="way" k="intermittent" v="~|no">
+        <area fill="#8DB0DD"/>
+      </rule>
+      <rule e="way" k="intermittent" v="yes">
+        <area src="file:/patterns/water-intermittent.svg" symbol-width="20"/>
+      </rule>
     </rule>
     <rule cat="overlay" e="way" k="*" v="*">
-      <area fill="#508DB0DD"/>
+      <rule e="way" k="intermittent" v="~|no">
+        <area fill="#508DB0DD"/>
+      </rule>
+      <rule e="way" k="intermittent" v="yes">
+        <area src="file:/patterns/water-intermittent.svg" symbol-width="20"/>
+      </rule>
     </rule>
     <rule e="way" k="*" v="*" zoom-min="14">
       <caption k="name" font-style="italic" font-size="10" fill="#4040ff" stroke="#ffffff" stroke-width="3"/>

@@ -66,4 +66,15 @@
 			<tag k="fee" v="yes"/>
 		</output>
 	</translation>
+	<translation>
+		<name>ford simplify </name>
+		<description>simplify ford tag</description>
+		<match type="any" mode="and">
+			<tag k="ford" v="....*"/>
+		</match>
+		<output>
+			<copy-unmatched/>
+			<tag k="ford" v="yes"/>
+		</output>
+	</translation>
 </translations>
