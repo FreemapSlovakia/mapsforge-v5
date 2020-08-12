@@ -23,18 +23,17 @@
 		<osm-tag key="amenity" value="bus_station" zoom-appear="15" />
 		<osm-tag key="amenity" value="cinema" zoom-appear="17" />
 		<osm-tag key="amenity" value="fountain" zoom-appear="17" />
-		<osm-tag key="amenity" value="fire_station" zoom-appear="16" />
 		<osm-tag key="amenity" value="fuel" zoom-appear="16" />
 		<osm-tag key="amenity" value="charging_station" zoom-appear="16" />
 		<osm-tag key="amenity" value="hospital" zoom-appear="15" />
 		<osm-tag key="amenity" value="clinic" zoom-appear="15" />
 		<osm-tag key="amenity" value="doctors" zoom-appear="15" />
-		<osm-tag key="amenity" value="kindergarten" zoom-appear="17" />
 		<osm-tag key="amenity" value="library" zoom-appear="17" />
 		<osm-tag key="amenity" value="parking" zoom-appear="17" />
 		<osm-tag key="amenity" value="pharmacy" zoom-appear="17" />
 		<osm-tag key="amenity" value="place_of_worship" zoom-appear="17" />
 		<osm-tag key="amenity" value="police" zoom-appear="16" />
+		<osm-tag key="amenity" value="fire_station" zoom-appear="16" />
 		<osm-tag key="amenity" value="post_box" zoom-appear="17" />
 		<osm-tag key="amenity" value="post_office" zoom-appear="16" />
 		<osm-tag key="amenity" value="recycling" zoom-appear="17" />
@@ -43,10 +42,12 @@
 		<osm-tag key="amenity" value="fast_food" zoom-appear="14" />
 		<osm-tag key="amenity" value="cafe" zoom-appear="14" />
 		<osm-tag key="amenity" value="bar" zoom-appear="14" />
-		<osm-tag key="amenity" value="school" zoom-appear="14" />
 		<osm-tag key="amenity" value="telephone" zoom-appear="17" />
 		<osm-tag key="amenity" value="theatre" zoom-appear="14" />
 		<osm-tag key="amenity" value="toilets" zoom-appear="16" />
+		<osm-tag key="amenity" value="kindergarten" zoom-appear="17" />
+		<osm-tag key="amenity" value="school" zoom-appear="14" />
+		<osm-tag key="amenity" value="college" zoom-appear="14" />
 		<osm-tag key="amenity" value="university" zoom-appear="14" />
 
 		<osm-tag key="amenity" value="hunting_stand" zoom-appear="12" />
@@ -60,20 +61,6 @@
 
 		<osm-tag key="leisure" value="slipway" zoom-appear="17" />
 		<osm-tag key="leisure" value="firepit" zoom-appear="15" />
-
-		<osm-tag key="shop" value="department_store" zoom-appear="16" />
-		<osm-tag key="shop" value="supermarket" zoom-appear="16" />
-		<osm-tag key="shop" value="mall" zoom-appear="16" />
-		<osm-tag key="shop" value="convenience" zoom-appear="16" />
-		<osm-tag key="shop" value="bakery" zoom-appear="17" />
-		<osm-tag key="shop" value="organic" zoom-appear="17" />
-		<osm-tag key="shop" value="greengrocer" zoom-appear="17" />
-		<osm-tag key="shop" value="ice_cream" zoom-appear="17" />
-		<osm-tag key="shop" value="butcher" zoom-appear="17" />
-		<osm-tag key="shop" value="confectionery" zoom-appear="17" />
-		<osm-tag key="shop" value="farm" zoom-appear="17" />
-		<osm-tag key="shop" value="chemist" zoom-appear="17" />
-
 	</pois>
 
 	<!-- PUBLIC TRANSPORT TAGS -->
@@ -105,6 +92,7 @@
 		<osm-tag key="tourism" value="museum" zoom-appear="14" />
 		<osm-tag key="tourism" value="viewpoint" zoom-appear="14" />
 		<osm-tag key="tourism" value="artwork" zoom-appear="14" />
+		<osm-tag key="tourism" value="zoo" zoom-appear="12" />
 
 		<osm-tag key="historic" value="memorial" zoom-appear="17" />
 		<osm-tag key="historic" value="monument" zoom-appear="17" />
@@ -199,24 +187,42 @@
 		<osm-tag key="icao" value="%s" renderable="false" />    
 	</pois>
 
-	<!-- ************* WAYS *************** -->
 	<!-- shops -->
-	<ways>
+	<pois>
+		<osm-tag key="shop" value="department_store" zoom-appear="16" />
+		<osm-tag key="shop" value="supermarket" zoom-appear="16" />
+		<osm-tag key="shop" value="mall" zoom-appear="16" />
+		<osm-tag key="shop" value="convenience" zoom-appear="16" />
 		<osm-tag key="shop" value="bakery" zoom-appear="17" />
 		<osm-tag key="shop" value="organic" zoom-appear="17" />
-		<osm-tag key="shop" value="supermarket" zoom-appear="17" />
-		<osm-tag key="shop" value="convenience" zoom-appear="17" />
 		<osm-tag key="shop" value="greengrocer" zoom-appear="17" />
 		<osm-tag key="shop" value="ice_cream" zoom-appear="17" />
-		<osm-tag key="shop" value="mall" zoom-appear="17" />
-		<osm-tag key="shop" value="department_store" zoom-appear="17" />
+		<osm-tag key="shop" value="butcher" zoom-appear="17" />
+		<osm-tag key="shop" value="confectionery" zoom-appear="17" />
+		<osm-tag key="shop" value="farm" zoom-appear="17" />
+		<osm-tag key="shop" value="chemist" zoom-appear="17" />
+	</pois>
+	<ways>
+		<osm-tag key="shop" value="department_store" zoom-appear="16" />
+		<osm-tag key="shop" value="supermarket" zoom-appear="16" />
+		<osm-tag key="shop" value="mall" zoom-appear="16" />
+		<osm-tag key="shop" value="convenience" zoom-appear="16" />
+		<osm-tag key="shop" value="bakery" zoom-appear="17" />
+		<osm-tag key="shop" value="organic" zoom-appear="17" />
+		<osm-tag key="shop" value="greengrocer" zoom-appear="17" />
+		<osm-tag key="shop" value="ice_cream" zoom-appear="17" />
+		<osm-tag key="shop" value="butcher" zoom-appear="17" />
+		<osm-tag key="shop" value="confectionery" zoom-appear="17" />
+		<osm-tag key="shop" value="farm" zoom-appear="17" />
+		<osm-tag key="shop" value="chemist" zoom-appear="17" />
 	</ways>
+
 	<!-- contours TAGS -->
 	<ways>
 		<osm-tag key="contour_ext" value="elevation_minor" zoom-appear="14" force-polygon-line="true"/>
 		<osm-tag key="contour_ext" value="elevation_medium" zoom-appear="10" force-polygon-line="true"/>
 		<osm-tag key="contour_ext" value="elevation_major" zoom-appear="10" force-polygon-line="true"/>
-		<osm-tag key="ele" value="%s" renderable="false" />
+		<osm-tag key="ele" value="%f" renderable="false" />
 	</ways>
 
 	<!-- HIGHWAY TAGS -->
@@ -395,30 +401,50 @@
 	</pois>
 
 	<ways>
-		<osm-tag key="amenity" value="fire_station" zoom-appear="16" />
-		<osm-tag key="amenity" value="police" zoom-appear="16" />
+		<osm-tag key="amenity" value="atm" zoom-appear="17" />
+		<osm-tag key="amenity" value="bank" zoom-appear="17" />
+		<osm-tag key="amenity" value="bench" zoom-appear="17" />
+		<osm-tag key="amenity" value="bicycle_rental" zoom-appear="17" />
+		<osm-tag key="amenity" value="bicycle_repair_station" zoom-appear="17" />
+		<osm-tag key="amenity" value="bus_station" zoom-appear="15" />
+		<osm-tag key="amenity" value="cinema" zoom-appear="17" />
+		<osm-tag key="amenity" value="fountain" zoom-appear="17" />
 		<osm-tag key="amenity" value="fuel" zoom-appear="16" />
 		<osm-tag key="amenity" value="charging_station" zoom-appear="16" />
-
-		<osm-tag key="amenity" value="college" zoom-appear="14" />
-		<osm-tag key="amenity" value="embassy" zoom-appear="14" />
-		<osm-tag key="amenity" value="fountain" zoom-appear="16" />
-		<osm-tag key="amenity" value="grave_yard" zoom-appear="14" />
-		<osm-tag key="amenity" value="hospital" zoom-appear="14" />
-		<osm-tag key="amenity" value="clinic" zoom-appear="14" />
-		<osm-tag key="amenity" value="parking" zoom-appear="14" />
-		<osm-tag key="amenity" value="school" zoom-appear="14" />
-		<osm-tag key="amenity" value="theatre" zoom-appear="14" />
-		<osm-tag key="amenity" value="toilets" zoom-appear="17" />
-		<osm-tag key="amenity" value="university" zoom-appear="14" />
+		<osm-tag key="amenity" value="hospital" zoom-appear="15" />
+		<osm-tag key="amenity" value="clinic" zoom-appear="15" />
+		<osm-tag key="amenity" value="doctors" zoom-appear="15" />
+		<osm-tag key="amenity" value="library" zoom-appear="17" />
+		<osm-tag key="amenity" value="parking" zoom-appear="17" />
+		<osm-tag key="amenity" value="pharmacy" zoom-appear="17" />
 		<osm-tag key="amenity" value="place_of_worship" zoom-appear="17" />
-		<osm-tag key="ford" value="yes" zoom-appear="15" />
-
+		<osm-tag key="amenity" value="police" zoom-appear="16" />
+		<osm-tag key="amenity" value="fire_station" zoom-appear="16" />
+		<osm-tag key="amenity" value="post_box" zoom-appear="17" />
+		<osm-tag key="amenity" value="post_office" zoom-appear="16" />
+		<osm-tag key="amenity" value="recycling" zoom-appear="17" />
 		<osm-tag key="amenity" value="restaurant" zoom-appear="14" />
 		<osm-tag key="amenity" value="pub" zoom-appear="14" />
 		<osm-tag key="amenity" value="fast_food" zoom-appear="14" />
 		<osm-tag key="amenity" value="cafe" zoom-appear="14" />
 		<osm-tag key="amenity" value="bar" zoom-appear="14" />
+		<osm-tag key="amenity" value="telephone" zoom-appear="17" />
+		<osm-tag key="amenity" value="theatre" zoom-appear="14" />
+		<osm-tag key="amenity" value="toilets" zoom-appear="17" />
+		<osm-tag key="amenity" value="kindergarten" zoom-appear="17" />
+		<osm-tag key="amenity" value="school" zoom-appear="14" />
+		<osm-tag key="amenity" value="college" zoom-appear="14" />
+		<osm-tag key="amenity" value="university" zoom-appear="14" />
+		<osm-tag key="amenity" value="hunting_stand" zoom-appear="12" />
+		<osm-tag key="amenity" value="ranger_house" zoom-appear="12" />
+		<osm-tag key="amenity" value="shelter" zoom-appear="13" />
+		<osm-tag key="amenity" value="feeding_place" zoom-appear="14" />
+		<osm-tag key="amenity" value="game_feeding" zoom-appear="14" />
+		<osm-tag key="amenity" value="embassy" zoom-appear="14" />
+		<osm-tag key="amenity" value="fountain" zoom-appear="16" />
+		<osm-tag key="amenity" value="grave_yard" zoom-appear="14" />
+		<osm-tag key="ford" value="yes" zoom-appear="15" />
+
 
 		<osm-tag key="tourism" value="attraction" zoom-appear="15" />
 		<osm-tag key="tourism" value="hostel" zoom-appear="12" />
@@ -426,8 +452,13 @@
 		<osm-tag key="tourism" value="guest_house" zoom-appear="12" />
 		<osm-tag key="tourism" value="wilderness_hut" zoom-appear="12" />
 		<osm-tag key="tourism" value="alpine_hut" zoom-appear="12" />
-		<osm-tag key="tourism" value="zoo" zoom-appear="12" />
+		<osm-tag key="tourism" value="camp_site" zoom-appear="12" />
+		<osm-tag key="tourism" value="caravan_site" zoom-appear="12" />
+		<osm-tag key="tourism" value="information" zoom-appear="10" />
 		<osm-tag key="tourism" value="museum" zoom-appear="14" />
+		<osm-tag key="tourism" value="viewpoint" zoom-appear="14" />
+		<osm-tag key="tourism" value="artwork" zoom-appear="14" />
+		<osm-tag key="tourism" value="zoo" zoom-appear="12" />
 	</ways>
 
 	<!-- PUBLIC TRANSPORT -->

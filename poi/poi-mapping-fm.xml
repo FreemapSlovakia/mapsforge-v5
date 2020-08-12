@@ -38,6 +38,24 @@
         <mapping tag="tourism=caravan_site" />
       </category>
     </category>
+    <category title="Zaujímavosti">
+      <category title="Múzeum"> 
+        <mapping tag="tourism=museum" />
+      </category>
+      <category title="ZOO"> 
+        <mapping tag="tourism=zoo" />
+      </category>
+      <category title="Pamätník"> 
+        <mapping tag="historic=memorial" />
+        <mapping tag="historic=monument" />
+      </category>
+      <category title="Výhliadka">
+        <mapping tag="tourism=viewpoint" />
+      </category>
+      <category title="Atrakcia/zaujímavosť">
+        <mapping tag="tourism=attraction" />
+      </category>
+    </category>
     <category title="Stravovanie">
       <category title="Reštaurácia">
         <mapping tag="amenity=restaurant" />
@@ -47,7 +65,7 @@
       </category>
       <category title="Rýchle občerstvenie">
         <mapping tag="amenity=fast_food" />
-      </category>      
+      </category>
       <category title="Kaviareň">
         <mapping tag="amenity=cafe" />
       </category>
@@ -90,10 +108,36 @@
           <mapping tag="aeroway=aerodrome" />
         </category>
       </category>
+      <category title="Cestná doprava">
+        <category title="Čerpacia stanica">
+          <mapping tag="amenity=fuel" />
+        </category>
+        <category title="Nabíjacia stanica">
+          <mapping tag="amenity=charging_station" />
+        </category>
+        <category title="Parkovisko">
+          <mapping tag="amenity=parking" />
+        </category>
+      </category>
       <category title="Lodná doprava">
         <category title="Prístav">
           <mapping tag="leisure=marina" />
         </category>
+      </category>
+    </category>
+    <category title="Zdravie">
+      <category title="Nemocnica/Poliklinika">
+        <mapping tag="amenity=hospital" />
+        <mapping tag="amenity=clinic" />
+      </category>
+      <category title="Ordinácia lekára">
+        <mapping tag="amenity=doctors" />
+      </category>
+      <category title="Zubár">
+        <mapping tag="amenity=dentist" />
+      </category>
+      <category title="Lekáreň">
+        <mapping tag="amenity=pharmacy" />
       </category>
     </category>
     <category title="Obce/Mestá">
@@ -102,17 +146,5 @@
       <mapping tag="place=village" />
       <mapping tag="place=hamlet" />
       <mapping tag="place=suburb" />
-    </category>
-    <category title="Zaujímavosti">
-      <category title="Múzeum"> 
-        <mapping tag="tourism=museum" />
-      </category>
-      <category title="Pamätník"> 
-        <mapping tag="historic=memorial" />
-        <mapping tag="historic=monument" />
-      </category>
-      <category title="Výhliadka">
-        <mapping tag="tourism=viewpoint" />
-      </category>
     </category>
 </category>
