@@ -441,7 +441,6 @@
 		<osm-tag key="amenity" value="feeding_place" zoom-appear="14" />
 		<osm-tag key="amenity" value="game_feeding" zoom-appear="14" />
 		<osm-tag key="amenity" value="embassy" zoom-appear="14" />
-		<osm-tag key="amenity" value="fountain" zoom-appear="16" />
 		<osm-tag key="amenity" value="grave_yard" zoom-appear="14" />
 		<osm-tag key="ford" value="yes" zoom-appear="15" />
 
@@ -546,6 +545,7 @@
 		<osm-tag key="castle_type" value="%s" renderable="false" />
 
 		<osm-tag key="man_made" value="pier" zoom-appear="15" />
+		<osm-tag key="man_made" value="works" zoom-appear="14" />
 
 		<osm-tag key="military" value="airfield" zoom-appear="12" />
 		<osm-tag key="military" value="barracks" zoom-appear="12" />

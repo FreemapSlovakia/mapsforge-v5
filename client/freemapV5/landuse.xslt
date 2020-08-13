@@ -42,7 +42,7 @@
     <rule e="way" k="landuse" v="industrial">
       <area fill="#80D2D2D2" />
       <rule e="way" k="*" v="*" zoom-min="14" zoom-max="18">
-        <caption k="name" font-size="12" fill="#ffffff" stroke="#868686" stroke-width="3" display="ifspace"/>
+        <caption k="name" font-size="11" fill="#ffffff" stroke="#868686" stroke-width="2" display="ifspace"/>
       </rule>
     </rule>
     <rule e="way" k="landuse" v="railway">
