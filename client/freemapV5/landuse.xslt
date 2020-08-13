@@ -3,6 +3,10 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <xsl:template name="landuse">
+  <rule e="any" k="man_made" v="works" zoom-min="15" zoom-max="22">
+    <area stroke="#000000" stroke-width="0.2" scale="none" />
+    <caption k="name" font-size="10" fill="#000000" stroke="#FFFFFF" stroke-width="3" display="ifspace"/>
+  </rule>
   <rule cat="landuse" e="way" k="*" v="*" zoom-min="10">
     <rule e="way" k="natural|landuse" v="forest|wood"  zoom-min="10">
       <area fill="#B6D9BE"/>

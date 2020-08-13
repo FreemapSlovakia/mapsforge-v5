@@ -166,6 +166,7 @@
 		<osm-tag key="man_made" value="adit" zoom-appear="12" />
 		<osm-tag key="man_made" value="mineshaft" zoom-appear="12" />
 		<osm-tag key="man_made" value="chimney" zoom-appear="14" />
+		<osm-tag key="man_made" value="works" zoom-appear="14" />
 		
 		<osm-tag key="disused" value="yes" renderable="false" />
 		<osm-tag key="noexit" value="yes" zoom-appear="16" />
