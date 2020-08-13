@@ -41,6 +41,9 @@
     </rule>
     <rule e="way" k="landuse" v="industrial">
       <area fill="#80D2D2D2" />
+      <rule e="way" k="*" v="*" zoom-min="14" zoom-max="18">
+        <caption k="name" font-size="12" fill="#ffffff" stroke="#868686" stroke-width="3" display="ifspace"/>
+      </rule>
     </rule>
     <rule e="way" k="landuse" v="railway">
       <area fill="#80e6d1e3" />
@@ -79,7 +82,12 @@
     </rule>
     <rule e="way" k="landuse" v="quarry">
       <area fill="#A0e1e1e1"/>
-      <area src="file:/patterns/quarry.svg" symbol-height="48"/>
+      <rule e="way" k="*" v="*" zoom-max="15">
+        <area src="file:/patterns/quarry.svg" symbol-height="32"/>
+      </rule>
+      <rule e="way" k="*" v="*" zoom-min="16">
+        <area src="file:/patterns/quarry.svg" symbol-height="48"/>
+      </rule>
     </rule>
     <rule e="way" k="landuse" v="allotments">
       <area src="file:/patterns/allotments.svg" symbol-scaling="size" symbol-height="16" />
@@ -173,7 +181,7 @@
     </rule>
     <rule cat="overlay" e="way" k="*" v="*">
       <area fill="#B08DB0DD"/>
-    </rule>    
+    </rule>
     <area src="file:/patterns/wetland.svg" symbol-height="24"/>
   </rule>
 

@@ -184,7 +184,7 @@
 		<osm-tag key="aeroway" value="airport" zoom-appear="13" />
 		<osm-tag key="aeroway" value="gate" zoom-appear="15" />
 		<osm-tag key="aeroway" value="helipad" zoom-appear="15" />
-		<osm-tag key="icao" value="%s" renderable="false" />    
+		<osm-tag key="icao" value="%s" renderable="false" />
 	</pois>
 
 	<!-- shops -->
@@ -220,7 +220,7 @@
 	<!-- contours TAGS -->
 	<ways>
 		<osm-tag key="contour_ext" value="elevation_minor" zoom-appear="14" force-polygon-line="true"/>
-		<osm-tag key="contour_ext" value="elevation_medium" zoom-appear="10" force-polygon-line="true"/>
+		<osm-tag key="contour_ext" value="elevation_medium" zoom-appear="12" force-polygon-line="true"/>
 		<osm-tag key="contour_ext" value="elevation_major" zoom-appear="10" force-polygon-line="true"/>
 		<osm-tag key="ele" value="%f" renderable="false" />
 	</ways>
@@ -282,10 +282,10 @@
 		<osm-tag key="natural" value="heath" zoom-appear="11" />
 		<osm-tag key="natural" value="land" zoom-appear="11" />
 		<osm-tag key="natural" value="marsh" zoom-appear="11" />
-		<osm-tag key="natural" value="scrub" zoom-appear="11" />
-		<osm-tag key="natural" value="bare_rock" zoom-appear="11" />
+		<osm-tag key="natural" value="scrub" zoom-appear="10" />
+		<osm-tag key="natural" value="bare_rock" zoom-appear="10" />
 		<osm-tag key="natural" value="fell" zoom-appear="11" />
-		<osm-tag key="natural" value="scree" zoom-appear="11" />
+		<osm-tag key="natural" value="scree" zoom-appear="10" />
 		<osm-tag key="natural" value="water" zoom-appear="8" />
 		<osm-tag key="natural" value="wetland" zoom-appear="12" />
 		<osm-tag key="natural" value="wood" zoom-appear="8" />

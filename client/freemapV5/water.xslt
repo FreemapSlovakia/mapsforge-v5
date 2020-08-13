@@ -31,11 +31,11 @@
       </rule>
         <rule e="way" k="tunnel" v="yes|culvert">
             <line stroke="#5B7EAB" stroke-dasharray="0.7,0.7" stroke-width="0.6" stroke-linecap="butt" scale="all"/>
-            <line stroke="#8DB0DD" stroke-width="0.3"/>
+            <line stroke="#8DB0DD" stroke-width="0.4"/>
         </rule>
         <rule e="way" k="tunnel" v="~|no">
           <rule e="way" k="intermittent" v="~|no">
-            <line stroke="#8DB0DD" stroke-width="0.3"/>
+            <line stroke="#8DB0DD" stroke-width="0.4"/>
           </rule>
           <rule e="way" k="intermittent" v="yes">
             <line stroke="#8DB0DD" stroke-dasharray="0.1,0.5" stroke-width="0.3" scale="all"/>

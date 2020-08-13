@@ -5,10 +5,10 @@
     <xsl:template name="contour_labels">
         <rule cat="contours" e="way" k="contour_ext" v="*">
             <rule e="way" k="contour_ext" v="elevation_major" zoom-min="13">
-                <pathText k="ele" font-size="9" font-style="bold" fill="#A86868" stroke="#FFFFFF" stroke-width="2" display="ifspace" repeat="true" repeat-gap="100"/>
+                <pathText k="ele" font-size="9" font-style="bold" fill="#A86868" stroke="#FFFFFF" stroke-width="2" display="ifspace" repeat="true" repeat-gap="200"/>
             </rule>
             <rule e="way" k="contour_ext" v="elevation_medium" zoom-min="15">
-                <pathText k="ele" font-size="7" font-style="bold" fill="#A86868" stroke="#FFFFFF" stroke-width="2" repeat="true" repeat-gap="200"/>
+                <pathText k="ele" font-size="8" font-style="bold" fill="#A86868" stroke="#FFFFFF" stroke-width="2" repeat="true" repeat-gap="200"/>
             </rule>
             <rule e="way" k="contour_ext" v="elevation_minor" zoom-min="17">
                 <pathText k="ele" font-size="7" font-style="bold" fill="#A86868" stroke="#FFFFFF" stroke-width="2" repeat="true" repeat-gap="300"/>
