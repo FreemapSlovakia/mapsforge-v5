@@ -3,7 +3,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <xsl:template name="buildings">
-  <rule cat="building" e="way" k="*" v="*" zoom-min="16">
+  <rule cat="building" e="way" k="*" v="*" zoom-min="15">
     <rule e="way" k="building" v="*">
       <rule e="way" k="shop" v="~">
         <area fill="#B0CBCBCB" stroke="#8F8F8F" stroke-width="0.6" scale="none" />
