@@ -8,7 +8,7 @@ POI - generator
 
 ### example: 
 
-osmosis --rb file=inputfile.osm.pbf --poi-writer file=output_file.poi tag-conf-file=poi-mapping-fm.xml
+osmosis --rb file=inputfile.osm.pbf --poi-writer file=output_file.poi tag-conf-file=poi-mapping-fm.xml names=false
 
 ### Note:
 

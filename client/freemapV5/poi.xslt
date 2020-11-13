@@ -253,7 +253,7 @@
   <rule e="node" k="historic" v="wayside_cross" zoom-min="16">
     <symbol src="file:/poi/wayside_cross.svg" symbol-width="16" priority="10"/>
   </rule>
-  <rule e="node" k="historic" v="wayside_shrine" zoom-min="16">
+  <rule e="any" k="historic" v="wayside_shrine" zoom-min="16">
     <symbol src="file:/poi/wayside_shrine.svg" symbol-width="16" priority="10"/>
   </rule>
   <rule  e="node" k="highway" v="bus_stop" zoom-min="15">
