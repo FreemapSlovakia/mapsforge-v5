@@ -6,7 +6,7 @@
       <category title="Smerovník">
         <mapping tag="information=guidepost" />
       </category>
-      <category title="Prameň/Studnička">
+      <category title="Prameň">
         <mapping tag="natural=spring" />
       </category>   
       <category title="Vrch">
