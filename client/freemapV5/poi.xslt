@@ -3,15 +3,29 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <xsl:template name="poi">
-  <rule cat="topo_common" e="node" k="natural" v="spring" zoom-min="13">
-    <rule e="node" k="drinking_water" v="~|no">
-        <symbol id="spring" src="file:/poi/spring.svg" symbol-width="20" priority="80" display="ifspace"/>
-    </rule>
+  <rule cat="topo_common" e="node" k="natural" v="spring" zoom-min="12">
+  <rule e="node" k="refitted" v="yes" zoom-min="13">
     <rule e="node" k="drinking_water" v="yes">
-        <symbol id="spring" src="file:/poi/spring-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
+      <symbol id="spring" src="file:/poi/spring-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
     </rule>
+  </rule>
+  <rule e="node" k="refitted" v="~|no" zoom-min="13">
+    <rule e="node" k="drinking_water" v="yes">
+      <symbol id="spring" src="file:/poi/spring-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
+    </rule>
+  </rule>
+  <rule e="node" k="refitted" v="yes" zoom-min="15">
+    <rule e="node" k="drinking_water" v="~|no">
+      <symbol id="spring" src="file:/poi/spring.svg" symbol-width="16" priority="80" display="ifspace"/>
+    </rule>
+  </rule>
+  <rule e="node" k="refitted" v="~|no" zoom-min="15">
+    <rule e="node" k="drinking_water" v="~|no">
+      <symbol id="spring" src="file:/poi/spring.svg" symbol-width="16" priority="80" display="ifspace"/>
+    </rule>
+  </rule>
     <rule e="node" k="*" v="*" zoom-min="15">
-        <caption k="name" symbol-id="spring" position="below" font-style="bold" font-size="9" fill="#0092da" stroke="#ffffff" stroke-width="2" priority="20"/>
+      <caption k="name" symbol-id="spring" position="below" font-style="bold" font-size="9" fill="#0092da" stroke="#ffffff" stroke-width="2" priority="20"/>
     </rule>
   </rule>
 
