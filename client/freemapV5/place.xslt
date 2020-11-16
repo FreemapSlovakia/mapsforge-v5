@@ -32,7 +32,7 @@
       <caption k="name" font-style="bold" font-size="9.5" fill="#000000" stroke="#ffffff" stroke-width="3" priority="0" display="ifspace"/>
     </rule>
     <rule e="node" k="place" v="village" zoom-min="13" zoom-max="18">
-      <caption k="name" font-style="normal" font-size="12" fill="#000000" stroke="#ffffff" stroke-width="3" priority="18"/>
+      <caption k="name" font-style="normal" font-size="12" fill="#000000" stroke="#ffffff" stroke-width="3" priority="18" display="always"/>
     </rule>
     <rule e="node" k="place" v="hamlet" zoom-min="12" zoom-max="13">
         <circle fill="#ffffff" radius="2" scale-radius="false" />

@@ -4,6 +4,14 @@
 
 <xsl:template name="poi">
   <rule cat="topo_common" e="node" k="natural" v="spring" zoom-min="12">
+  <rule e="node" k="man_made" v="spring_box" >
+    <rule e="node" k="drinking_water" v="yes" zoom-min="13">
+      <symbol id="spring" src="file:/poi/spring-refitted-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
+    </rule>
+    <rule e="node" k="drinking_water" v="~|no"  zoom-min="14">
+      <symbol id="spring" src="file:/poi/spring-refitted.svg" symbol-width="20" priority="80" display="ifspace"/>
+    </rule>
+  </rule>
   <rule e="node" k="refitted" v="yes" zoom-min="13">
     <rule e="node" k="drinking_water" v="yes">
       <symbol id="spring" src="file:/poi/spring-refitted-drink.svg" symbol-width="20" priority="80" display="ifspace"/>

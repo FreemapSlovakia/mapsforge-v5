@@ -22,7 +22,7 @@
             <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="3" repeat-gap="80" symbol-width="8"/>
         </rule>
         <rule e="way" k="*" v="*" zoom-min="18">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="3" repeat-gap="140" symbol-width="10"/>
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="3" repeat-gap="140" symbol-width="10" priority="-100"/>
         </rule>
     </rule>
     <rule e="way" k="waterway" v="stream|drain" zoom-min="14">
@@ -42,10 +42,10 @@
           </rule>
         </rule>
         <rule e="way" k="*" v="*" zoom-min="15" zoom-max="17">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="80" symbol-width="8"/>
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="80" symbol-width="8" priority="-100"/>
         </rule>
         <rule e="way" k="*" v="*" zoom-min="18">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="140" symbol-width="10"/>
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="140" symbol-width="10" priority="-100"/>
         </rule>
     </rule>
     <rule e="way" k="waterway" v="river">
@@ -64,10 +64,10 @@
           </rule>
         </rule>
         <rule e="way" k="*" v="*" zoom-min="13" zoom-max="17">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="80" symbol-width="8"/>
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="80" symbol-width="8" priority="-100"/>
         </rule>
         <rule e="way" k="*" v="*" zoom-min="18">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="140" symbol-width="10"/>
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="140" symbol-width="10" priority="-100"/>
         </rule>
     </rule>
     <rule e="way" k="waterway" v="dock">

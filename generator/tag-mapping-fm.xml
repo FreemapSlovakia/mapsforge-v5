@@ -134,6 +134,7 @@
 		<osm-tag key="ele" value="%s" renderable="false" />
 		<osm-tag key="natural" value="spring" zoom-appear="12" />
 		<osm-tag key="drinking_water" value="yes" renderable="false" />
+		<osm-tag key="man_made" value="spring_box" renderable="false" />
 		<osm-tag key="refitted" value="yes" renderable="false" />
 		<osm-tag key="natural" value="tree" zoom-appear="15" />
 		<osm-tag key="waterway" value="waterfall" zoom-appear="12" />
