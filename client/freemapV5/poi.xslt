@@ -6,7 +6,7 @@
   <rule cat="topo_common" e="node" k="natural" v="spring" zoom-min="12">
   <rule e="node" k="refitted" v="yes" zoom-min="13">
     <rule e="node" k="drinking_water" v="yes">
-      <symbol id="spring" src="file:/poi/spring-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
+      <symbol id="spring" src="file:/poi/spring-refitted-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
     </rule>
   </rule>
   <rule e="node" k="refitted" v="~|no" zoom-min="13">
@@ -14,9 +14,9 @@
       <symbol id="spring" src="file:/poi/spring-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
     </rule>
   </rule>
-  <rule e="node" k="refitted" v="yes" zoom-min="15">
+  <rule e="node" k="refitted" v="yes" zoom-min="14">
     <rule e="node" k="drinking_water" v="~|no">
-      <symbol id="spring" src="file:/poi/spring.svg" symbol-width="16" priority="80" display="ifspace"/>
+      <symbol id="spring" src="file:/poi/spring-refitted.svg" symbol-width="16" priority="80" display="ifspace"/>
     </rule>
   </rule>
   <rule e="node" k="refitted" v="~|no" zoom-min="15">
