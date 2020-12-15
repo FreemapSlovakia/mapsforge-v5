@@ -36,6 +36,13 @@
       <caption k="name" symbol-id="spring" position="below" font-style="bold" font-size="9" fill="#0092da" stroke="#ffffff" stroke-width="2" priority="20"/>
     </rule>
   </rule>
+  
+  <rule cat="topo_common" e="node" k="natural" v="hot_spring" zoom-min="12">
+    <symbol id="hotspring" src="file:/poi/hot_spring.svg" symbol-width="20" priority="80" display="ifspace"/>
+    <rule e="node" k="*" v="*" zoom-min="15">
+      <caption k="name" symbol-id="hotspring" position="below" font-style="bold" font-size="9" fill="#0092da" stroke="#ffffff" stroke-width="2" priority="20"/>
+    </rule>
+  </rule>
 
   <rule cat="topo_icons" e="node" k="tourism" v="information" zoom-min="16">
     <rule e="node" k="information" v="map|board|office">
