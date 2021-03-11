@@ -73,8 +73,13 @@
     <rule e="way" k="waterway" v="dock">
         <area fill="#b5d6f1"/>
     </rule>
-    <rule e="way" k="waterway" v="riverbank">
+    <rule e="way" k="waterway" v="riverbank"> <!-- deprecated -->
         <area fill="#8DB0DD"/>
+    </rule>
+    <rule e="way" k="natural" v="water">
+        <rule e="way" k="water" v="river">
+            <area fill="#8DB0DD"/>
+        </rule>
     </rule>
     <rule e="way" k="waterway" v="weir">
         <line stroke="#000044" stroke-width="0.375"/>
