@@ -156,9 +156,9 @@
       <rule e="way" k="highway" v="footway" zoom-min="{$z-footway}">
         <line stroke="{$cs-footway}" stroke-width="0.55" stroke-linecap="butt" stroke-dasharray="3,3" />
       </rule>
-	  <rule e="way" k="highway" v="path" zoom-min="15">
-		<line stroke="#C8B8B1" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="5,1"/>
-	  </rule>
+      <rule e="way" k="highway" v="path" zoom-min="{$z-path}">
+        <line stroke="#C8B8B1" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="5,1"/>
+      </rule>
     </rule>
     <!-- not tunnel & not bridge-->
     <rule e="way" k="tunnel" v="~">
