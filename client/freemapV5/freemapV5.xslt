@@ -25,6 +25,7 @@
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/master/resources/renderTheme.xsd" version="5" map-background-outside="#EEEEEE" map-background="#F8F8F8">
 
   <xsl:call-template name="menu"/>
+  <xsl:call-template name="poi"/>
   <xsl:call-template name="landuse"/>
   <xsl:call-template name="waterways"/>
   <xsl:call-template name="waterbodies"/>
@@ -81,7 +82,7 @@
   <xsl:call-template name="mtb-scale"/>
 
   <xsl:call-template name="barrier"/>
-  <xsl:call-template name="poi"/>
+
 
   <xsl:call-template name="fixme"/>
 </rendertheme>

@@ -6,30 +6,30 @@
   <rule cat="topo_common" e="node" k="natural" v="spring" zoom-min="12">
   <rule e="node" k="man_made" v="spring_box" >
     <rule e="node" k="drinking_water" v="yes" zoom-min="13">
-      <symbol id="spring" src="file:/poi/spring-refitted-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
+      <symbol id="spring" src="file:/poi/spring-refitted-drink.svg" symbol-width="20" priority="80"/>
     </rule>
     <rule e="node" k="drinking_water" v="~|no"  zoom-min="14">
-      <symbol id="spring" src="file:/poi/spring-refitted.svg" symbol-width="20" priority="80" display="ifspace"/>
+      <symbol id="spring" src="file:/poi/spring-refitted.svg" symbol-width="20" priority="80"/>
     </rule>
   </rule>
   <rule e="node" k="refitted" v="yes" zoom-min="13">
     <rule e="node" k="drinking_water" v="yes">
-      <symbol id="spring" src="file:/poi/spring-refitted-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
+      <symbol id="spring" src="file:/poi/spring-refitted-drink.svg" symbol-width="20" priority="80"/>
     </rule>
   </rule>
   <rule e="node" k="refitted" v="~|no" zoom-min="13">
     <rule e="node" k="drinking_water" v="yes">
-      <symbol id="spring" src="file:/poi/spring-drink.svg" symbol-width="20" priority="80" display="ifspace"/>
+      <symbol id="spring" src="file:/poi/spring-drink.svg" symbol-width="20" priority="80"/>
     </rule>
   </rule>
   <rule e="node" k="refitted" v="yes" zoom-min="14">
     <rule e="node" k="drinking_water" v="~|no">
-      <symbol id="spring" src="file:/poi/spring-refitted.svg" symbol-width="16" priority="80" display="ifspace"/>
+      <symbol id="spring" src="file:/poi/spring-refitted.svg" symbol-width="16" priority="80"/>
     </rule>
   </rule>
   <rule e="node" k="refitted" v="~|no" zoom-min="15">
     <rule e="node" k="drinking_water" v="~|no">
-      <symbol id="spring" src="file:/poi/spring.svg" symbol-width="16" priority="80" display="ifspace"/>
+      <symbol id="spring" src="file:/poi/spring.svg" symbol-width="16" priority="80"/>
     </rule>
   </rule>
     <rule e="node" k="*" v="*" zoom-min="15">
@@ -38,7 +38,7 @@
   </rule>
   
   <rule cat="topo_common" e="node" k="natural" v="hot_spring" zoom-min="12">
-    <symbol id="hotspring" src="file:/poi/hot_spring.svg" symbol-width="20" priority="80" display="ifspace"/>
+    <symbol id="hotspring" src="file:/poi/hot_spring.svg" symbol-width="20" priority="80"/>
     <rule e="node" k="*" v="*" zoom-min="15">
       <caption k="name" symbol-id="hotspring" position="below" font-style="bold" font-size="9" fill="#0092da" stroke="#ffffff" stroke-width="2" priority="20"/>
     </rule>
