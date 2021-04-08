@@ -10,24 +10,24 @@
     <rule e="way" k="waterway" v="ditch" zoom-min="15">
         <line stroke="#8DB0DD" stroke-width="0.1"/>
         <rule e="way" k="*" v="*" zoom-min="16">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="3" symbol-width="9" priority="-100"/>
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="15" symbol-width="9" priority="-100"/>
         </rule>
     </rule>
     <rule e="way" k="waterway" v="canal" zoom-min="13">
-      <rule e="way" k="*" v="*" zoom-min="15">
-        <pathText k="name" font-style="italic" font-size="10" fill="#0000fc" stroke="#ffffff" stroke-width="3"/>
+      <rule e="way" k="*" v="*" zoom-min="14">
+        <pathText k="name" font-style="italic" font-size="10" fill="#0000fc" stroke="#ffffff" stroke-width="3" repeat-start="30" repeat-gap="250"/>
       </rule>
         <line stroke="#8DB0DD" stroke-width="0.8" />
-        <rule e="way" k="*" v="*" zoom-min="15" zoom-max="17">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="3" repeat-gap="80" symbol-width="8"/>
+        <rule e="way" k="*" v="*" zoom-min="14" zoom-max="16">
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="15" repeat-gap="120" symbol-width="8" priority="-100"/>
         </rule>
-        <rule e="way" k="*" v="*" zoom-min="18">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="3" repeat-gap="140" symbol-width="10" priority="-100"/>
+        <rule e="way" k="*" v="*" zoom-min="17">
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="15" repeat-gap="200" symbol-width="10" priority="-100"/>
         </rule>
     </rule>
     <rule e="way" k="waterway" v="stream|drain" zoom-min="14">
       <rule e="way" k="*" v="*" zoom-min="15">
-        <pathText k="name" font-style="italic" font-size="8" fill="#0000fc" stroke="#ffffff" stroke-width="2"/>
+        <pathText k="name" font-style="italic" font-size="8" fill="#0000fc" stroke="#ffffff" stroke-width="2" repeat-start="30" repeat-gap="150" priority="-20" />
       </rule>
         <rule e="way" k="tunnel" v="yes|culvert">
             <line stroke="#5B7EAB" stroke-dasharray="0.7,0.7" stroke-width="0.6" stroke-linecap="butt" scale="all"/>
@@ -42,15 +42,15 @@
           </rule>
         </rule>
         <rule e="way" k="*" v="*" zoom-min="15" zoom-max="17">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="80" symbol-width="8" priority="-100"/>
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="15" repeat-gap="80" symbol-width="8" priority="-100"/>
         </rule>
         <rule e="way" k="*" v="*" zoom-min="18">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="140" symbol-width="10" priority="-100"/>
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="15" repeat-gap="140" symbol-width="10" priority="-100"/>
         </rule>
     </rule>
     <rule e="way" k="waterway" v="river">
       <rule e="way" k="*" v="*" zoom-min="12">
-        <pathText k="name" font-style="italic" font-size="10" fill="#0000fc" stroke="#ffffff" stroke-width="3"/>
+        <pathText k="name" font-style="italic" font-size="10" fill="#0000fc" stroke="#ffffff" stroke-width="3" repeat-start="30" repeat-gap="250"/>
       </rule>
         <rule e="way" k="tunnel" v="yes|culvert">
             <line stroke="#8DB0DD" stroke-dasharray="5,12" stroke-width="1.0"/>
@@ -63,11 +63,11 @@
             <line stroke="#8DB0DD" stroke-dasharray="1,2" stroke-width="1.0" scale="all"/>
           </rule>
         </rule>
-        <rule e="way" k="*" v="*" zoom-min="13" zoom-max="17">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="80" symbol-width="8" priority="-100"/>
+        <rule e="way" k="*" v="*" zoom-min="13" zoom-max="15">
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-gap="90" symbol-width="8" priority="-100"/>
         </rule>
-        <rule e="way" k="*" v="*" zoom-min="18">
-            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="5" repeat-gap="140" symbol-width="10" priority="-100"/>
+        <rule e="way" k="*" v="*" zoom-min="16">
+            <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-gap="160" symbol-width="10" priority="-100"/>
         </rule>
     </rule>
     <rule e="way" k="waterway" v="dock">
