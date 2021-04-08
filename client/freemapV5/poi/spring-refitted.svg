@@ -40,7 +40,11 @@
        style="fill:#0092da;fill-opacity:1;stroke:none;stroke-width:0.18225977" />
   </g>
   <path
+     style="fill:none;stroke:#ffffff;stroke-width:18;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+     d="m 119,28.071759 -55,-15 -54.9999995,15"
+     id="path3718-7" />
+  <path
      style="fill:none;stroke:#9f4f1d;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="M 120,28 65,13 10,28"
+     d="M 119,28 64,13 8.9999995,28"
      id="path3718" />
 </svg>
