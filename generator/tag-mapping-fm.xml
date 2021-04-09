@@ -54,6 +54,7 @@
 		<osm-tag key="amenity" value="ranger_house" zoom-appear="12" />
 		<osm-tag key="amenity" value="shelter" zoom-appear="13" />
 		<osm-tag key="amenity" value="feeding_place" zoom-appear="14" />
+		<osm-tag key="feeding_type" value="%s" renderable="false" />
 		<osm-tag key="amenity" value="game_feeding" zoom-appear="14" />
 		<osm-tag key="ford" value="yes" zoom-appear="15" />
 
@@ -444,6 +445,7 @@
 		<osm-tag key="amenity" value="ranger_house" zoom-appear="12" />
 		<osm-tag key="amenity" value="shelter" zoom-appear="13" />
 		<osm-tag key="amenity" value="feeding_place" zoom-appear="14" />
+		<osm-tag key="feeding_type" value="%s" renderable="false" />
 		<osm-tag key="amenity" value="game_feeding" zoom-appear="14" />
 		<osm-tag key="amenity" value="embassy" zoom-appear="14" />
 		<osm-tag key="amenity" value="grave_yard" zoom-appear="14" />
