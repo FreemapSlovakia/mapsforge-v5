@@ -198,7 +198,15 @@
   <rule cat="topo_icons" e="node" k="amenity" v="hunting_stand" zoom-min="15">
     <symbol src="file:/poi/hunting_stand.svg" symbol-width="16"/>
   </rule>
-  <rule cat="topo_icons" e="node" k="amenity" v="feeding_place|game_feeding" zoom-min="15">
+  <rule cat="topo_icons" e="node" k="amenity" v="feeding_place" zoom-min="15">
+    <rule e="node" k="feeding_type" v="manger|rack|hut">
+      <symbol src="file:/poi/feeding_place.svg" symbol-width="18"/>
+    </rule>
+    <rule e="node" k="feeding_type" v="~">
+      <symbol src="file:/poi/feeding_place.svg" symbol-width="18"/>
+    </rule>
+  </rule>
+  <rule cat="topo_icons" e="node" k="amenity" v="game_feeding" zoom-min="15">
     <symbol src="file:/poi/feeding_place.svg" symbol-width="18"/>
   </rule>
   <rule e="node" k="tourism" v="viewpoint" zoom-min="15">
@@ -242,7 +250,7 @@
     <caption k="name" symbol-id="zoo" position="below" font-style="bold" font-size="10" fill="#550000" stroke="#ffffff" stroke-width="2"/>
   </rule>
   <rule e="node" k="tourism" v="attraction" zoom-min="15">
-    <symbol id="attraction" src="file:/poi/attraction.svg" symbol-width="18" priority="10"/>
+    <symbol id="attraction" src="file:/poi/attraction.svg" symbol-width="16" priority="10"/>
     <caption k="name" symbol-id="attraction" position="below" font-style="bold" font-size="10" fill="#734a08" stroke="#ffffff" stroke-width="2"/>
   </rule>
   <rule e="any" k="amenity" v="toilets" zoom-min="17">

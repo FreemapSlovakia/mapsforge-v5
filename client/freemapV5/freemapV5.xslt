@@ -27,19 +27,19 @@
   <xsl:call-template name="menu"/>
   <xsl:call-template name="poi"/>
   <xsl:call-template name="landuse"/>
-  <xsl:call-template name="waterways"/>
   <xsl:call-template name="waterbodies"/>
-  <xsl:call-template name="admin"/>
+  <xsl:call-template name="waterways"/>
   <xsl:call-template name="protected"/>
-  <xsl:call-template name="contour_lines"/>
   <xsl:call-template name="aeroway"/>
   <xsl:call-template name="buildings"/>
-  <xsl:call-template name="contour_labels"/>
   <xsl:call-template name="highway_area"/>
-  <xsl:call-template name="highway"/>  
+  <xsl:call-template name="highway"/>
   <xsl:call-template name="railway_tunnel"/>
   <xsl:call-template name="railway_no_tunnel"/>
   <xsl:call-template name="railway_node"/>
+  <xsl:call-template name="admin"/>
+  <xsl:call-template name="contour_labels"/>
+  <xsl:call-template name="contour_lines"/>
 
   <rule e="way" k="power" v="*">
     <rule e="way" k="power" v="line" zoom-min="13">
