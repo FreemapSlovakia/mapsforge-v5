@@ -110,6 +110,7 @@
 		<osm-tag key="hiking" value="no" equivalent-values="0,false" renderable="false" />
 		<osm-tag key="bicycle" value="yes" equivalent-values="1,true" renderable="false" />
 		<osm-tag key="bicycle" value="no" equivalent-values="0,false" renderable="false" />
+		<osm-tag key="bicycle" value="designated" renderable="false" />
 		<osm-tag key="mtb" value="yes" renderable="false" />
 		<osm-tag key="edu" value="yes" equivalent-values="1,true" renderable="false" />
 		<osm-tag key="edu" value="no" equivalent-values="0,false" renderable="false" />
@@ -237,6 +238,8 @@
 		<osm-tag key="highway" value="byway" zoom-appear="12" />
 		<osm-tag key="highway" value="construction" zoom-appear="13" />
 		<osm-tag key="highway" value="cycleway" zoom-appear="13" />
+		<osm-tag key="cycleway" value="lane" renderable="false" />
+		<osm-tag key="cycleway" value="opposite" renderable="false" />
 		<osm-tag key="highway" value="footway" zoom-appear="13" />
 		<osm-tag key="highway" value="living_street" zoom-appear="13" />
 		<osm-tag key="highway" value="motorway" zoom-appear="6" />
