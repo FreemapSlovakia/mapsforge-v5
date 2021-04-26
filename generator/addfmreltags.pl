@@ -55,7 +55,7 @@ if ($ext eq ".pbf") {
 	$outputTypeParam = "--wb";
 }
 
-my $command = "/home/kayle/OSM/GENmaps/osmosis-0.46/bin/osmosis $inputTypeParam $inFile --tf reject-nodes --tf reject-ways --tf accept-relations --wx $tmpRelFile 1>$redirOutput";
+my $command = "osmosis-0.47.3/bin/osmosis $inputTypeParam $inFile --tf reject-nodes --tf reject-ways --tf accept-relations --wx $tmpRelFile 1>$redirOutput";
 print("Extracting Relations using osmosis... ");
 runCommand($command);
 if (! -s $tmpRelFile) {
@@ -70,7 +70,7 @@ my ($fmRelTags) = processRelations($tmpRelFile);
 print("DONE.\n");
 deletetmpfile($tmpRelFile);
 
-$command = "/home/kayle/OSM/GENmaps/osmosis-0.46/bin/osmosis $inputTypeParam $inFile --tf reject-nodes --tf reject-relations --tf accept-ways --wx $tmpWayFile 1>>$redirOutput";
+$command = "osmosis-0.47.3/bin/osmosis $inputTypeParam $inFile --tf reject-nodes --tf reject-relations --tf accept-ways --wx $tmpWayFile 1>>$redirOutput";
 print("Extracting Ways using osmosis... ");
 runCommand($command);
 if (! -s $tmpWayFile) {
@@ -87,7 +87,7 @@ print("DONE.\n");
 deletetmpfile($tmpWayFile);
 
 my $finalFile = "$inFile-fmrel$ext";
-$command = "/home/kayle/OSM/GENmaps/osmosis-0.46/bin/osmosis --rx $finalWayFile $inputTypeParam $inFile --merge $outputTypeParam $finalFile 1>>$redirOutput";
+$command = "osmosis-0.47.3/bin/osmosis --rx $finalWayFile $inputTypeParam $inFile --merge $outputTypeParam $finalFile 1>>$redirOutput";
 print("Merging Ways with the original file... ");
 runCommand($command);
 if (! -s $finalFile) {
@@ -231,7 +231,7 @@ sub getColour {
 		if (defined($relTags->{"colour"})) { $colour = $relTags->{"colour"}; }
 		elsif (defined($relTags->{"color"})) { $colour = $relTags->{"color"}; }
 	}
-	if (!grep(/^$colour$/, @colours)) { $colour = "default"; }
+	if (!grep(/^\Q$colour\E$/, @colours)) { $colour = "default"; }
 
 	return $colour;
 }
