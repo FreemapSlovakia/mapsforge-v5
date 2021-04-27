@@ -88,6 +88,7 @@
 			</match>
 			<match mode="or" type="relation">
 				<tag k="colour" v="#00fa9a"/>
+				<tag k="colour" v="#32CD32"/>
 			</match>
 		</match>
 		<output>
@@ -145,6 +146,7 @@
 			</match>
 			<match mode="or" type="relation">
 				<tag k="colour" v="#ffa500"/>
+				<tag k="colour" v="#FF8C00"/>
 			</match>
 		</match>
 		<output>
