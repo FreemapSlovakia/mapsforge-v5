@@ -110,7 +110,6 @@
 		<osm-tag key="hiking" value="no" equivalent-values="0,false" renderable="false" />
 		<osm-tag key="bicycle" value="yes" equivalent-values="1,true" renderable="false" />
 		<osm-tag key="bicycle" value="no" equivalent-values="0,false" renderable="false" />
-		<osm-tag key="bicycle" value="designated" renderable="false" />
 		<osm-tag key="mtb" value="yes" renderable="false" />
 		<osm-tag key="edu" value="yes" equivalent-values="1,true" renderable="false" />
 		<osm-tag key="edu" value="no" equivalent-values="0,false" renderable="false" />
@@ -579,6 +578,7 @@
 		<osm-tag key="bicycle" value="no" renderable="false" />
 		<osm-tag key="vehicle" value="no" renderable="false" />
 		<osm-tag key="motor_vehicle" value="no" renderable="false" />
+		<osm-tag key="bicycle" value="designated" renderable="false" />
 
 		<osm-tag key="area" value="yes" renderable="false" />
 		<osm-tag key="bridge" value="yes" renderable="false" />
