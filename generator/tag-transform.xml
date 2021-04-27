@@ -77,4 +77,80 @@
 			<tag k="ford" v="yes"/>
 		</output>
 	</translation>
+
+	<translation>
+		<name>green_color</name>
+		<description>green color cycle</description>
+		<match type="relation" mode="and">
+			<match mode="or" type="relation">
+				<tag k="route" v="bicycle"/>
+				<tag k="route" v="mtb"/>
+			</match>
+			<match mode="or" type="relation">
+				<tag k="colour" v="#00fa9a"/>
+			</match>
+		</match>
+		<output>
+			<copy-all/>
+			<tag k="colour" v="green"/>
+		</output>
+	</translation>
+
+	<translation>
+		<name>blue_color</name>
+		<description>blue color cycle</description>
+		<match type="relation" mode="and">
+			<match mode="or" type="relation">
+				<tag k="route" v="bicycle"/>
+				<tag k="route" v="mtb"/>
+			</match>
+			<match mode="or" type="relation">
+				<tag k="colour" v="#003399"/>
+				<tag k="colour" v="#0000FF"/>
+				<tag k="colour" v="#0000cd"/>
+				<tag k="colour" v="#191970"/>
+			</match>
+		</match>
+		<output>
+			<copy-all/>
+			<tag k="colour" v="blue"/>
+		</output>
+	</translation>
+
+	<translation>
+		<name>yellow_color</name>
+		<description>yellow color cycle</description>
+		<match type="relation" mode="and">
+			<match mode="or" type="relation">
+				<tag k="route" v="bicycle"/>
+				<tag k="route" v="mtb"/>
+			</match>
+			<match mode="or" type="relation">
+				<tag k="colour" v="#FFFF00"/>
+			</match>
+		</match>
+		<output>
+			<copy-all/>
+			<tag k="colour" v="yellow"/>
+		</output>
+	</translation>
+
+	<translation>
+		<name>orange_color</name>
+		<description>orange color cycle</description>
+		<match type="relation" mode="and">
+			<match mode="or" type="relation">
+				<tag k="route" v="bicycle"/>
+				<tag k="route" v="mtb"/>
+			</match>
+			<match mode="or" type="relation">
+				<tag k="colour" v="#ffa500"/>
+			</match>
+		</match>
+		<output>
+			<copy-all/>
+			<tag k="colour" v="orange"/>
+		</output>
+	</translation>
+
 </translations>
