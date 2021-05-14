@@ -6,8 +6,11 @@
     <xsl:variable name="green">#DD009900</xsl:variable>
     <xsl:variable name="blue">#DD0000FF</xsl:variable>
     <xsl:variable name="red">#DDFE0000</xsl:variable>
+    <xsl:variable name="orange">#DDFF8C00</xsl:variable>
     <xsl:variable name="alternative">#DDFF00FF</xsl:variable>
     <xsl:variable name="fallback">#AA000000</xsl:variable>
+    <xsl:variable name="nomark">#AAFF00FF</xsl:variable>
+
 
     <xsl:variable name="offset1low">1</xsl:variable>
     <xsl:variable name="offset2low">2.8</xsl:variable>
@@ -329,6 +332,52 @@
   </rule>
 </xsl:template>
 
+
+<xsl:template name="cycle-nomark">
+  <xsl:variable name="noWidthLow">1.4</xsl:variable>
+  <xsl:variable name="noWidthHigh">0.7</xsl:variable>
+  <xsl:variable name="noArrayLow" select="'0.01,2.5,0.1,6'"/>
+  <xsl:variable name="noArrayHigh" select="'0.03,1,0.03,4'"/>
+
+  <rule e="way" k="fmrelbicyclered|fmrelbicycleblue|fmrelbicyclegreen|fmrelbicycleyellow|fmrelbicyclewhite|fmrelbicycleblack|fmrelbicycledefault" v="~">
+    <rule e="way" k="highway" v="cycleway">
+      <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
+        <line cat="overlay" stroke="#FFFFFF" dy="0.3" stroke-dasharray="{$noArrayLow}" stroke-linecap="round" stroke-width="{$noWidthLow}" scale="all" />
+        <line stroke="{$nomark}" dy="0.3" stroke-dasharray="{$noArrayLow}" stroke-linecap="round" stroke-width="{$noWidthLow}" scale="all" />
+      </rule>
+      <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
+        <line cat="overlay" stroke="#FFFFFF" dy="0.3" stroke-dasharray="{$noArrayHigh}" stroke-linecap="round" stroke-width="{$noWidthHigh}" scale="all" />
+        <line stroke="{$nomark}" dy="0.3" stroke-dasharray="{$noArrayHigh}" stroke-linecap="round" stroke-width="{$noWidthHigh}" scale="all" />
+      </rule>
+    </rule>
+
+    <rule e="way" k="highway" v="path|footway">
+      <rule e="way" k="bicycle" v="designated">
+        <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
+          <line cat="overlay" stroke="#FFFFFF" dy="0.3" stroke-dasharray="{$noArrayLow}" stroke-linecap="round" stroke-width="{$noWidthLow}" scale="none" />
+          <line stroke="{$nomark}" dy="0.3" stroke-dasharray="{$noArrayLow}" stroke-linecap="round" stroke-width="{$noWidthLow}" scale="all" />
+        </rule>
+        <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
+          <line cat="overlay" stroke="#FFFFFF" dy="0.3" stroke-dasharray="{$noArrayHigh}" stroke-linecap="round" stroke-width="{$noWidthHigh}" scale="all" />
+          <line stroke="{$nomark}" dy="0.3" stroke-dasharray="{$noArrayHigh}" stroke-linecap="round" stroke-width="{$noWidthHigh}" scale="all" />
+        </rule>
+      </rule>
+    </rule>
+
+    <rule e="way" k="cycleway" v="opposite|lane">
+      <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
+        <line cat="overlay" stroke="#FFFFFF" dy="0.3" stroke-dasharray="{$noArrayLow}" stroke-linecap="round" stroke-width="{$noWidthLow}" scale="all" />
+        <line stroke="{$nomark}" dy="0.3" stroke-dasharray="{$noArrayLow}" stroke-linecap="round" stroke-width="{$noWidthLow}" scale="all" />
+      </rule>
+      <rule e="way" k="*" v="*" zoom-min="{$zoomhigh}">
+        <line cat="overlay" stroke="#FFFFFF" dy="0.3" stroke-dasharray="{$noArrayHigh}" stroke-linecap="round" stroke-width="{$noWidthHigh}" scale="all" />
+        <line stroke="{$nomark}" dy="0.3" stroke-dasharray="{$noArrayHigh}" stroke-linecap="round" stroke-width="{$noWidthHigh}" scale="all" />
+      </rule>
+    </rule>
+
+  </rule>
+</xsl:template>
+
     <!-- cycle trails -->
 <xsl:template name="cycletrails">
   <rule cat="cycle" e="way" k="highway" v="*" zoom-min="{$zoomlow}">
@@ -340,7 +389,7 @@
     <xsl:with-param name="fallbackKey" select="'fmrelbicyclewhite|fmrelbicycleblack|fmrelbicycledefault'"/>
     <xsl:with-param name="side" select="-1"/>
     <xsl:with-param name="offset" select="0.5"/>
-    <xsl:with-param name="dasharray" select="'0.1,2.5'"/>
+    <xsl:with-param name="dasharray" select="'0.1,3'"/>
     <xsl:with-param name="linecap" select="'round'"/>
     </xsl:call-template>
     <rule cat="trailnum" e="way" k="*" v="*" zoom-min="13">
