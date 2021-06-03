@@ -27,6 +27,13 @@
     <rule e="way" k="building" v="shop">
       <area fill="#B0971583" stroke="#8F8F8F" stroke-width="0.6" scale="none" />
     </rule>
+    <rule e="way" k="building" v="stadium">
+      <area fill="#B0A3D3D9" stroke="#1b8389" stroke-width="1" scale="none" />
+    </rule>
+    <rule e="way" k="building" v="construction">
+      <area fill="#B0FFCD85" stroke="#ED7D35" stroke-width="0.6" scale="none" />
+      <area src="file:/patterns/construction.svg" symbol-height="24"/>
+    </rule>    
   </rule>
 </xsl:template>
 </xsl:stylesheet>

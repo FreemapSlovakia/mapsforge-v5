@@ -30,15 +30,15 @@
         <pathText k="name" font-style="italic" font-size="8" fill="#0000fc" stroke="#ffffff" stroke-width="2" repeat-start="30" repeat-gap="150" priority="-20" />
       </rule>
         <rule e="way" k="tunnel" v="yes|culvert">
-            <line stroke="#5B7EAB" stroke-dasharray="0.7,0.7" stroke-width="0.6" stroke-linecap="butt" scale="all"/>
-            <line stroke="#8DB0DD" stroke-width="0.4"/>
+            <line stroke="#5B7EAB" stroke-dasharray="1,0.4" stroke-width="0.6" stroke-linecap="butt" scale="all"/>
+            <line stroke="#808DB0DD" stroke-width="0.4"/>
         </rule>
         <rule e="way" k="tunnel" v="~|no">
           <rule e="way" k="intermittent" v="~|no">
             <line stroke="#8DB0DD" stroke-width="0.4"/>
           </rule>
           <rule e="way" k="intermittent" v="yes">
-            <line stroke="#8DB0DD" stroke-dasharray="0.1,0.5" stroke-width="0.3" scale="all"/>
+            <line stroke="#8DB0DD" stroke-dasharray="0.5,1" stroke-width="0.3" scale="all"/>            
           </rule>
         </rule>
         <rule e="way" k="*" v="*" zoom-min="15" zoom-max="17">

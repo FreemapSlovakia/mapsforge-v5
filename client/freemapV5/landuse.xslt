@@ -61,6 +61,15 @@
     <rule e="way" k="landuse" v="residential">
       <area fill="#80EEE7D5" />
     </rule>
+    <rule e="way" k="landuse" v="construction" zoom-min="13">
+      <area fill="#60FFCD85"/>
+      <rule e="way" k="*" v="*" zoom-max="15">
+        <area src="file:/patterns/construction.svg" symbol-height="12"/>
+      </rule>
+      <rule e="way" k="*" v="*" zoom-min="16">
+        <area src="file:/patterns/construction.svg" symbol-height="24"/>
+      </rule>        
+    </rule>    
     <rule e="way" k="landuse" v="village_green|meadow|grass|recreation_ground|grassland">
       <rule cat="all" e="way" k="*" v="*">
         <area fill="#d6edc0" scale="none"/>
