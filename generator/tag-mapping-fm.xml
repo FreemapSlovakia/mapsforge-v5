@@ -94,6 +94,7 @@
 		<osm-tag key="tourism" value="viewpoint" zoom-appear="14" />
 		<osm-tag key="tourism" value="artwork" zoom-appear="14" />
 		<osm-tag key="tourism" value="zoo" zoom-appear="12" />
+		<osm-tag key="tourism" value="yes" zoom-appear="14" />        
 
 		<osm-tag key="historic" value="memorial" zoom-appear="17" />
 		<osm-tag key="historic" value="monument" zoom-appear="17" />
@@ -467,6 +468,7 @@
 		<osm-tag key="tourism" value="viewpoint" zoom-appear="14" />
 		<osm-tag key="tourism" value="artwork" zoom-appear="14" />
 		<osm-tag key="tourism" value="zoo" zoom-appear="12" />
+		<osm-tag key="tourism" value="yes" zoom-appear="14" />
 	</ways>
 
 	<!-- PUBLIC TRANSPORT -->
