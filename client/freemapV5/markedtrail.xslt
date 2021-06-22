@@ -339,7 +339,7 @@
   <xsl:variable name="noArrayLow" select="'0.01,2.5,0.1,6'"/>
   <xsl:variable name="noArrayHigh" select="'0.03,1,0.03,4'"/>
 
-  <rule e="way" k="fmrelbicyclered|fmrelbicycleblue|fmrelbicyclegreen|fmrelbicycleyellow|fmrelbicyclewhite|fmrelbicycleblack|fmrelbicycledefault" v="~">
+  <rule cat="cycle" e="way" k="fmrelbicyclered|fmrelbicycleblue|fmrelbicyclegreen|fmrelbicycleyellow|fmrelbicyclewhite|fmrelbicycleblack|fmrelbicycledefault" v="~">
     <rule e="way" k="highway" v="cycleway">
       <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
         <line cat="overlay" stroke="#FFFFFF" dy="0.3" stroke-dasharray="{$noArrayLow}" stroke-linecap="round" stroke-width="{$noWidthLow}" scale="all" />
