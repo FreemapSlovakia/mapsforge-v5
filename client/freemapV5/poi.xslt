@@ -422,6 +422,10 @@
     <symbol src="file:/poi/entrance-exit.svg" symbol-width="8" priority="-80"/>
   </rule>  
 
+  <rule e="any" k="tourism" v="yes" zoom-min="16">
+    <caption k="name" position="center" font-style="bold" font-size="10" fill="#005e00" stroke="#ffffff" stroke-width="2" display="ifspace"/>
+  </rule>
+
     <!-- house numbers -->
   <rule cat="building" e="way" k="addr:housenumber" v="*" zoom-min="19">
     <caption k="addr:housenumber" font-style="bold" font-size="7" fill="#000000" stroke="#ffffff" stroke-width="2" priority="-50" display="ifspace"/>
