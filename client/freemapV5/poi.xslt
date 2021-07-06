@@ -238,16 +238,22 @@
       <rule e="any" k="castle_type" v="manor">
         <symbol id="castle" src="file:/poi/manor.svg" symbol-width="14" priority="20"/>
       </rule>
-      <caption k="name" symbol-id="castle" position="below" font-style="bold" font-size="10" fill="#550000" stroke="#ffffff" stroke-width="2"/>
+      <rule e="any" k="*" v="*" zoom-min="15">
+        <caption k="name" symbol-id="castle" position="below" font-style="bold" font-size="10" fill="#550000" stroke="#ffffff" stroke-width="2"/>
+      </rule>  
     </rule>
     <rule e="any" k="ruins" v="yes">
       <symbol id="ruins" src="file:/poi/ruins.svg" symbol-width="14" priority="20"/>
-      <caption k="name" symbol-id="ruins" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      <rule e="any" k="*" v="*" zoom-min="15">
+        <caption k="name" symbol-id="ruins" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      </rule>  
     </rule>
   </rule>
   <rule e="any" k="historic" v="ruins" zoom-min="14">
     <symbol id="ruins" src="file:/poi/ruins.svg" symbol-width="16" priority="20"/>
-    <caption k="name" symbol-id="ruins" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+    <rule e="any" k="*" v="*" zoom-min="15">
+      <caption k="name" symbol-id="ruins" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+    </rule>
   </rule>  
   <rule e="any" k="tourism" v="museum" zoom-min="15">
     <symbol id="museum" src="file:/poi/museum.svg" symbol-width="14"  priority="15"/>
