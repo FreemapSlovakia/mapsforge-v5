@@ -261,9 +261,11 @@
       <caption k="name" symbol-id="zoo" position="below" font-style="bold" font-size="10" fill="#550000" stroke="#ffffff" stroke-width="2"/>
     </rule>  
   </rule>
-  <rule e="node" k="tourism" v="attraction" zoom-min="15">
+  <rule e="any" k="tourism" v="attraction" zoom-min="14">
     <symbol id="attraction" src="file:/poi/attraction.svg" symbol-width="16" priority="10"/>
-    <caption k="name" symbol-id="attraction" position="below" font-style="bold" font-size="10" fill="#734a08" stroke="#ffffff" stroke-width="2"/>
+    <rule e="any" k="*" v="*" zoom-min="16">
+      <caption k="name" symbol-id="attraction" position="below" font-style="bold" font-size="10" fill="#734a08" stroke="#ffffff" stroke-width="2"/>
+    </rule>
   </rule>
   <rule e="any" k="amenity" v="toilets" zoom-min="17">
     <symbol id="toilets" src="file:/poi/toilets.svg" symbol-width="18" priority="10"/>

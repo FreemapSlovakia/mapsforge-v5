@@ -81,7 +81,7 @@
 
 	<!-- TOURISM TAGS -->
 	<pois>
-		<osm-tag key="tourism" value="attraction" zoom-appear="15" />
+		<osm-tag key="tourism" value="attraction" zoom-appear="14" />
 		<osm-tag key="tourism" value="hostel" zoom-appear="12" />
 		<osm-tag key="tourism" value="hotel" zoom-appear="12" />
 		<osm-tag key="tourism" value="guest_house" zoom-appear="12" />
@@ -96,8 +96,8 @@
 		<osm-tag key="tourism" value="zoo" zoom-appear="12" />
 		<osm-tag key="tourism" value="yes" zoom-appear="14" />        
 
-		<osm-tag key="historic" value="memorial" zoom-appear="17" />
-		<osm-tag key="historic" value="monument" zoom-appear="17" />
+		<osm-tag key="historic" value="memorial" zoom-appear="15" />
+		<osm-tag key="historic" value="monument" zoom-appear="15" />
 		<osm-tag key="historic" value="wayside_cross" zoom-appear="15" />
 		<osm-tag key="historic" value="wayside_shrine" zoom-appear="15" />
 		<osm-tag key="historic" value="mine" zoom-appear="12" />
@@ -456,7 +456,7 @@
 		<osm-tag key="ford" value="yes" zoom-appear="15" />
 
 
-		<osm-tag key="tourism" value="attraction" zoom-appear="15" />
+		<osm-tag key="tourism" value="attraction" zoom-appear="14" />
 		<osm-tag key="tourism" value="hostel" zoom-appear="12" />
 		<osm-tag key="tourism" value="hotel" zoom-appear="12" />
 		<osm-tag key="tourism" value="guest_house" zoom-appear="12" />
