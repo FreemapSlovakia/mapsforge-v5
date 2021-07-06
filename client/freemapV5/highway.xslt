@@ -383,7 +383,7 @@
 </rule>
 
 
-<rule cat="access" e="way" k="highway" v="*" zoom-min="15">
+<rule cat="access" e="way" k="highway" v="*" zoom-min="15" zoom-max="16">
   <rule e="way" k="access" v="destination">
     <lineSymbol src="file:/patterns/access-destination.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="1" symbol-height="8"/>
   </rule>
@@ -391,16 +391,36 @@
     <lineSymbol src="file:/patterns/access-private.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="1" symbol-height="8"/>
   </rule>
   <rule e="way" k="foot" v="no">
-    <lineSymbol src="file:/patterns/access-foot-no.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="100" symbol-height="14"/>
+    <lineSymbol src="file:/patterns/access-foot-no.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="100" symbol-height="14" rotate="false"/>
   </rule>
   <rule e="way" k="bicycle" v="no">
-    <lineSymbol src="file:/patterns/access-bicycle-no.svg" align-center="true" repeat="true" repeat-start="10" repeat-gap="100" symbol-height="14"/>
+    <lineSymbol src="file:/patterns/access-bicycle-no.svg" align-center="true" repeat="true" repeat-start="10" repeat-gap="100" symbol-height="14" rotate="false"/>
   </rule>
   <rule e="way" k="vehicle" v="no">
-    <lineSymbol src="file:/patterns/access-vehicle-no.svg" align-center="true" repeat="true" repeat-start="20" repeat-gap="100" symbol-height="14"/>
+    <lineSymbol src="file:/patterns/access-vehicle-no.svg" align-center="true" repeat="true" repeat-start="20" repeat-gap="100" symbol-height="14" rotate="false"/>
   </rule>
   <rule e="way" k="motor_vehicle" v="no">
-    <lineSymbol src="file:/patterns/access-motor_vehicle-no.svg" align-center="true" repeat="true" repeat-start="30" repeat-gap="100" symbol-height="14"/>
+    <lineSymbol src="file:/patterns/access-motor_vehicle-no.svg" align-center="true" repeat="true" repeat-start="30" repeat-gap="100" symbol-height="14" rotate="false"/>
+  </rule>
+</rule>
+<rule cat="access" e="way" k="highway" v="*" zoom-min="17">
+  <rule e="way" k="access" v="destination">
+    <lineSymbol src="file:/patterns/access-destination.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="1" symbol-height="8"/>
+  </rule>
+  <rule e="way" k="access" v="private|no">
+    <lineSymbol src="file:/patterns/access-private.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="1" symbol-height="8"/>
+  </rule>
+  <rule e="way" k="foot" v="no">
+    <lineSymbol src="file:/patterns/access-foot-no.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="100" symbol-height="20" rotate="false"/>
+  </rule>
+  <rule e="way" k="bicycle" v="no">
+    <lineSymbol src="file:/patterns/access-bicycle-no.svg" align-center="true" repeat="true" repeat-start="10" repeat-gap="100" symbol-height="20" rotate="false"/>
+  </rule>
+  <rule e="way" k="vehicle" v="no">
+    <lineSymbol src="file:/patterns/access-vehicle-no.svg" align-center="true" repeat="true" repeat-start="20" repeat-gap="100" symbol-height="20" rotate="false"/>
+  </rule>
+  <rule e="way" k="motor_vehicle" v="no">
+    <lineSymbol src="file:/patterns/access-motor_vehicle-no.svg" align-center="true" repeat="true" repeat-start="30" repeat-gap="100" symbol-height="20" rotate="false"/>
   </rule>
 </rule>
 
