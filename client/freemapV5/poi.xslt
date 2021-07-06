@@ -48,7 +48,9 @@
     <rule e="node" k="information" v="map|board|office">
       <symbol id="tourisminfo" src="file:/poi/information.svg" symbol-width="16"/>
       <caption k="ref" symbol-id="tourisminfo" position="above" font-style="bold" font-size="10" fill="#005e00" stroke="#ffffff" stroke-width="2" priority="31"/>
-      <caption k="name" symbol-id="tourisminfo" position="below" font-style="bold" font-size="10" fill="#005e00" stroke="#ffffff" stroke-width="2" priority="30"/>
+      <rule e="any" k="*" v="*" zoom-min="17">
+        <caption k="name" symbol-id="tourisminfo" position="below" font-style="bold" font-size="10" fill="#005e00" stroke="#ffffff" stroke-width="2" priority="30"/>
+      </rule> 
     </rule>
   </rule>
 
@@ -444,6 +446,11 @@
 
   <rule e="any" k="tourism" v="yes" zoom-min="15">
     <caption k="name" position="center" font-style="bold" font-size="10" fill="#005e00" stroke="#ffffff" stroke-width="2" display="ifspace"/>
+  </rule>
+  
+  <rule e="any" k="amenity" v="fountain" zoom-min="17">
+    <symbol id="fountain" src="file:/poi/fountain.svg" symbol-width="16" priority="-80"/>
+    <caption symbol-id="fountain" k="name" position="below" font-style="bold" font-size="10" fill="#0000FF" stroke="#ffffff" stroke-width="2" display="ifspace"/>
   </rule>
 
     <!-- house numbers -->
