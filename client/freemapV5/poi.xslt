@@ -442,7 +442,7 @@
     <symbol src="file:/poi/entrance-exit.svg" symbol-width="8" priority="-80"/>
   </rule>  
 
-  <rule e="any" k="tourism" v="yes" zoom-min="16">
+  <rule e="any" k="tourism" v="yes" zoom-min="15">
     <caption k="name" position="center" font-style="bold" font-size="10" fill="#005e00" stroke="#ffffff" stroke-width="2" display="ifspace"/>
   </rule>
 
