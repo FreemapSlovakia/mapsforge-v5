@@ -113,17 +113,23 @@
   </rule>
 
   
-  <rule cat="accommodation" e="any" k="tourism" v="hotel" zoom-min="15">
-      <symbol id="hotel" src="file:/poi/hotel.svg" symbol-width="12" priority="10"/>
-      <caption k="name" symbol-id="hotel" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
+  <rule cat="accommodation" e="any" k="tourism" v="hotel" zoom-min="14">
+     <symbol id="hotel" src="file:/poi/hotel.svg" symbol-width="12" priority="10"/>
+     <rule e="any" k="*" v="*" zoom-min="15">
+       <caption k="name" symbol-id="hotel" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
+     </rule>  
   </rule>
-  <rule cat="accommodation" e="any" k="tourism" v="guest_house" zoom-min="15">
-      <symbol id="guesthouse" src="file:/poi/hotel.svg" symbol-width="12" priority="10"/>
-      <caption k="name" symbol-id="guesthouse" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
+  <rule cat="accommodation" e="any" k="tourism" v="guest_house" zoom-min="14">
+     <symbol id="guesthouse" src="file:/poi/hotel.svg" symbol-width="12" priority="10"/>
+     <rule e="any" k="*" v="*" zoom-min="15"> 
+       <caption k="name" symbol-id="guesthouse" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
+    </rule>
   </rule>
-  <rule cat="accommodation" e="any" k="tourism" v="hostel" zoom-min="15">
-      <symbol id="hostel" src="file:/poi/hostel.svg" symbol-width="12" priority="10"/>
-      <caption k="name" symbol-id="hostel" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
+  <rule cat="accommodation" e="any" k="tourism" v="hostel" zoom-min="14">
+     <symbol id="hostel" src="file:/poi/hostel.svg" symbol-width="12" priority="10"/>
+     <rule e="any" k="*" v="*" zoom-min="15">
+       <caption k="name" symbol-id="hostel" position="below" font-style="bold" font-size="10" fill="#000080" stroke="#FFFFFF" stroke-width="3" display="ifspace" priority="8"/>
+    </rule>
   </rule>
   <rule cat="accommodation" e="any" k="tourism" v="camp_site" zoom-min="13">
     <symbol id="camp" src="file:/poi/camping.svg" symbol-width="12" priority="10"/>
@@ -165,7 +171,7 @@
       <caption k="ele" symbol-id="saddle" position="below" font-style="normal" font-size="9" fill="#000000" stroke="#ffffff" stroke-width="2"/>
     </rule>
   </rule>
-  <rule cat="topo_icons" e="node" k="natural" v="cave_entrance" zoom-min="14">
+  <rule cat="topo_icons" e="node" k="natural" v="cave_entrance" zoom-min="13">
     <symbol id="cave" src="file:/poi/cave_entrance.svg" symbol-width="16" priority="30"/>
     <rule e="node" k="*" v="*" zoom-min="16">
       <caption k="name" symbol-id="cave" position="below" font-style="bold" font-size="9" fill="#000000" stroke="#ffffff" stroke-width="2"/>
@@ -174,7 +180,7 @@
   <rule cat="topo_icons" e="node" k="waterway" v="waterfall" zoom-min="14">
     <symbol id="waterfall" src="file:/poi/waterfall.svg" symbol-width="16"/>
     <rule e="node" k="*" v="*" zoom-min="16">
-      <caption k="name" symbol-id="waterfall" position="below" font-style="bold" font-size="9" fill="#4040ff" stroke="#ffffff" stroke-width="2"/>
+      <caption k="name" symbol-id="waterfall" position="below" font-style="bold" font-size="10" fill="#4040ff" stroke="#ffffff" stroke-width="2"/>
     </rule>
   </rule>
 
@@ -280,8 +286,8 @@
     <symbol id="playground" src="file:/poi/playground.svg" symbol-width="18" priority="10"/>
   </rule>
 
-  <rule cat="topo_icons" e="any" k="man_made" v="tower|mast" zoom-min="15">
-    <rule  e="any" k="tower:type" v="communication" zoom-min="15">
+  <rule cat="topo_icons" e="any" k="man_made" v="tower|mast" zoom-min="14">
+    <rule  e="any" k="tower:type" v="communication" zoom-min="14">
       <symbol src="file:/poi/tower_comm.svg" symbol-width="16"/>
     </rule>
     <rule e="any" k="tower:type" v="observation" zoom-min="15">
@@ -313,8 +319,8 @@
   <rule e="any" k="historic" v="wayside_shrine" zoom-min="16">
     <symbol src="file:/poi/wayside_shrine.svg" symbol-width="16" priority="10"/>
   </rule>
-  <rule  e="node" k="highway" v="bus_stop" zoom-min="15">
-    <rule  e="any" k="*" v="*" zoom-min="15" zoom-max="16">
+  <rule  e="node" k="highway" v="bus_stop" zoom-min="14">
+    <rule  e="any" k="*" v="*" zoom-min="14" zoom-max="16">
       <symbol src="file:/poi/bus-mini.svg" symbol-width="18" priority="0"/>
     </rule>
     <rule  e="any" k="*" v="*" zoom-min="17">
@@ -463,10 +469,10 @@
 
     <!-- house numbers -->
   <rule cat="building" e="way" k="addr:housenumber" v="*" zoom-min="19">
-    <caption k="addr:housenumber" font-style="bold" font-size="7" fill="#000000" stroke="#ffffff" stroke-width="2" priority="-50" display="ifspace"/>
+    <caption k="addr:housenumber" font-style="bold" font-size="8" fill="#000000" stroke="#ffffff" stroke-width="2" priority="-50" display="ifspace"/>
   </rule>
   <rule cat="building" e="node" k="addr:housenumber" v="*" zoom-min="19">
-    <caption k="addr:housenumber" font-style="bold" font-size="7" fill="#000000" stroke="#ffffff" stroke-width="2" priority="-50" display="ifspace"/>
+    <caption k="addr:housenumber" font-style="bold" font-size="8" fill="#000000" stroke="#ffffff" stroke-width="2" priority="-50" display="ifspace"/>
   </rule>
             
 </xsl:template>
