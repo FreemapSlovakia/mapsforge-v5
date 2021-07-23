@@ -155,4 +155,22 @@
 		</output>
 	</translation>
 
+	<translation>
+		<name>remove some tags</name>
+		<description>remove values from yes/no pairs to reduce effects of "common value bug" in mapsforge</description>
+		<match mode="or" type="way">
+			<tag k="oneway" v="no"/>
+			<tag k="bridge" v="no"/>
+			<tag k="tunnel" v="no"/>
+			<tag k="noexit" v="no"/>	
+			<tag k="access" v="yes"/>
+			<tag k="building" v="no"/>
+			<tag k="ladder" v="no"/>			
+			<tag k="raised" v="no"/>
+			<tag k="raised" v="yes"/>					
+		</match>
+		<output>
+			<copy-unmatched/>
+		</output>
+	</translation>	
 </translations>

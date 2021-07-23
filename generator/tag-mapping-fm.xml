@@ -376,6 +376,8 @@
 		<osm-tag key="sport" value="basketball" renderable="false" />
 
 		<osm-tag key="golf" value="green" zoom-appear="16" />
+        <osm-tag key="golf" value="fairway" zoom-appear="16" />
+        <osm-tag key="golf" value="rought" zoom-appear="16" />
 		<osm-tag key="golf" value="bunker" zoom-appear="16" />
 	</ways>
 	<pois>
@@ -575,13 +577,14 @@
 	<ways>
 		<osm-tag key="access" value="destination" renderable="false" />
 		<osm-tag key="access" value="customers" renderable="false" />
-		<osm-tag key="access" value="private" renderable="false" />
-		<osm-tag key="access" value="no" renderable="false" />
-		<osm-tag key="foot" value="no" renderable="false" />
-		<osm-tag key="bicycle" value="no" renderable="false" />
-		<osm-tag key="vehicle" value="no" renderable="false" />
-		<osm-tag key="motor_vehicle" value="no" renderable="false" />
-		<osm-tag key="bicycle" value="designated" renderable="false" />
+		<osm-tag key="access" value="private" equivalent-values="delivery" renderable="false" />
+        <osm-tag key='access' value="acc_no" equivalent-values="no,prohibited" renderable="false" />
+		<osm-tag key='foot' value="ft_no" equivalent-values="no,prohibited" renderable="false" />
+		<osm-tag key='bicycle' value="bic_no" equivalent-values="no,prohibited,dismount" renderable="false" />
+        <osm-tag key='bicycle' value="bic_designated" equivalent-values="designated,official" renderable="false" />
+		<osm-tag key="vehicle" value="veh_no" equivalent-values="no" renderable="false" />
+		<osm-tag key="motor_vehicle" value="mv_no" equivalent-values="no" renderable="false" />
+		
 
 		<osm-tag key="area" value="yes" renderable="false" />
 		<osm-tag key="bridge" value="yes" renderable="false" />

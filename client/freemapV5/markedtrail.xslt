@@ -352,7 +352,7 @@
     </rule>
 
     <rule e="way" k="highway" v="path|footway">
-      <rule e="way" k="bicycle" v="designated">
+      <rule e="way" k="bicycle" v="bic_designated">
         <rule e="way" k="*" v="*" zoom-min="{$zoomlow}" zoom-max="{$zoomlow2}">
           <line cat="overlay" stroke="#FFFFFF" dy="0.3" stroke-dasharray="{$noArrayLow}" stroke-linecap="round" stroke-width="{$noWidthLow}" scale="none" />
           <line stroke="{$nomark}" dy="0.3" stroke-dasharray="{$noArrayLow}" stroke-linecap="round" stroke-width="{$noWidthLow}" scale="all" />
