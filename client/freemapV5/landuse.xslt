@@ -181,13 +181,19 @@
     </rule>
   </rule>
 
-  <rule e="way" k="golf" v="bunker" zoom-min="16">
+  <rule cat="sport" e="way" k="golf" v="fairway" zoom-min="16">
+    <area fill="#B036cc00" stroke="#B036cc00" stroke-width="1" scale="none" />
+  </rule>
+  <rule cat="sport" e="way" k="golf" v="rought" zoom-min="16">
+    <area fill="#B0228000" stroke="#B0228000" stroke-width="1" scale="none" />
+  </rule>
+  <rule cat="sport" e="way" k="golf" v="bunker" zoom-min="16">
     <area fill="#B0F9F7BC" stroke="#B0F9F7BC" stroke-width="1" scale="none" />
   </rule>
-  <rule e="way" k="golf" v="green" zoom-min="16">
+  <rule cat="sport" e="way" k="golf" v="green" zoom-min="16">
     <area fill="#B0B5FF99" stroke="#B0B5FF99" stroke-width="1" scale="none" />
   </rule>
-  <rule e="node" k="golf" v="pin" zoom-min="16">
+  <rule cat="sport" e="node" k="golf" v="pin" zoom-min="16">
     <circle fill="#6FC72B" radius="2" scale-radius="false" />
   </rule>
 
