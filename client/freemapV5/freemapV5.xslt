@@ -45,15 +45,15 @@
     <rule e="way" k="power" v="line" zoom-min="13">
       <line stroke="#80000000" stroke-width="1.2" scale="none"/>
       <rule e="way" k="*" v="*" zoom-min="14" zoom-max="16">
-        <lineSymbol src="file:/symbols/way_powerline.svg" align-center="true" repeat="true" symbol-width="12" repeat-gap="50" priority="-100"/>
+        <lineSymbol src="file:/symbols/way_powerline.svg" position="center" repeat="true" symbol-width="12" repeat-gap="50" priority="-100"/>
       </rule>
       <rule e="way" k="*" v="*" zoom-min="17">
-        <lineSymbol src="file:/symbols/way_powerline.svg" align-center="true" repeat="true" symbol-width="16" repeat-gap="35" priority="-100"/>
+        <lineSymbol src="file:/symbols/way_powerline.svg" position="center" repeat="true" symbol-width="16" repeat-gap="35" priority="-100"/>
       </rule>
     </rule>
     <rule e="way" k="power" v="minor_line" zoom-min="16">
       <line stroke="#80000000" stroke-width="1" scale="none"/>
-      <lineSymbol src="file:/symbols/way_powerline.svg" align-center="true" repeat="true" symbol-width="13" repeat-gap="45" priority="-100"/>
+      <lineSymbol src="file:/symbols/way_powerline.svg" position="center" repeat="true" symbol-width="13" repeat-gap="45" priority="-100"/>
     </rule>   
   </rule>
   <rule e="node" k="power" v="*">

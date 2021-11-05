@@ -173,7 +173,7 @@
     <rule e="way" k="leisure" v="park">
       <area fill="#70DDF4C7" stroke="#C2D9AC" stroke-width="2" scale="none" />
     </rule>
-    <rule e="way" k="leisure" v="pitch">
+    <rule cat="all" e="way" k="leisure" v="pitch">
       <area fill="#B0A3D3D9" stroke="#B0A3D3D9" stroke-width="1" scale="none" />
     </rule>  
     <rule e="way" k="leisure" v="golf_course|miniature_golf">

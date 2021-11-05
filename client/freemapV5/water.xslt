@@ -3,11 +3,11 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <xsl:template name="waterways">
-  <rule cat="waterway" e="way" k="waterway" v="*">
+  <rule e="way" k="waterway" v="*">
     <rule e="any" k="ford" v="yes" zoom-min="15">
       <symbol id="ford" src="file:/poi/ford.svg" symbol-width="16"/>
     </rule>
-    <rule e="way" k="waterway" v="ditch" zoom-min="15">
+    <rule cat="waterway" e="way" k="waterway" v="ditch" zoom-min="15">
         <line stroke="#8DB0DD" stroke-width="0.1"/>
         <rule e="way" k="*" v="*" zoom-min="16">
             <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="15" symbol-width="9" priority="-100"/>
@@ -17,7 +17,9 @@
       <rule e="way" k="*" v="*" zoom-min="14">
         <pathText k="name" font-style="italic" font-size="10" fill="#0000fc" stroke="#ffffff" stroke-width="3" repeat-start="30" repeat-gap="250"/>
       </rule>
+      <rule cat="waterway" e="way" k="*" v="*"> 
         <line stroke="#8DB0DD" stroke-width="0.8" />
+      </rule>  
         <rule e="way" k="*" v="*" zoom-min="14" zoom-max="16">
             <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="15" repeat-gap="120" symbol-width="8" priority="-100"/>
         </rule>
@@ -29,6 +31,7 @@
       <rule e="way" k="*" v="*" zoom-min="15">
         <pathText k="name" font-style="italic" font-size="8" fill="#0000fc" stroke="#ffffff" stroke-width="2" repeat-start="30" repeat-gap="150" priority="-20" />
       </rule>
+        <rule cat="waterway" e="way" k="*" v="*">
         <rule e="way" k="tunnel" v="yes|culvert">
             <line stroke="#5B7EAB" stroke-dasharray="1,0.4" stroke-width="0.6" stroke-linecap="butt" scale="all"/>
             <line stroke="#808DB0DD" stroke-width="0.4"/>
@@ -47,11 +50,13 @@
         <rule e="way" k="*" v="*" zoom-min="18">
             <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-start="15" repeat-gap="140" symbol-width="10" priority="-100"/>
         </rule>
+        </rule>
     </rule>
     <rule e="way" k="waterway" v="river">
       <rule e="way" k="*" v="*" zoom-min="12">
         <pathText k="name" font-style="italic" font-size="10" fill="#0000fc" stroke="#ffffff" stroke-width="3" repeat-start="30" repeat-gap="250"/>
       </rule>
+        <rule cat="waterway" e="way" k="*" v="*">
         <rule e="way" k="tunnel" v="yes|culvert">
             <line stroke="#8DB0DD" stroke-dasharray="5,12" stroke-width="1.0"/>
         </rule>
@@ -69,14 +74,15 @@
         <rule e="way" k="*" v="*" zoom-min="16">
             <lineSymbol src="file:/symbols/waterflow.svg" align-center="true" repeat="true" repeat-gap="160" symbol-width="10" priority="-100"/>
         </rule>
+        </rule>
     </rule>
     <rule e="way" k="waterway" v="dock">
         <area fill="#b5d6f1"/>
     </rule>
-    <rule e="way" k="waterway" v="riverbank"> <!-- deprecated -->
+    <rule cat="waterway" e="way" k="waterway" v="riverbank"> <!-- deprecated -->
         <area fill="#8DB0DD"/>
     </rule>
-    <rule e="way" k="natural" v="water">
+    <rule cat="waterway" e="way" k="natural" v="water">
         <rule e="way" k="water" v="river">
             <area fill="#8DB0DD"/>
         </rule>
@@ -96,7 +102,7 @@
 
 <xsl:template name="waterbodies">
   <rule e="way" k="natural" v="water">
-    <rule cat="all" e="way" k="*" v="*">
+    <rule cat="waterway" e="way" k="*" v="*">
       <rule e="way" k="intermittent" v="~|no">
         <area fill="#8DB0DD"/>
       </rule>
@@ -106,7 +112,7 @@
     </rule>
     <rule cat="overlay" e="way" k="*" v="*">
       <rule e="way" k="intermittent" v="~|no">
-        <area fill="#508DB0DD"/>
+        <area fill="#308DB0DD"/>
       </rule>
       <rule e="way" k="intermittent" v="yes">
         <area src="file:/patterns/water-intermittent.svg" symbol-width="20"/>
