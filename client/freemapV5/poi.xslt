@@ -373,7 +373,7 @@
       <symbol id="convenience" src="file:/poi/bakery.svg" symbol-width="14"/>
       <caption k="name" symbol-id="bakery" position="below" font-style="bold" font-size="10" fill="#ffffff" stroke="#971583" stroke-width="2" display="ifspace"/>
     </rule>
-    <rule e="any" k="shop" v="organic|greengrocer|ice_cream|butcher|confectionery|farm|chemnist" zoom-min="16">
+    <rule e="any" k="shop" v="organic|greengrocer|ice_cream|butcher|confectionery|pastry|farm|chemnist" zoom-min="16">
       <symbol id="shops" src="file:/poi/shop-other.svg" symbol-width="6" priority="-100"/>
       <caption k="name" symbol-id="shops" position="below" font-style="bold" font-size="10" fill="#ffffff" stroke="#971583" stroke-width="2" display="ifspace"/>
     </rule>    

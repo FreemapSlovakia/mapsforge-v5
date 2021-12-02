@@ -55,7 +55,7 @@
         </layer>
         <layer id="sac-scale" enabled="false" visible="false">
             <name lang="en" value="SAC scale" />
-            <name lang="sk" value="SAC" />
+            <name lang="sk" value="SAC stupnica" />
             <cat id="sac-scale" />
         </layer>
         <layer id="mtb-scale" enabled="false" visible="false">
@@ -78,7 +78,7 @@
             <name lang="sk" value="Ubytovanie" />
             <cat id="accommodation" />
         </layer>
-        <layer id="food" enabled="true" visible="false">
+        <layer id="food" enabled="false" visible="false">
             <name lang="en" value="Food POI" />
             <name lang="sk" value="Stravovanie" />
             <cat id="food" />
@@ -93,6 +93,11 @@
             <name lang="sk" value="Obce/Mestá" />
             <cat id="place" />
         </layer>
+        <layer id="highway_name" enabled="false" visible="false">
+            <name lang="en" value="Road names" />
+            <name lang="sk" value="Názvy ulíc" />
+            <cat id="highway_name" />
+        </layer>
         <layer id="protect_area" enabled="false" visible="false">
             <name lang="en" value="Protected areas/parks" />
             <name lang="sk" value="Chránené územia" />
@@ -103,6 +108,12 @@
             <name lang="sk" value="Obmedzenia vstupu" />
             <cat id="access" />
         </layer>
+        <layer id="topo_feat" enabled="true" visible="false">
+            <name lang="en" value="Topo features" />
+            <name lang="sk" value="Topo prvky" />
+            <cat id="topo_icons" />
+            <cat id="topo_common" />
+        </layer>        
         <layer id="topo" visible="true">
             <name lang="en" value="Topo" />
             <name lang="sk" value="Topo" />
@@ -112,6 +123,7 @@
             <cat id="topo_icons" />
             <cat id="landuse" />
             <cat id="highway" />
+            <cat id="highway_name" />
             <cat id="building" />
             <cat id="waterway" />
             <cat id="place" />
@@ -141,6 +153,7 @@
             <cat id="default" />
             <cat id="landuse" />
             <cat id="highway" />
+            <cat id="highway_name" />
             <cat id="building" />
             <cat id="waterway" />
             <cat id="boundaries" />
@@ -157,7 +170,6 @@
             <name lang="en" value="Overlay" />
             <name lang="sk" value="Overlay" />
             <cat id="overlay" />
-            <cat id="topo_icons" />
             <overlay id="hiking" />
             <overlay id="hikinglocal" />
             <overlay id="hikingkst" />
@@ -169,7 +181,9 @@
             <overlay id="sport" />
             <overlay id="shop" />
             <overlay id="accommodation" />
+            <overlay id="topo_feat" />
             <overlay id="place" />
+            <overlay id="highway_name" />
             <overlay id="access" />
             <overlay id="boundaries" />
             <overlay id="osmmapper" />

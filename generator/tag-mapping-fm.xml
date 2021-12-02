@@ -205,6 +205,7 @@
 		<osm-tag key="shop" value="ice_cream" zoom-appear="17" />
 		<osm-tag key="shop" value="butcher" zoom-appear="17" />
 		<osm-tag key="shop" value="confectionery" zoom-appear="17" />
+        <osm-tag key="shop" value="pastry" zoom-appear="17" />
 		<osm-tag key="shop" value="farm" zoom-appear="17" />
 		<osm-tag key="shop" value="chemist" zoom-appear="17" />
 	</pois>
@@ -219,6 +220,7 @@
 		<osm-tag key="shop" value="ice_cream" zoom-appear="17" />
 		<osm-tag key="shop" value="butcher" zoom-appear="17" />
 		<osm-tag key="shop" value="confectionery" zoom-appear="17" />
+        <osm-tag key="shop" value="pastry" zoom-appear="17" />
 		<osm-tag key="shop" value="farm" zoom-appear="17" />
 		<osm-tag key="shop" value="chemist" zoom-appear="17" />
 	</ways>

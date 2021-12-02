@@ -193,24 +193,23 @@
         <rule e="way" k="highway" v="living_street" zoom-min="{$z-living}">
           <line stroke="{$cs-living}" stroke-width="0.9" stroke-linecap="butt"/>
         </rule>
-      <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
-        <rule e="way" k="service" v="~">
-          <line stroke="{$cs-service}" stroke-width="0.6" stroke-linecap="butt"/>
+        <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
+          <rule e="way" k="service" v="~">
+            <line stroke="{$cs-service}" stroke-width="0.6" stroke-linecap="butt"/>
+          </rule>
+          <rule e="way" k="service" v="parking_aisle|driveway|drive-through" zoom-min="{$z-service2}">
+            <line stroke="{$cs-service}" stroke-width="0.4" stroke-linecap="butt"/>
+          </rule>
         </rule>
-        <rule e="way" k="service" v="parking_aisle|driveway|drive-through" zoom-min="{$z-service2}">
-          <line stroke="{$cs-service}" stroke-width="0.4" stroke-linecap="butt"/>
+        <rule e="way" k="highway" v="pedestrian" zoom-min="{$z-pedestrian}">
+          <line stroke="{$cs-pedestrian}" stroke-width="0.6" stroke-linecap="butt"/>
         </rule>
-      </rule>
-      <rule e="way" k="highway" v="pedestrian" zoom-min="{$z-pedestrian}">
-        <line stroke="{$cs-pedestrian}" stroke-width="0.6" stroke-linecap="butt"/>
-      </rule>
-      <rule e="way" k="highway" v="cycleway" zoom-min="{$z-cycleway}">
-        <line stroke="{$cs-cycleway}" stroke-width="0.45" stroke-linecap="butt"/>
-      </rule>
-      <rule e="way" k="highway" v="footway" zoom-min="{$z-footway}">
-        <line stroke="{$cs-footway}" stroke-width="0.40" stroke-linecap="butt"/>
-      </rule>
-        
+        <rule e="way" k="highway" v="cycleway" zoom-min="{$z-cycleway}">
+          <line stroke="{$cs-cycleway}" stroke-width="0.45" stroke-linecap="butt"/>
+        </rule>
+        <rule e="way" k="highway" v="footway" zoom-min="{$z-footway}">
+          <line stroke="{$cs-footway}" stroke-width="0.40" stroke-linecap="butt"/>
+        </rule>        
       </rule>
     </rule>
 
@@ -295,28 +294,31 @@
       <line stroke="{$hw-motorway}" stroke-width="1.5" />
     </rule>
 
-      <rule e="way" k="oneway" v="yes" zoom-min="14">
-        <rule e="way" k="highway" v="motorway|motorway_link|trunk|trunk_link|primary|primary_link|secondary|secondary_link|tertiary|tertiary_link" zoom-min="14" zoom-max="15">
-          <lineSymbol src="file:/symbols/oneway.svg" align-center="true" repeat="true" repeat-start="7" repeat-gap="150" symbol-width="9" priority="-30" display="always" />
-        </rule>
-        <rule e="way" k="*" v="*" zoom-min="16"> 
-          <lineSymbol src="file:/symbols/oneway.svg" dy="-0.5" align-center="true" repeat="true" repeat-start="15" repeat-gap="250" symbol-width="20" symbol-height="12" priority="-30" display="always"/>
-        </rule>
+    <rule e="way" k="oneway" v="yes" zoom-min="14">
+      <rule e="way" k="highway" v="motorway|motorway_link|trunk|trunk_link|primary|primary_link|secondary|secondary_link|tertiary|tertiary_link" zoom-min="14" zoom-max="15">
+        <lineSymbol src="file:/symbols/oneway.svg" align-center="true" repeat="true" repeat-start="7" repeat-gap="150" symbol-width="9" priority="-30" display="always" />
       </rule>
-      <rule e="way" k="oneway" v="-1" zoom-min="14">
-        <rule e="way" k="highway" v="motorway|motorway_link|trunk|trunk_link|primary|primary_link|secondary|secondary_link|tertiary|tertiary_link" zoom-min="14" zoom-max="15"> 
-          <lineSymbol src="file:/symbols/oneway-reverse.svg" align-center="true" repeat="true" repeat-start="3" repeat-gap="150" symbol-width="9" priority="-30" display="always" />
-        </rule>
-        <rule e="way" k="*" v="*" zoom-min="16"> 
-          <lineSymbol src="file:/symbols/oneway-reverse.svg" dy="-0.5" align-center="true" repeat="true" repeat-start="10" repeat-gap="250" symbol-width="14" priority="-30" display="always"/>
-        </rule>
+      <rule e="way" k="*" v="*" zoom-min="16"> 
+        <lineSymbol src="file:/symbols/oneway.svg" dy="-0.5" align-center="true" repeat="true" repeat-start="15" repeat-gap="250" symbol-width="20" symbol-height="12" priority="-30" display="always"/>
       </rule>
+    </rule>
+    <rule e="way" k="oneway" v="-1" zoom-min="14">
+      <rule e="way" k="highway" v="motorway|motorway_link|trunk|trunk_link|primary|primary_link|secondary|secondary_link|tertiary|tertiary_link" zoom-min="14" zoom-max="15"> 
+        <lineSymbol src="file:/symbols/oneway-reverse.svg" align-center="true" repeat="true" repeat-start="3" repeat-gap="150" symbol-width="9" priority="-30" display="always" />
+      </rule>
+      <rule e="way" k="*" v="*" zoom-min="16"> 
+        <lineSymbol src="file:/symbols/oneway-reverse.svg" dy="-0.5" align-center="true" repeat="true" repeat-start="10" repeat-gap="250" symbol-width="14" priority="-30" display="always"/>
+      </rule>
+    </rule>
 
     <rule e="way" k="junction" v="roundabout" zoom-min="16">
       <lineSymbol src="file:/symbols/oneway.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="25" symbol-width="12" symbol-height="8" priority="-30"/>
     </rule>
-
-    <rule e="way" k="highway" v="*" zoom-min="15">
+  </rule>  
+</rule>
+    <!-- highway names -->
+<rule cat="highway_name" e="way" k="highway" v="*">
+  <rule e="way" k="highway" v="*" zoom-min="15">
     <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
       <pathText k="name" dy="0.5" font-style="bold" font-size="10" stroke="#FFFFFF" stroke-width="2" repeat-gap="150"/>
     </rule>    
@@ -344,24 +346,21 @@
     <rule e="way" k="highway" v="primary" zoom-min="14">
       <pathText k="name" dy="0.5" font-style="bold" font-size="11" stroke="#FFFFFF" stroke-width="3" repeat-gap="200"/>
     </rule>
-    </rule>
-    <rule e="way" k="highway" v="primary" zoom-min="{$z-primary}">
-      <caption k="ref" font-style="bold" font-size="7" fill="#FFFFFF" stroke="{$cs-primary}" stroke-width="3" priority="-10"/>
-    </rule>
-
-    <rule e="way" k="highway" v="trunk_link" zoom-min="{$z-trunk_link}">
-    </rule>
-    <rule e="way" k="highway" v="trunk" zoom-min="{$z-trunk}">
-      <caption k="ref" font-style="bold" font-size="9" fill="#FFFFFF" stroke="{$cs-trunk}" stroke-width="4" />
-    </rule>
-    <rule e="way" k="highway" v="motorway_link" zoom-min="{$z-motorway_link}">
-    </rule>
-    <rule e="way" k="highway" v="motorway" zoom-min="{$z-motorway}">
-      <caption k="ref" font-style="bold" font-size="9" fill="#FFFFFF" stroke="{$cs-motorway}" stroke-width="4" />
-    </rule>
+  </rule>
+  <rule e="way" k="highway" v="primary" zoom-min="{$z-primary}">
+    <caption k="ref" font-style="bold" font-size="7" fill="#FFFFFF" stroke="{$cs-primary}" stroke-width="3" priority="-10"/>
+  </rule>
+  <rule e="way" k="highway" v="trunk_link" zoom-min="{$z-trunk_link}">
+  </rule>
+  <rule e="way" k="highway" v="trunk" zoom-min="{$z-trunk}">
+    <caption k="ref" font-style="bold" font-size="9" fill="#FFFFFF" stroke="{$cs-trunk}" stroke-width="4" />
+  </rule>
+  <rule e="way" k="highway" v="motorway_link" zoom-min="{$z-motorway_link}">
+  </rule>
+  <rule e="way" k="highway" v="motorway" zoom-min="{$z-motorway}">
+    <caption k="ref" font-style="bold" font-size="9" fill="#FFFFFF" stroke="{$cs-motorway}" stroke-width="4" />
   </rule>
 </rule>
-
 
 <rule cat="topo_common" e="way" k="man_made" v="embankment" zoom-min="15">
   <rule e="way" k="highway|railway" v="*">
