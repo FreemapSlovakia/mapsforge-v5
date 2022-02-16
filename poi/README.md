@@ -15,4 +15,8 @@ osmosis --rb file=inputfile.osm.pbf --poi-writer file=output_file.poi tag-conf-f
 This .poi file don't work with Locus Map! Locus Map uses own poi format - not mapsforge! 
 Possible converter? http://help.locusmap.eu/topic/import-poi-file
 
-Works for OruxMaps, ... 
+Works for OruxMaps, ...
+
+###
+
+poi/pbf to db converter (python): https://github.com/lieblerj/poi_converter 

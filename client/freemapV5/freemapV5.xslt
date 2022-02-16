@@ -1,25 +1,25 @@
 <?xml-stylesheet type="text/xsl" href="freemapV5.xslt"?>
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <xsl:include href="menu.xslt" />
-    <xsl:include href="contour.xslt" />
-    <xsl:include href="osmmapper.xslt" />
-    <xsl:include href="building.xslt" />
-    <xsl:include href="highway.xslt" />
-    <xsl:include href="railway.xslt" />
-    <xsl:include href="aeroway.xslt" />
-    <xsl:include href="landuse.xslt" />
-    <xsl:include href="water.xslt" />
-    <xsl:include href="protected.xslt" />
-    <xsl:include href="admin.xslt" />
-    <xsl:include href="place.xslt" />
-    <xsl:include href="markedtrail.xslt" />
-    <xsl:include href="tourism.xslt" />
-    <xsl:include href="ski.xslt" />
-    <xsl:include href="natural.xslt" />
-    <xsl:include href="aerial.xslt" />
-    <xsl:include href="barrier.xslt" />
-    <xsl:include href="poi.xslt" />
+  <xsl:include href="menu.xslt" />
+  <xsl:include href="contour.xslt" />
+  <xsl:include href="osmmapper.xslt" />
+  <xsl:include href="building.xslt" />
+  <xsl:include href="highway.xslt" />
+  <xsl:include href="railway.xslt" />
+  <xsl:include href="aeroway.xslt" />
+  <xsl:include href="landuse.xslt" />
+  <xsl:include href="water.xslt" />
+  <xsl:include href="protected.xslt" />
+  <xsl:include href="admin.xslt" />
+  <xsl:include href="place.xslt" />
+  <xsl:include href="markedtrail.xslt" />
+  <xsl:include href="tourism.xslt" />
+  <xsl:include href="ski.xslt" />
+  <xsl:include href="natural.xslt" />
+  <xsl:include href="aerial.xslt" />
+  <xsl:include href="barrier.xslt" />
+  <xsl:include href="poi.xslt" />
 <xsl:template match="/">
 
 <rendertheme xmlns="http://mapsforge.org/renderTheme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/master/resources/renderTheme.xsd" version="5" map-background-outside="#EEEEEE" map-background="#F8F8F8">

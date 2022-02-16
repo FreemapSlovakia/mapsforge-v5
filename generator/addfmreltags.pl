@@ -216,7 +216,7 @@ sub deletetmpfile {
 sub getColour {
 	my ($relTags) = @_;
 	my $colour = "";
-	our @colours = ("red", "blue", "green", "yellow", "black", "white");
+	our @colours = ("red", "blue", "green", "yellow", "black", "white", "orange");
 
 	if (defined($relTags->{"osmc:symbol"})) { # get the colour from the osmc:symbol
 		my $osmc = $relTags->{"osmc:symbol"};

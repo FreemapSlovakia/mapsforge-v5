@@ -37,7 +37,6 @@
 <xsl:variable name="cs-footway">#9F8F88</xsl:variable>
 <xsl:variable name="cs-construction">#80FFFFFF</xsl:variable>
 <xsl:variable name="cs-ferrata">#80FFFFFF</xsl:variable>
-
 <!-- road min zoom -->
 <xsl:variable name="z-motorway">6</xsl:variable>
 <xsl:variable name="z-motorway_link">12</xsl:variable>
@@ -59,11 +58,9 @@
 <xsl:variable name="z-ferrata">15</xsl:variable>
 
 <xsl:template name="highway">
-
 <rule cat="highway" e="way" k="highway" v="*">
-
   <rule e="way" k="area" v="~|no|false">
-    <!-- bridge -->
+<!-- bridge -->
     <rule e="way" k="bridge" v="yes"> 
       <rule e="way" k="highway" v="construction" zoom-min="{$z-construction}">
         <line stroke="{$cs-construction}" stroke-width="0.8" stroke-linecap="butt"/>
@@ -110,7 +107,7 @@
         <line stroke="{$cs-footway}" stroke-width="0.7" stroke-linecap="butt"/>
       </rule>
     </rule>
-    <!-- tunnel -->
+<!-- tunnel -->
     <rule e="way" k="tunnel" v="yes">
       <rule e="way" k="highway" v="construction" zoom-min="{$z-construction}">
         <line stroke="{$cs-construction}" stroke-width="0.8" stroke-linecap="butt"/>
@@ -160,7 +157,7 @@
         <line stroke="#C8B8B1" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="5,1"/>
       </rule>
     </rule>
-    <!-- not tunnel & not bridge-->
+<!-- not tunnel & not bridge-->
     <rule e="way" k="tunnel" v="~">
       <rule e="way" k="bridge" v="~">
         <rule e="way" k="highway" v="construction" zoom-min="{$z-construction}">
@@ -209,7 +206,7 @@
         </rule>
         <rule e="way" k="highway" v="footway" zoom-min="{$z-footway}">
           <line stroke="{$cs-footway}" stroke-width="0.40" stroke-linecap="butt"/>
-        </rule>        
+        </rule>
       </rule>
     </rule>
 
@@ -314,9 +311,9 @@
     <rule e="way" k="junction" v="roundabout" zoom-min="16">
       <lineSymbol src="file:/symbols/oneway.svg" align-center="true" repeat="true" repeat-start="0" repeat-gap="25" symbol-width="12" symbol-height="8" priority="-30"/>
     </rule>
-  </rule>  
+  </rule>
 </rule>
-    <!-- highway names -->
+<!-- highway names -->
 <rule cat="highway_name" e="way" k="highway" v="*">
   <rule e="way" k="highway" v="*" zoom-min="15">
     <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
@@ -423,66 +420,67 @@
   </rule>
 </rule>
 
-  <!-- highway nodes -->
-  <rule e="node" k="*" v="*">
-    <rule cat="default" e="node" k="highway" v="motorway_junction" zoom-min="16">
-      <symbol id="motoexit" src="file:/poi/motorway_exit.svg" symbol-width="16" priority="30"/>
-      <caption symbol-id="motoexit" k="name" position="above" font-style="bold" font-size="9" fill="#17820b" stroke="#FFFFFF" stroke-width="4" />
-      <caption symbol-id="motoexit" k="ref" position="below" font-style="normal" font-size="9" fill="#17820b" stroke="#FFFFFF" stroke-width="4" />
-    </rule>
+<!-- highway nodes -->
+<rule e="node" k="*" v="*">
+  <rule cat="default" e="node" k="highway" v="motorway_junction" zoom-min="16">
+    <symbol id="motoexit" src="file:/poi/motorway_exit.svg" symbol-width="16" priority="30"/>
+    <caption symbol-id="motoexit" k="name" position="above" font-style="bold" font-size="9" fill="#17820b" stroke="#FFFFFF" stroke-width="4" />
+    <caption symbol-id="motoexit" k="ref" position="below" font-style="normal" font-size="9" fill="#17820b" stroke="#FFFFFF" stroke-width="4" />
   </rule>
+</rule>
+
 </xsl:template>
 
 <xsl:template name="highway_area">
-  <rule e="way" k="amenity" v="parking" zoom-min="15">
-    <rule e="way" k="access" v="private" zoom-min="16">
-      <area src="file:/patterns/access-private.svg" symbol-height="12"/>
+<rule e="way" k="amenity" v="parking" zoom-min="15">
+  <rule e="way" k="access" v="private" zoom-min="16">
+    <area src="file:/patterns/access-private.svg" symbol-height="12"/>
+  </rule>
+  <rule e="way" k="access" v="customers" zoom-min="16">
+    <area src="file:/patterns/access-destination.svg" symbol-height="12"/>
+  </rule>
+  <rule e="way" k="fee" v="~|no" >
+    <area src="file:/patterns/parking.svg" symbol-scaling="size" symbol-height="18" symbol-width="20"/>
+  </rule>
+  <rule e="way" k="fee" v="yes" >
+    <area src="file:/patterns/parking-fee.svg" symbol-scaling="size" symbol-height="18" symbol-width="20"/>
+  </rule>
+  <rule cat="default" e="way" k="fee" v="~|no" zoom-min="18">
+    <symbol src="file:/poi/parking.svg" symbol-width="9" priority="-50"/>
+  </rule>
+  <rule cat="default" e="way" k="fee" v="yes" zoom-min="18">
+    <symbol src="file:/poi/parking-fee.svg" symbol-width="9" priority="-50"/>
+  </rule>
+</rule>
+
+<rule cat="highway" e="way" k="area" v="yes|true">
+  <rule e="way" k="highway" v="*">
+    <rule e="way" k="highway" v="footway|path" zoom-min="{$z-footway}">
+      <area fill="{$hw-footway}" stroke="{$cs-footway}" stroke-width="0.15"/>
     </rule>
-    <rule e="way" k="access" v="customers" zoom-min="16">
-      <area src="file:/patterns/access-destination.svg" symbol-height="12"/>
+    <rule e="way" k="highway" v="pedestrian" zoom-min="{$z-pedestrian}">
+      <area fill="{$hw-pedestrian}" stroke="{$cs-pedestrian}" stroke-width="0.15"/>
     </rule>
-    <rule e="way" k="fee" v="~|no" >
-      <area src="file:/patterns/parking.svg" symbol-scaling="size" symbol-height="18" symbol-width="20"/>
+    <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
+      <area fill="{$hw-service}" stroke="{$cs-service}" stroke-width="0.15"/>
     </rule>
-    <rule e="way" k="fee" v="yes" >
-      <area src="file:/patterns/parking-fee.svg" symbol-scaling="size" symbol-height="18" symbol-width="20"/>
+    <rule e="way" k="highway" v="unclassified" zoom-min="{$z-residential}">
+      <area fill="{$hw-residential}" stroke="{$cs-residential}" stroke-width="0.3"/>
     </rule>
-    <rule cat="default" e="way" k="fee" v="~|no" zoom-min="18">
-      <symbol src="file:/poi/parking.svg" symbol-width="9" priority="-50"/>
+    <rule e="way" k="highway" v="residential" zoom-min="{$z-residential}">
+      <area fill="{$hw-residential}" stroke="{$cs-residential}" stroke-width="0.15"/>
     </rule>
-    <rule cat="default" e="way" k="fee" v="yes" zoom-min="18">
-      <symbol src="file:/poi/parking-fee.svg" symbol-width="9" priority="-50"/>
+    <rule e="way" k="highway" v="road" zoom-min="{$z-residential}">
+      <area fill="#d0d0d0"/>
+    </rule>
+    <rule e="way" k="highway" v="living_street" zoom-min="{$z-living}">
+      <area fill="{$hw-living}" stroke="{$cs-living}" stroke-width="0.15"/>
+    </rule>
+    <rule e="way" k="*" v="*" zoom-min="15">
+    <caption k="name" font-style="bold" font-size="11" fill="#000000" stroke="#ffffff" stroke-width="3"/>
     </rule>
   </rule>
+</rule>
 
-    <rule cat="highway" e="way" k="area" v="yes|true">
-        <rule e="way" k="highway" v="*">
-            <rule e="way" k="highway" v="footway|path" zoom-min="{$z-footway}">
-                <area fill="{$hw-footway}" stroke="{$cs-footway}" stroke-width="0.15"/>
-            </rule>
-            <rule e="way" k="highway" v="pedestrian" zoom-min="{$z-pedestrian}">
-                <area fill="{$hw-pedestrian}" stroke="{$cs-pedestrian}" stroke-width="0.15"/>
-            </rule>
-            <rule e="way" k="highway" v="service" zoom-min="{$z-service}">
-                <area fill="{$hw-service}" stroke="{$cs-service}" stroke-width="0.15"/>
-            </rule>
-            <rule e="way" k="highway" v="unclassified" zoom-min="{$z-residential}">
-                <area fill="{$hw-residential}" stroke="{$cs-residential}" stroke-width="0.3"/>
-            </rule>
-            <rule e="way" k="highway" v="residential" zoom-min="{$z-residential}">
-                <area fill="{$hw-residential}" stroke="{$cs-residential}" stroke-width="0.15"/>
-            </rule>
-            <rule e="way" k="highway" v="road" zoom-min="{$z-residential}">
-                <area fill="#d0d0d0"/>
-            </rule>
-            <rule e="way" k="highway" v="living_street" zoom-min="{$z-living}">
-                <area fill="{$hw-living}" stroke="{$cs-living}" stroke-width="0.15"/>
-            </rule>
-            <rule e="way" k="*" v="*" zoom-min="15">
-              <caption k="name" font-style="bold" font-size="11" fill="#000000" stroke="#ffffff" stroke-width="3"/>
-            </rule>
-        </rule>
-    </rule>  
 </xsl:template>
-
 </xsl:stylesheet>

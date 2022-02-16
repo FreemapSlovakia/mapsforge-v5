@@ -205,7 +205,7 @@
 		<osm-tag key="shop" value="ice_cream" zoom-appear="17" />
 		<osm-tag key="shop" value="butcher" zoom-appear="17" />
 		<osm-tag key="shop" value="confectionery" zoom-appear="17" />
-        <osm-tag key="shop" value="pastry" zoom-appear="17" />
+		<osm-tag key="shop" value="pastry" zoom-appear="17" />
 		<osm-tag key="shop" value="farm" zoom-appear="17" />
 		<osm-tag key="shop" value="chemist" zoom-appear="17" />
 	</pois>
@@ -220,7 +220,7 @@
 		<osm-tag key="shop" value="ice_cream" zoom-appear="17" />
 		<osm-tag key="shop" value="butcher" zoom-appear="17" />
 		<osm-tag key="shop" value="confectionery" zoom-appear="17" />
-        <osm-tag key="shop" value="pastry" zoom-appear="17" />
+		<osm-tag key="shop" value="pastry" zoom-appear="17" />
 		<osm-tag key="shop" value="farm" zoom-appear="17" />
 		<osm-tag key="shop" value="chemist" zoom-appear="17" />
 	</ways>
@@ -378,8 +378,8 @@
 		<osm-tag key="sport" value="basketball" renderable="false" />
 
 		<osm-tag key="golf" value="green" zoom-appear="16" />
-        <osm-tag key="golf" value="fairway" zoom-appear="16" />
-        <osm-tag key="golf" value="rought" zoom-appear="16" />
+		<osm-tag key="golf" value="fairway" zoom-appear="16" />
+		<osm-tag key="golf" value="rought" zoom-appear="16" />
 		<osm-tag key="golf" value="bunker" zoom-appear="16" />
 	</ways>
 	<pois>
@@ -580,10 +580,10 @@
 		<osm-tag key="access" value="destination" renderable="false" />
 		<osm-tag key="access" value="customers" renderable="false" />
 		<osm-tag key="access" value="private" equivalent-values="delivery" renderable="false" />
-        <osm-tag key='access' value="acc_no" equivalent-values="no,prohibited" renderable="false" />
+		<osm-tag key='access' value="acc_no" equivalent-values="no,prohibited" renderable="false" />
 		<osm-tag key='foot' value="ft_no" equivalent-values="no,prohibited" renderable="false" />
 		<osm-tag key='bicycle' value="bic_no" equivalent-values="no,prohibited,dismount" renderable="false" />
-        <osm-tag key='bicycle' value="bic_designated" equivalent-values="designated,official" renderable="false" />
+		<osm-tag key='bicycle' value="bic_designated" equivalent-values="designated,official" renderable="false" />
 		<osm-tag key="vehicle" value="veh_no" equivalent-values="no" renderable="false" />
 		<osm-tag key="motor_vehicle" value="mv_no" equivalent-values="no" renderable="false" />
 		
@@ -620,130 +620,12 @@
 		<osm-tag key="logging" value="clearcutting" renderable="false"/>
 		<osm-tag key="logging" value="selective_cutting" renderable="false"/>
 		<osm-tag key="man_made" value="clearcut" zoom-appear="12"/>
-<!--
-		<osm-tag key="fmrelbus" value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelbusref" value="x" zoom-appear="8" />
 
-		<osm-tag key="fmreltrolleybus" value="Major" zoom-appear="8" />
-		<osm-tag key="fmreltrolleybusref" value="x" zoom-appear="8" />
-
-		<osm-tag key="fmreltram" value="Major" zoom-appear="8" />
-		<osm-tag key="fmreltramref" value="x" zoom-appear="8" />
-
-		<osm-tag key="fmreltrain" value="Major" zoom-appear="8" />
-		<osm-tag key="fmreltrainref" value="x" zoom-appear="8" />
--->
-<!--		<osm-tag key="fmrelhikingblue"  value="major" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblue"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblue"  value="local" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblue"  value="ruin" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblue"  value="spring" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblue"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblue"  value="shelter" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblue"  value="peak" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblue"  value="cave" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblue"  value="interesting_object" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblue"  value="stripe" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblue"  value="roundtrip" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="yellow" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="blue" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="gruen" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="blue_bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="red_bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="blau" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="blue_cross" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="green_triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="green_bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="blue_triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="blue_L" zoom-appear="8" />
-		<osm-tag key="fmrelhikingdefault"  value="red_L" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreen"  value="major" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreen"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreen"  value="ruin" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreen"  value="local" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreen"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreen"  value="peak" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreen"  value="interesting_object" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreen"  value="spring" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreen"  value="learning" zoom-appear="8" />
-		<osm-tag key="fmrelhikingred"  value="major" zoom-appear="8" />
-		<osm-tag key="fmrelhikingred"  value="local" zoom-appear="8" />
-		<osm-tag key="fmrelhikingred"  value="interesting_object" zoom-appear="8" />
-		<osm-tag key="fmrelhikingred"  value="peak" zoom-appear="8" />
-		<osm-tag key="fmrelhikingred"  value="spring" zoom-appear="8" />
-		<osm-tag key="fmrelhikingred"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikingred"  value="cave" zoom-appear="8" />
-		<osm-tag key="fmrelhikingred"  value="ruin" zoom-appear="8" />
-		<osm-tag key="fmrelhikingred"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikingred"  value="roundtrip" zoom-appear="8" />
-		<osm-tag key="fmrelhikingwhite"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellow"  value="major" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellow"  value="local" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellow"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellow"  value="peak" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellow"  value="interesting_object" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellow"  value="spring" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellow"  value="ruin" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellow"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellow"  value="alternative" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellow"  value="roundtrip" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellow"  value="stripe" zoom-appear="8" />
- -->
 <!-- osmc:symbol -->
 		<osm-tag key="fmrelhikingredosmc"  value="%s" zoom-appear="8" />
 		<osm-tag key="fmrelhikinggreenosmc"  value="%s" zoom-appear="8" />
 		<osm-tag key="fmrelhikingblueosmc"  value="%s" zoom-appear="8" />
 		<osm-tag key="fmrelhikingyellowosmc"  value="%s" zoom-appear="8" />
-
-<!--		<osm-tag key="fmrelhikingredosmc"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikingredosmc"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikingredosmc"  value="bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikingredosmc"  value="L" zoom-appear="8" />
-		<osm-tag key="fmrelhikingredosmc"  value="triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikingredosmc"  value="bowl" zoom-appear="8" />
-		<osm-tag key="fmrelhikingredosmc"  value="arch" zoom-appear="8" />
-		<osm-tag key="fmrelhikingredosmc"  value="turned_T" zoom-appear="8" />
-		<osm-tag key="fmrelhikingredosmc"  value="corner" zoom-appear="8" />
-		<osm-tag key="fmrelhikingredosmc"  value="dot" zoom-appear="8" />
-		<osm-tag key="fmrelhikingredosmc"  value="backslash" zoom-appear="8" />
-
-		<osm-tag key="fmrelhikinggreenosmc"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreenosmc"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreenosmc"  value="bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreenosmc"  value="L" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreenosmc"  value="triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreenosmc"  value="bowl" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreenosmc"  value="arch" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreenosmc"  value="turned_T" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreenosmc"  value="corner" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreenosmc"  value="dot" zoom-appear="8" />
-		<osm-tag key="fmrelhikinggreenosmc"  value="backslash" zoom-appear="8" />
-
-		<osm-tag key="fmrelhikingblueosmc"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblueosmc"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblueosmc"  value="bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblueosmc"  value="L" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblueosmc"  value="triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblueosmc"  value="bowl" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblueosmc"  value="arch" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblueosmc"  value="turned_T" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblueosmc"  value="corner" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblueosmc"  value="dot" zoom-appear="8" />
-		<osm-tag key="fmrelhikingblueosmc"  value="backslash" zoom-appear="8" />
-
-		<osm-tag key="fmrelhikingyellowosmc"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellowosmc"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellowosmc"  value="bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellowosmc"  value="L" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellowosmc"  value="triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellowosmc"  value="bowl" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellowosmc"  value="arch" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellowosmc"  value="turned_T" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellowosmc"  value="corner" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellowosmc"  value="dot" zoom-appear="8" />
-		<osm-tag key="fmrelhikingyellowosmc"  value="backslash" zoom-appear="8" />
--->
 
 <!-- local osmc:symbol -->
 		<osm-tag key="fmrelhikinglocaldefault"  value="%s" zoom-appear="8" />
@@ -752,78 +634,6 @@
 		<osm-tag key="fmrelhikinglocalblueosmc"  value="%s" zoom-appear="8" />
 		<osm-tag key="fmrelhikinglocalyellowosmc"  value="%s" zoom-appear="8" />
 
-<!--		<osm-tag key="fmrelhikinglocaldefault"  value="yellow" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="blue" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="gruen" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="blue_bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="red_bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="blau" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="blue_cross" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="green_triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="green_bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="blue_triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="blue_L" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocaldefault"  value="red_L" zoom-appear="8" />
-
-		<osm-tag key="fmrelhikinglocalredosmc"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalredosmc"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalredosmc"  value="bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalredosmc"  value="L" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalredosmc"  value="triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalredosmc"  value="bowl" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalredosmc"  value="arch" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalredosmc"  value="turned_T" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalredosmc"  value="corner" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalredosmc"  value="dot" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalredosmc"  value="backslash" zoom-appear="8" />
-
-		<osm-tag key="fmrelhikinglocalgreenosmc"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalgreenosmc"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalgreenosmc"  value="bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalgreenosmc"  value="L" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalgreenosmc"  value="triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalgreenosmc"  value="bowl" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalgreenosmc"  value="arch" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalgreenosmc"  value="turned_T" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalgreenosmc"  value="corner" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalgreenosmc"  value="dot" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalgreenosmc"  value="backslash" zoom-appear="8" />
-
-		<osm-tag key="fmrelhikinglocalblueosmc"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalblueosmc"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalblueosmc"  value="bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalblueosmc"  value="L" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalblueosmc"  value="triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalblueosmc"  value="bowl" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalblueosmc"  value="arch" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalblueosmc"  value="turned_T" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalblueosmc"  value="corner" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalblueosmc"  value="dot" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalblueosmc"  value="backslash" zoom-appear="8" />
-
-		<osm-tag key="fmrelhikinglocalyellowosmc"  value="yes" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalyellowosmc"  value="none" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalyellowosmc"  value="bar" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalyellowosmc"  value="L" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalyellowosmc"  value="triangle" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalyellowosmc"  value="bowl" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalyellowosmc"  value="arch" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalyellowosmc"  value="turned_T" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalyellowosmc"  value="corner" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalyellowosmc"  value="dot" zoom-appear="8" />
-		<osm-tag key="fmrelhikinglocalyellowosmc"  value="backslash" zoom-appear="8" />
--->
-<!--
-		<osm-tag key="fmrelhikingoperatorred"  value="%s" renderable="false" />
-		<osm-tag key="fmrelhikingoperatorgreen"  value="%s" renderable="false" />
-		<osm-tag key="fmrelhikingoperatorblue"  value="%s" renderable="false" />
-		<osm-tag key="fmrelhikingoperatoryellow"  value="%s" renderable="false" />
-		<osm-tag key="fmrelhikinglocaloperatorred"  value="%s" renderable="false" />
-		<osm-tag key="fmrelhikinglocaloperatorgreen"  value="%s" renderable="false" />
-		<osm-tag key="fmrelhikinglocaloperatorblue"  value="%s" renderable="false" />
-		<osm-tag key="fmrelhikinglocaloperatoryellow"  value="%s" renderable="false" />
--->
 		<osm-tag key="fmrelhikingref" value="%s" renderable="false" />
 
 		<osm-tag key="fmrelbicyclered" value="none" zoom-appear="8" />

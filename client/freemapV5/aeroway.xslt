@@ -5,9 +5,9 @@
 <xsl:template name="aeroway">
 <rule cat="highway" e="way" k="aeroway" v="*">
   <rule e="way" k="aeroway" v="runway" zoom-min="13">
-     <line stroke="#805A5A5A" stroke-width="1.6"/>
+    <line stroke="#805A5A5A" stroke-width="1.6"/>
   </rule>
 </rule>
-</xsl:template>
 
+</xsl:template>
 </xsl:stylesheet>
