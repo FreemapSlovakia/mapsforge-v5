@@ -165,9 +165,9 @@
 			<tag k="noexit" v="no"/>	
 			<tag k="access" v="yes"/>
 			<tag k="building" v="no"/>
-			<tag k="ladder" v="no"/>			
+			<tag k="ladder" v="no"/>
 			<tag k="raised" v="no"/>
-			<tag k="raised" v="yes"/>					
+			<tag k="raised" v="yes"/>
 		</match>
 		<output>
 			<copy-unmatched/>
