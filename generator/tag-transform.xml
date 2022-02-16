@@ -78,6 +78,25 @@
 		</output>
 	</translation>
 
+
+  	<translation>
+		<name>red_color</name>
+		<description>red color cycle</description>
+		<match type="relation" mode="and">
+			<match mode="or" type="relation">
+				<tag k="route" v="bicycle"/>
+				<tag k="route" v="mtb"/>
+			</match>
+			<match mode="or" type="relation">
+				<tag k="jel" v="pmtb"/>
+			</match>
+		</match>
+		<output>
+			<copy-all/>
+			<tag k="colour" v="red"/>
+		</output>
+	</translation>
+
 	<translation>
 		<name>green_color</name>
 		<description>green color cycle</description>
@@ -89,6 +108,7 @@
 			<match mode="or" type="relation">
 				<tag k="colour" v="#00fa9a"/>
 				<tag k="colour" v="#32CD32"/>
+				<tag k="jel" v="zmtb"/>
 			</match>
 		</match>
 		<output>
@@ -110,6 +130,7 @@
 				<tag k="colour" v="#0000FF"/>
 				<tag k="colour" v="#0000cd"/>
 				<tag k="colour" v="#191970"/>
+				<tag k="jel" v="kmtb"/>
 			</match>
 		</match>
 		<output>
@@ -128,6 +149,7 @@
 			</match>
 			<match mode="or" type="relation">
 				<tag k="colour" v="#FFFF00"/>
+				<tag k="jel" v="smtb"/>
 			</match>
 		</match>
 		<output>
